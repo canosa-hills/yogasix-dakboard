@@ -9,8 +9,45 @@ function asDate(v) {
   return Number.isNaN(d.getTime()) ? null : d;
 }
 
+// --- NEW: parse Netscape cookie format into Playwright cookie objects ---
+function parseNetscapeCookies(text) {
+  const lines = text
+    .split(/\r?\n/)
+    .map(l => l.trim())
+    .filter(l => l && !l.startsWith("#"));
+
+  // Format:
+  // domain  flag  path  secure  expiration  name  value
+  const cookies = [];
+  for (const line of lines) {
+    const parts = line.split(/\s+/);
+    if (parts.length < 7) continue;
+
+    const [domainRaw, , path, secureRaw, expiresRaw, name, ...valueParts] = parts;
+    const value = valueParts.join(" ");
+
+    const domain = domainRaw.startsWith(".") ? domainRaw.slice(1) : domainRaw;
+    const secure = secureRaw.toUpperCase() === "TRUE";
+
+    const expires = Number(expiresRaw);
+    // Playwright expects "expires" as UNIX time in seconds, or -1 for session.
+    const pwExpires = Number.isFinite(expires) ? expires : -1;
+
+    cookies.push({
+      name,
+      value,
+      domain,
+      path: path || "/",
+      secure,
+      httpOnly: false, // Netscape format doesn't tell us reliably; OK for most sites
+      sameSite: "Lax",
+      expires: pwExpires
+    });
+  }
+  return cookies;
+}
+
 function findLikelyClasses(payloads) {
-  // Scan payloads for arrays that look like class sessions
   const arrays = [];
 
   const walk = (obj) => {
@@ -25,7 +62,6 @@ function findLikelyClasses(payloads) {
 
   payloads.forEach(walk);
 
-  // pick array with objects containing something like start time + class name
   const scored = arrays
     .map((arr) => {
       let score = 0;
@@ -47,9 +83,7 @@ function toEvent(item) {
   const title = item.className || item.name || item.title || item.serviceName || "YogaSix Class";
   const instructor = item.instructorName || item.teacherName || item.staffName || item.instructor || "";
 
-  const start =
-    asDate(item.startDateTime || item.start_time || item.start || item.dateTime || item.datetime);
-
+  const start = asDate(item.startDateTime || item.start_time || item.start || item.dateTime || item.datetime);
   const end =
     asDate(item.endDateTime || item.end_time || item.end) ||
     (start ? new Date(start.getTime() + 60 * 60 * 1000) : null);
@@ -65,27 +99,34 @@ function toEvent(item) {
 }
 
 async function main() {
-  const cookiesJson = process.env.YOGASIX_COOKIES_JSON;
-  if (!cookiesJson) {
-    throw new Error("Missing secret YOGASIX_COOKIES_JSON. Add it in GitHub repo Settings → Secrets.");
-  }
+  const raw = process.env.YOGASIX_COOKIES_JSON;
+  if (!raw) throw new Error("Missing secret YOGASIX_COOKIES_JSON.");
 
-  const cookies = JSON.parse(cookiesJson);
-
-  const browser = await chromium.launch();
-  const context = await browser.newContext();
-  await context.addCookies(
-    cookies.map((c) => ({
+  // Detect format
+  let cookies;
+  if (raw.trim().startsWith("[") || raw.trim().startsWith("{")) {
+    // JSON export
+    const parsed = JSON.parse(raw);
+    cookies = (Array.isArray(parsed) ? parsed : parsed.cookies || []).map((c) => ({
       name: c.name,
       value: c.value,
-      domain: c.domain,
+      domain: (c.domain || "").replace(/^\./, ""),
       path: c.path || "/",
-      expires: c.expires || -1,
+      expires: c.expires ?? -1,
       httpOnly: !!c.httpOnly,
       secure: !!c.secure,
       sameSite: c.sameSite || "Lax"
-    }))
-  );
+    }));
+  } else {
+    // Netscape export
+    cookies = parseNetscapeCookies(raw);
+  }
+
+  console.log("Cookies loaded:", cookies.length);
+
+  const browser = await chromium.launch();
+  const context = await browser.newContext();
+  await context.addCookies(cookies);
 
   const page = await context.newPage();
 
@@ -109,12 +150,7 @@ async function main() {
 
   const cal = ical({ name: "YogaSix Edgewater — Upcoming Classes" });
   for (const e of events) {
-    cal.createEvent({
-      start: e.start,
-      end: e.end,
-      summary: e.summary,
-      location: e.location
-    });
+    cal.createEvent({ start: e.start, end: e.end, summary: e.summary, location: e.location });
   }
 
   fs.mkdirSync("site", { recursive: true });
