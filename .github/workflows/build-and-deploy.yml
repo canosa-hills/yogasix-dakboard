@@ -30,7 +30,10 @@ jobs:
           npx playwright install --with-deps chromium
 
       - name: Generate ICS
+        env:
+          YOGASIX_COOKIES_JSON: ${{ secrets.YOGASIX_COOKIES_JSON }}
         run: node scraper/scrape.js
+
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
