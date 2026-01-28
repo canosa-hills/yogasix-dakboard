@@ -7,7 +7,7 @@ function formatDate(d) {
   return d.toISOString().split("T")[0];
 }
 
-function getDateRange(days = 7) {
+function getDateRange(days = 30) {
   const start = new Date();
   const end = new Date();
   end.setDate(start.getDate() + days);
@@ -20,7 +20,7 @@ function parseDate(value) {
 }
 
 async function main() {
-  const { start_date, end_date } = getDateRange(7);
+  const { start_date, end_date } = getDateRange(30);
 
   const url = `https://members.yogasix.com/api/v2/locations/${LOCATION}/schedule_entries?start_date=${start_date}&end_date=${end_date}`;
   console.log("Fetching schedule from:", url);
@@ -30,12 +30,9 @@ async function main() {
 
   const data = await res.json();
   const entries = Array.isArray(data) ? data : (data.schedule_entries || []);
-
   console.log("Classes found:", entries.length);
 
-  const cal = ical({
-    name: "YogaSix Edgewater — Public Schedule"
-  });
+  const cal = ical({ name: "YogaSix Edgewater — Next 30 Days" });
 
   let written = 0;
 
@@ -44,28 +41,34 @@ async function main() {
     const end = parseDate(c.ends_at);
     if (!start || !end) continue;
 
-    // Title and instructor are explicit in this API
     const title = c.title || "Yoga Class";
-    const subtitle = c.subtitle || ""; // often contains format/level notes
-    const instructorName = c.instructor?.name || "";
+    const instructor = c.instructor?.name || "TBA";
 
-    // Helpful details for DAKboard display
-    const spots = (typeof c.free_spots === "number") ? `Free spots: ${c.free_spots}` : "";
+    // Open spots: use free_spots when present; otherwise show something neutral
+    const spots =
+      typeof c.free_spots === "number"
+        ? `${c.free_spots} spots`
+        : "spots n/a";
+
+    // Put everything into SUMMARY for DAKboard
+    const summary = `${title} — ${instructor} — ${spots}`;
+
+    // Optional: keep richer details in DESCRIPTION (DAKboard may show on expand)
+    const subtitle = c.subtitle ? `Notes: ${c.subtitle}` : "";
+    const capacity = typeof c.capacity === "number" ? `Capacity: ${c.capacity}` : "";
     const waitlist = c.has_waitlist ? `Waitlist: ${c.waitlist_size ?? "yes"}` : "";
-    const details = [subtitle, instructorName && `Instructor: ${instructorName}`, spots, waitlist]
+
+    const description = [subtitle, capacity, waitlist, c.booking_url ? `Book: ${c.booking_url}` : ""]
       .filter(Boolean)
       .join("\n");
-
-    // Keep the summary short and scannable
-    const summary = instructorName ? `${title} — ${instructorName}` : title;
 
     cal.createEvent({
       start,
       end,
       summary,
-      description: details || c.description || "",
-      url: c.booking_url || undefined,
-      location: "YogaSix Edgewater"
+      description,
+      location: "YogaSix Edgewater",
+      url: c.booking_url || undefined
     });
 
     written++;
