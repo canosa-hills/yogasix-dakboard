@@ -3,16 +3,47 @@ import fs from "node:fs";
 
 const LOCATION = "yogasix-edgewater";
 
-function formatDate(d) {
-  return d.toISOString().split("T")[0];
+const STUDIO_TIMEZONE = "America/Denver";
+
+// Format a Date into YYYY-MM-DD in the specified timezone
+function ymdInTZ(date, timeZone) {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(date);
+
+  const get = (type) => parts.find((p) => p.type === type)?.value;
+  return `${get("year")}-${get("month")}-${get("day")}`;
 }
 
-function getDateRange(days = 30) {
-  const start = new Date();
-  const end = new Date();
-  end.setDate(start.getDate() + days);
-  return { start_date: formatDate(start), end_date: formatDate(end) };
+// Get the start of "today" (00:00) in Denver timezone
+function startOfTodayInTZ(timeZone) {
+  const localNow = new Date(
+    new Date().toLocaleString("en-US", { timeZone })
+  );
+
+  localNow.setHours(0, 0, 0, 0);
+  return localNow;
 }
+
+
+function getDateRange(days = 30) {
+  const now = new Date();
+
+  // Start = today in Denver time
+  const start_date = ymdInTZ(now, STUDIO_TIMEZONE);
+
+  // End = today + 30 days
+  const end = new Date(now);
+  end.setDate(end.getDate() + days);
+
+  const end_date = ymdInTZ(end, STUDIO_TIMEZONE);
+
+  return { start_date, end_date };
+}
+
 
 function parseDate(value) {
   const d = new Date(value);
@@ -67,43 +98,64 @@ async function main() {
   const writtenByType = Object.fromEntries(Object.keys(cals).map(k => [k, 0]));
   let skipped = 0;
 
-  for (const c of entries) {
-    const start = parseDate(c.starts_at);
-    const end = parseDate(c.ends_at);
-    if (!start || !end) { skipped++; continue; }
+for (const c of entries) {
+  const start = parseDate(c.starts_at);
+  const end = parseDate(c.ends_at);
 
-    const title = c.title || "Yoga Class";
-    const instructor = c.instructor?.name || "TBA";
-
-    const spots = typeof c.free_spots === "number" ? `${c.free_spots} spots` : "spots n/a";
-    const summary = `${title} — ${instructor} — ${spots}`;
-
-    const description = [
-      c.subtitle ? `Notes: ${c.subtitle}` : "",
-      typeof c.capacity === "number" ? `Capacity: ${c.capacity}` : "",
-      c.has_waitlist ? `Waitlist: ${c.waitlist_size ?? "yes"}` : "",
-      c.booking_url ? `Book: ${c.booking_url}` : ""
-    ].filter(Boolean).join("\n");
-
-    // Always add to master calendar
-    calAll.createEvent({
-      start, end, summary, description,
-      location: "YogaSix Edgewater",
-      url: c.booking_url || undefined
-    });
-    writtenAll++;
-
-    // Add to type calendar if matched
-    const bucket = classify(title);
-    if (cals[bucket]) {
-      cals[bucket].createEvent({
-        start, end, summary, description,
-        location: "YogaSix Edgewater",
-        url: c.booking_url || undefined
-      });
-      writtenByType[bucket]++;
-    }
+  if (!start || !end) {
+    skipped++;
+    continue;
   }
+
+  // Only include events from today onward (Denver time)
+  const todayStart = startOfTodayInTZ(STUDIO_TIMEZONE);
+  if (start < todayStart) {
+    continue; // skip anything before today
+  }
+
+  const title = c.title || "Yoga Class";
+  const instructor = c.instructor?.name || "TBA";
+
+  const spots =
+    typeof c.free_spots === "number" ? `${c.free_spots} spots` : "spots n/a";
+
+  const summary = `${title} — ${instructor} — ${spots}`;
+
+  const description = [
+    c.subtitle ? `Notes: ${c.subtitle}` : "",
+    typeof c.capacity === "number" ? `Capacity: ${c.capacity}` : "",
+    c.has_waitlist ? `Waitlist: ${c.waitlist_size ?? "yes"}` : "",
+    c.booking_url ? `Book: ${c.booking_url}` : "",
+  ]
+    .filter(Boolean)
+    .join("\n");
+
+  // Always add to master calendar
+  calAll.createEvent({
+    start,
+    end,
+    summary,
+    description,
+    location: "YogaSix Edgewater",
+    url: c.booking_url || undefined,
+  });
+  writtenAll++;
+
+  // Add to type calendar if matched
+  const bucket = classify(title);
+  if (cals[bucket]) {
+    cals[bucket].createEvent({
+      start,
+      end,
+      summary,
+      description,
+      location: "YogaSix Edgewater",
+      url: c.booking_url || undefined,
+    });
+    writtenByType[bucket]++;
+  }
+}
+
 
   fs.mkdirSync("site", { recursive: true });
 
