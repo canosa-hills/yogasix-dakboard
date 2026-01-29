@@ -54,14 +54,37 @@ function parseDate(value) {
 function classify(titleRaw = "") {
   const t = titleRaw.toLowerCase();
 
+  // 1) Sculpt & Flow -> Sculpt (because sculpt hits first)
   if (t.includes("sculpt")) return "sculpt";
+
+  // 2) Power & Flow -> Power
   if (t.includes("power")) return "power";
+
   if (t.includes("signature hot")) return "signature-hot";
+
   if (t.includes("restore") || t.includes("yin")) return "restore-yin";
+
+  // Put Slow Flow before Flow so it doesn't get caught by "flow"
   if (t.includes("slow flow")) return "slow-flow";
+
   if (t.includes("mobility")) return "mobility";
 
-  return "other";
+  // Flow family (Flow / Hot Flow / Y6 Flow)
+  if (t.includes("hot flow") || t.includes("y6 flow") || t.includes("flow")) return "flow";
+
+  // Private sessions
+  if (t.includes("private")) return "private";
+
+  // Special Events
+  if (t.includes("workshop") || t.includes("special event") || t.includes("teacher training"))
+    return "special-events";
+
+  // Other Classes
+  if (t.includes("trx") || t.includes("prenatal") || t.includes("community class"))
+    return "other-classes";
+
+  // Everything else -> Other Classes
+  return "other-classes";
 }
 
 function makeCalendar(name) {
@@ -85,14 +108,20 @@ async function main() {
   const calAll = makeCalendar("YogaSix Edgewater — All Classes");
 
   // Type calendars
-  const cals = {
-    sculpt: makeCalendar("YogaSix Edgewater — Sculpt"),
-    power: makeCalendar("YogaSix Edgewater — Power"),
-    "signature-hot": makeCalendar("YogaSix Edgewater — Signature Hot"),
-    "restore-yin": makeCalendar("YogaSix Edgewater — Restore/Yin"),
-    "slow-flow": makeCalendar("YogaSix Edgewater — Slow Flow"),
-    mobility: makeCalendar("YogaSix Edgewater — Mobility"),
-  };
+const cals = {
+  sculpt: makeCalendar("YogaSix Edgewater — Sculpt"),
+  power: makeCalendar("YogaSix Edgewater — Power"),
+  "signature-hot": makeCalendar("YogaSix Edgewater — Signature Hot"),
+  "restore-yin": makeCalendar("YogaSix Edgewater — Restore/Yin"),
+  "slow-flow": makeCalendar("YogaSix Edgewater — Slow Flow"),
+  mobility: makeCalendar("YogaSix Edgewater — Mobility"),
+
+  flow: makeCalendar("YogaSix Edgewater — Flow"),
+  "other-classes": makeCalendar("YogaSix Edgewater — Other Classes"),
+  "special-events": makeCalendar("YogaSix Edgewater — Special Events"),
+  private: makeCalendar("YogaSix Edgewater — Private"),
+};
+
 
   let writtenAll = 0;
   const writtenByType = Object.fromEntries(Object.keys(cals).map(k => [k, 0]));
@@ -162,13 +191,18 @@ for (const c of entries) {
   // Existing output (keep name stable)
   fs.writeFileSync("site/yogasix-edgewater.ics", calAll.toString(), "utf8");
 
-  // New outputs
-  fs.writeFileSync("site/y6-sculpt.ics", cals.sculpt.toString(), "utf8");
-  fs.writeFileSync("site/y6-power.ics", cals.power.toString(), "utf8");
-  fs.writeFileSync("site/y6-signature-hot.ics", cals["signature-hot"].toString(), "utf8");
-  fs.writeFileSync("site/y6-restore-yin.ics", cals["restore-yin"].toString(), "utf8");
-  fs.writeFileSync("site/y6-slow-flow.ics", cals["slow-flow"].toString(), "utf8");
-  fs.writeFileSync("site/y6-mobility.ics", cals.mobility.toString(), "utf8");
+// Category outputs (for DAKboard color coding)
+fs.writeFileSync("site/y6-sculpt.ics", cals.sculpt.toString(), "utf8");
+fs.writeFileSync("site/y6-power.ics", cals.power.toString(), "utf8");
+fs.writeFileSync("site/y6-signature-hot.ics", cals["signature-hot"].toString(), "utf8");
+fs.writeFileSync("site/y6-restore-yin.ics", cals["restore-yin"].toString(), "utf8");
+fs.writeFileSync("site/y6-slow-flow.ics", cals["slow-flow"].toString(), "utf8");
+fs.writeFileSync("site/y6-mobility.ics", cals.mobility.toString(), "utf8");
+
+fs.writeFileSync("site/y6-flow.ics", cals.flow.toString(), "utf8");
+fs.writeFileSync("site/y6-other-classes.ics", cals["other-classes"].toString(), "utf8");
+fs.writeFileSync("site/y6-special-events.ics", cals["special-events"].toString(), "utf8");
+fs.writeFileSync("site/y6-private.ics", cals.private.toString(), "utf8");
 
   console.log("Events written (all):", writtenAll);
   console.log("Events written (by type):", writtenByType);
