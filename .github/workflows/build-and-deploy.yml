@@ -3,19 +3,21 @@ name: Build + Deploy YogaSix ICS
 on:
   workflow_dispatch:
   schedule:
-    - cron: "15 */6 * * *"
+    - cron: "*/15 * * * *"
 
 concurrency:
   group: ${{ github.workflow }}
   cancel-in-progress: true
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
       - name: Checkout
@@ -39,29 +41,18 @@ jobs:
           YOGASIX_COOKIES_JSON: ${{ secrets.YOGASIX_COOKIES_JSON }}
         run: node scraper/scrape.js
 
-      - name: Detect changes in site outputs
-        id: changes
-        run: |
-          # If 'site/' does not exist, treat as changed (safety)
-          if [ ! -d "site" ]; then
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-            echo "site/ folder missing - will deploy."
-            exit 0
-          fi
-
-          # Check whether generated output differs from repo checkout
-          if git diff --quiet -- site/; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-            echo "No changes detected in site/. Skipping deploy."
-          else
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-            echo "Changes detected in site/. Proceeding to deploy."
-            git diff --stat -- site/ || true
-          fi
-
-      - name: Deploy to GitHub Pages
-        if: steps.changes.outputs.changed == 'true'
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
