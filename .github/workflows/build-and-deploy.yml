@@ -25,11 +25,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
+          cache: npm
+          cache-dependency-path: scraper/package-lock.json
 
       - name: Install dependencies
         working-directory: scraper
         run: |
-          npm install
+          npm ci
           npx playwright install --with-deps chromium
 
       - name: Generate ICS
@@ -37,8 +39,28 @@ jobs:
           YOGASIX_COOKIES_JSON: ${{ secrets.YOGASIX_COOKIES_JSON }}
         run: node scraper/scrape.js
 
+      - name: Detect changes in site outputs
+        id: changes
+        run: |
+          # If 'site/' does not exist, treat as changed (safety)
+          if [ ! -d "site" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "site/ folder missing - will deploy."
+            exit 0
+          fi
+
+          # Check whether generated output differs from repo checkout
+          if git diff --quiet -- site/; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes detected in site/. Skipping deploy."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Changes detected in site/. Proceeding to deploy."
+            git diff --stat -- site/ || true
+          fi
 
       - name: Deploy to GitHub Pages
+        if: steps.changes.outputs.changed == 'true'
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
