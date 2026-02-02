@@ -3,9 +3,11 @@ name: Build + Deploy YogaSix ICS
 on:
   workflow_dispatch:
   schedule:
-    - cron: "15 * * * *"
-  push:
-    branches: ["main"]
+    - cron: "15 */6 * * *"
+
+concurrency:
+  group: yogasix-ics
+  cancel-in-progress: true
 
 permissions:
   contents: write
@@ -13,6 +15,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Checkout
