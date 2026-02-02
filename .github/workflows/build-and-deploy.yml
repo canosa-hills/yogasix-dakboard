@@ -6,7 +6,7 @@ on:
     - cron: "15 */6 * * *"
 
 concurrency:
-  group: yogasix-ics
+  group: ${{ github.workflow }}
   cancel-in-progress: true
 
 permissions:
