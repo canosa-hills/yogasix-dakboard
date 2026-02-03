@@ -1,12 +1,12 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//sebbo.net//ical-generator//EN
-NAME:YogaSix Edgewater — Other Classes
-X-WR-CALNAME:YogaSix Edgewater — Other Classes
+NAME:YogaSix Edgewater — Other
+X-WR-CALNAME:YogaSix Edgewater — Other
 BEGIN:VEVENT
-UID:f2b8d126-0eb7-43a5-a786-21d6ddb20f07
+UID:e4c88565-498b-4ff2-ba26-5ff13dcb0418
 SEQUENCE:0
-DTSTAMP:20260202T175859Z
+DTSTAMP:20260203T032536Z
 DTSTART:20260202T143000Z
 DTEND:20260202T153000Z
 SUMMARY:Series: Aparigraha Non-Attachment — Kelsey S. — 11 spots
@@ -17,12 +17,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903804
  24
 END:VEVENT
 BEGIN:VEVENT
-UID:15da9af2-aa55-4c37-aab4-deb28beb9b80
+UID:b4256f29-9fe8-4690-b0cf-ede2637fb230
 SEQUENCE:0
-DTSTAMP:20260202T175859Z
+DTSTAMP:20260203T032536Z
 DTSTART:20260204T143000Z
 DTEND:20260204T151500Z
-SUMMARY:Integration and Purpose — Maggie L. — 24 spots
+SUMMARY:Integration and Purpose — Maggie L. — 23 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Notes: Y6 Slow Flow Express (45 Min)\nCapacity: 30\nWaitlist: 
  0\nBook: https://members.yogasix.com/book/yogasix-edgewater/cr_90615646
@@ -30,9 +30,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906156
  46
 END:VEVENT
 BEGIN:VEVENT
-UID:599467a8-c793-4524-9f57-2fb9f4d3fada
+UID:caecad72-c384-4205-a682-fdb998f342c3
 SEQUENCE:0
-DTSTAMP:20260202T175859Z
+DTSTAMP:20260203T032536Z
 DTSTART:20260204T173000Z
 DTEND:20260204T183000Z
 SUMMARY:Community Class - New Teacher! — Merien T. — 28 spots
@@ -43,12 +43,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_949271
  11
 END:VEVENT
 BEGIN:VEVENT
-UID:2394e490-4deb-4313-9c1a-5fa0e4d47ae3
+UID:7b35751c-47c4-49ff-84dd-7a040d3b70df
 SEQUENCE:0
-DTSTAMP:20260202T175859Z
+DTSTAMP:20260203T032536Z
 DTSTART:20260205T003000Z
 DTEND:20260205T013000Z
-SUMMARY:2016 Bangers! — Kristin W. — 22 spots
+SUMMARY:2016 Bangers! — Kristin W. — 17 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Notes: Y6 Sculpt & Flow \nCapacity: 30\nWaitlist: 0\nBook: htt
  ps://members.yogasix.com/book/yogasix-edgewater/cr_90615932
@@ -56,9 +56,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906159
  32
 END:VEVENT
 BEGIN:VEVENT
-UID:1183d134-e049-4c24-ab5c-9e2bf9e0eb21
+UID:4f09480a-9078-44f2-84f8-67d345d6bfb6
 SEQUENCE:0
-DTSTAMP:20260202T175859Z
+DTSTAMP:20260203T032536Z
 DTSTART:20260205T020000Z
 DTEND:20260205T030000Z
 SUMMARY:Candlelit Hot — Mariah J. — 18 spots
@@ -69,9 +69,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906160
  47
 END:VEVENT
 BEGIN:VEVENT
-UID:ff866bb5-4376-4f20-bcb9-0f73c9760c6e
+UID:4c342b4e-2c29-4542-94f2-0cf97c7d8978
 SEQUENCE:0
-DTSTAMP:20260202T175859Z
+DTSTAMP:20260203T032536Z
 DTSTART:20260205T143000Z
 DTEND:20260205T151500Z
 SUMMARY:Integration and Purpose — Maggie L. — 28 spots
@@ -82,12 +82,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906161
  70
 END:VEVENT
 BEGIN:VEVENT
-UID:38a70234-2e0f-4ab4-a34d-58ed5f57c5db
+UID:9d09c187-7122-4a9e-8b92-474c45efe3dc
 SEQUENCE:0
-DTSTAMP:20260202T175859Z
+DTSTAMP:20260203T032536Z
 DTSTART:20260206T003000Z
 DTEND:20260206T013000Z
-SUMMARY:8 Limb Path: Pratyahara — Christina G. — 25 spots
+SUMMARY:8 Limb Path: Pratyahara — Christina G. — 23 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Notes: Y6 Power Flow\nCapacity: 30\nWaitlist: 0\nBook: https:/
  /members.yogasix.com/book/yogasix-edgewater/cr_90616814
@@ -95,9 +95,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906168
  14
 END:VEVENT
 BEGIN:VEVENT
-UID:3b5a9f51-6d41-4222-86c4-67685c8de84a
+UID:e1696402-bd20-4821-8ca6-aeb09906a0c6
 SEQUENCE:0
-DTSTAMP:20260202T175859Z
+DTSTAMP:20260203T032536Z
 DTSTART:20260207T190000Z
 DTEND:20260207T200000Z
 SUMMARY:Community Class-New Teacher — Asia W. — 28 spots
@@ -108,12 +108,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_944383
  02
 END:VEVENT
 BEGIN:VEVENT
-UID:ce34fd5d-c64a-4eb2-8daf-c3d54ef41f30
+UID:d68f75f6-68f4-4313-8ed2-86215a75e25a
 SEQUENCE:0
-DTSTAMP:20260202T175859Z
+DTSTAMP:20260203T032536Z
 DTSTART:20260208T173000Z
 DTEND:20260208T183000Z
-SUMMARY:Bad Bunny and Friends — Kelsey S. — 7 spots
+SUMMARY:Bad Bunny and Friends — Kelsey S. — 2 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Notes: Y6 Power Flow\nCapacity: 30\nWaitlist: 0\nBook: https:/
  /members.yogasix.com/book/yogasix-edgewater/cr_90336287
@@ -121,12 +121,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903362
  87
 END:VEVENT
 BEGIN:VEVENT
-UID:f1c4a77a-ca6c-4de1-9abe-e111ba22342f
+UID:d34223d2-e32f-4998-b327-a723d7b81667
 SEQUENCE:0
-DTSTAMP:20260202T175859Z
+DTSTAMP:20260203T032536Z
 DTSTART:20260209T143000Z
 DTEND:20260209T153000Z
-SUMMARY:Niyamas Series: Saucha Cleanliness — Kelsey S. — 26 spots
+SUMMARY:Niyamas Series: Saucha Cleanliness — Kelsey S. — 25 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Notes: Y6 Slow Flow \nCapacity: 30\nWaitlist: 0\nBook: https:/
  /members.yogasix.com/book/yogasix-edgewater/cr_90380425
@@ -134,9 +134,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903804
  25
 END:VEVENT
 BEGIN:VEVENT
-UID:2793a36a-c6b2-4f36-a5a0-61e57b18927c
+UID:f0cabcce-bf74-4eb7-bb72-85b6a2158986
 SEQUENCE:0
-DTSTAMP:20260202T175859Z
+DTSTAMP:20260203T032536Z
 DTSTART:20260211T173000Z
 DTEND:20260211T183000Z
 SUMMARY:Community Class - New Teacher! — Merien T. — 30 spots
@@ -147,12 +147,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_949271
  12
 END:VEVENT
 BEGIN:VEVENT
-UID:a5850461-c87f-406e-b422-a9ce87b1fd35
+UID:4bd1029f-7100-40a9-8010-095d1ba7c802
 SEQUENCE:0
-DTSTAMP:20260202T175859Z
+DTSTAMP:20260203T032536Z
 DTSTART:20260212T020000Z
 DTEND:20260212T030000Z
-SUMMARY:Candlelit Hot — Mariah J. — 26 spots
+SUMMARY:Candlelit Hot — Mariah J. — 25 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Notes: Y6 Signature Hot\nCapacity: 30\nWaitlist: 0\nBook: http
  s://members.yogasix.com/book/yogasix-edgewater/cr_90616048
@@ -160,12 +160,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906160
  48
 END:VEVENT
 BEGIN:VEVENT
-UID:77bc171a-1a5d-41a0-a4fb-2a34cfe77eaa
+UID:30b28dbf-29a8-4cb5-b73f-a0c0e00fbc17
 SEQUENCE:0
-DTSTAMP:20260202T175859Z
+DTSTAMP:20260203T032536Z
 DTSTART:20260213T230000Z
 DTEND:20260214T000000Z
-SUMMARY:dump him (angry valentine) — Kelsey S. — 27 spots
+SUMMARY:dump him (angry valentine) — Kelsey S. — 26 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Notes: Y6 Sculpt & Flow \nCapacity: 30\nWaitlist: 0\nBook: htt
  ps://members.yogasix.com/book/yogasix-edgewater/cr_90337144
@@ -173,12 +173,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903371
  44
 END:VEVENT
 BEGIN:VEVENT
-UID:91b294ac-4593-45ba-a3df-a467b218ca01
+UID:767b76d9-a6db-4536-a360-494652ffc109
 SEQUENCE:0
-DTSTAMP:20260202T175859Z
+DTSTAMP:20260203T032536Z
 DTSTART:20260214T003000Z
 DTEND:20260214T013000Z
-SUMMARY:dump him (angry valentine) — Kelsey S. — 27 spots
+SUMMARY:dump him (angry valentine) — Kelsey S. — 26 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Notes: Y6 Power Flow\nCapacity: 30\nWaitlist: 0\nBook: https:/
  /members.yogasix.com/book/yogasix-edgewater/cr_90337227
@@ -186,9 +186,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903372
  27
 END:VEVENT
 BEGIN:VEVENT
-UID:370594ce-120f-4f5e-8505-0a0b4f158226
+UID:ca432293-aaff-4bc3-9f39-89ac39806493
 SEQUENCE:0
-DTSTAMP:20260202T175859Z
+DTSTAMP:20260203T032536Z
 DTSTART:20260214T020000Z
 DTEND:20260214T030000Z
 SUMMARY:2nd Annual Galentines Clothing Swap — Cassandra S. — 30 spots
@@ -199,9 +199,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_948448
  26
 END:VEVENT
 BEGIN:VEVENT
-UID:02baac7d-f864-4b28-a8e0-48f92d02ecbd
+UID:695ac46b-d30d-450e-9130-dab56afe11f1
 SEQUENCE:0
-DTSTAMP:20260202T175859Z
+DTSTAMP:20260203T032536Z
 DTSTART:20260214T190000Z
 DTEND:20260214T200000Z
 SUMMARY:Community Class-New Teacher — Asia W. — 30 spots
@@ -212,12 +212,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_944383
  50
 END:VEVENT
 BEGIN:VEVENT
-UID:9b3363f4-8600-4b83-8574-836d0e2ecd26
+UID:195478a1-2186-42e6-a27f-ac2bd11595e6
 SEQUENCE:0
-DTSTAMP:20260202T175859Z
+DTSTAMP:20260203T032536Z
 DTSTART:20260215T203000Z
 DTEND:20260215T223000Z
-SUMMARY:Heart: Intention Setting & Cacao — Jane K. — 4 spots
+SUMMARY:Heart: Intention Setting & Cacao — Jane K. — 3 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Notes: Workshop 120 (Free for Members)\nCapacity: 24\nWaitlist
  : 0\nBook: https://members.yogasix.com/book/yogasix-edgewater/cr_94935224
@@ -225,9 +225,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_949352
  24
 END:VEVENT
 BEGIN:VEVENT
-UID:b39290ec-9320-4e71-b873-d2a45da9fe38
+UID:84f22497-d611-4133-ac9b-230b6c0fac1a
 SEQUENCE:0
-DTSTAMP:20260202T175859Z
+DTSTAMP:20260203T032536Z
 DTSTART:20260216T143000Z
 DTEND:20260216T153000Z
 SUMMARY:Niyamas Series Santosha Contentment — Kelsey S. — 28 spots
@@ -238,9 +238,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903804
  26
 END:VEVENT
 BEGIN:VEVENT
-UID:1ed21c36-53f4-47f3-b847-41004cfdf70b
+UID:b6d4d32c-90c8-49c9-b1b1-d389dfef3aed
 SEQUENCE:0
-DTSTAMP:20260202T175859Z
+DTSTAMP:20260203T032536Z
 DTSTART:20260218T173000Z
 DTEND:20260218T183000Z
 SUMMARY:Support A New Instructor! — Merien T. — 30 spots
@@ -251,9 +251,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_950529
  98
 END:VEVENT
 BEGIN:VEVENT
-UID:63460d6d-6bc7-4e18-9563-e509e676c3f3
+UID:89bd54de-f5c5-4fc6-a37d-0073a4403dc4
 SEQUENCE:0
-DTSTAMP:20260202T175859Z
+DTSTAMP:20260203T032536Z
 DTSTART:20260219T020000Z
 DTEND:20260219T030000Z
 SUMMARY:Candlelit Hot — Mariah J. — 27 spots
@@ -264,9 +264,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906160
  49
 END:VEVENT
 BEGIN:VEVENT
-UID:8ef7f881-dd93-4fe7-988f-cd1ea2e99a83
+UID:eb037a73-6074-45e9-94e4-45bb623dc490
 SEQUENCE:0
-DTSTAMP:20260202T175859Z
+DTSTAMP:20260203T032536Z
 DTSTART:20260221T020000Z
 DTEND:20260221T030000Z
 SUMMARY:Foundations: Dive into Aligment — Cassandra S. — 28 spots
@@ -277,9 +277,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_949072
  15
 END:VEVENT
 BEGIN:VEVENT
-UID:b83d1d49-4599-4b7d-9f0f-c1b6232e733b
+UID:619af75d-5994-4a6c-9747-290c6ef8fd1a
 SEQUENCE:0
-DTSTAMP:20260202T175859Z
+DTSTAMP:20260203T032536Z
 DTSTART:20260221T190000Z
 DTEND:20260221T200000Z
 SUMMARY:Community Class-New Teacher — Asia W. — 30 spots
@@ -290,9 +290,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_944383
  51
 END:VEVENT
 BEGIN:VEVENT
-UID:8140cc3a-50dc-423f-9c9f-fbeb685a9d28
+UID:9d5a1a3d-8e30-4063-90a2-0771a891b954
 SEQUENCE:0
-DTSTAMP:20260202T175859Z
+DTSTAMP:20260203T032536Z
 DTSTART:20260221T203000Z
 DTEND:20260222T003000Z
 SUMMARY:Creative Cueing + Language — Cassandra S. — 26 spots
@@ -303,9 +303,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_947855
  15
 END:VEVENT
 BEGIN:VEVENT
-UID:08b0eb15-cbe5-4a91-8f50-9b3d9bd382f2
+UID:aa928fc4-22ac-4eb8-adff-4b5184ca0217
 SEQUENCE:0
-DTSTAMP:20260202T175859Z
+DTSTAMP:20260203T032536Z
 DTSTART:20260223T143000Z
 DTEND:20260223T153000Z
 SUMMARY:Niyamas Series: Tapas Discipline — Kelsey S. — 29 spots
@@ -316,9 +316,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903804
  27
 END:VEVENT
 BEGIN:VEVENT
-UID:64d92f4f-7594-4211-b273-5b92df8e5459
+UID:fa90923d-338c-4b2d-9175-7d2d7c586aaa
 SEQUENCE:0
-DTSTAMP:20260202T175859Z
+DTSTAMP:20260203T032536Z
 DTSTART:20260225T173000Z
 DTEND:20260225T183000Z
 SUMMARY:Support A New Instructor! — Merien T. — 30 spots
@@ -329,9 +329,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_950530
  00
 END:VEVENT
 BEGIN:VEVENT
-UID:59bc8202-7068-4a58-aa39-794805a7f622
+UID:c7e68131-c151-4bea-9558-4542463a1446
 SEQUENCE:0
-DTSTAMP:20260202T175859Z
+DTSTAMP:20260203T032536Z
 DTSTART:20260226T020000Z
 DTEND:20260226T030000Z
 SUMMARY:Candlelit Hot — Mariah J. — 30 spots
@@ -342,9 +342,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906160
  50
 END:VEVENT
 BEGIN:VEVENT
-UID:ede52137-658f-4dd4-86ab-23645baba2c9
+UID:28ff5d54-39be-406b-8821-6efee84c5e9a
 SEQUENCE:0
-DTSTAMP:20260202T175859Z
+DTSTAMP:20260203T032536Z
 DTSTART:20260302T143000Z
 DTEND:20260302T153000Z
 SUMMARY:Series: Svadhyaya Self-Study — Kelsey S. — 29 spots
