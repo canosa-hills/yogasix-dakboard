@@ -1,0 +1,43 @@
+name: Update Spots (Every 15 Minutes)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"
+
+concurrency:
+  group: yogasix-ics-spots
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  spots:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        working-directory: scraper
+        run: |
+          npm install
+
+      - name: Generate ICS (spots only)
+        env:
+          MODE: spots
+        run: node scraper/scrape.js
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
