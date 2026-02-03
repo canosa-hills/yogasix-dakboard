@@ -1,23 +1,21 @@
-name: Build + Deploy YogaSix ICS
+name: Build + Deploy YogaSix ICS (Full Refresh)
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "15 */6 * * *"
 
 concurrency:
-  group: ${{ github.workflow }}
+  group: yogasix-ics-full
   cancel-in-progress: true
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 12
 
     steps:
       - name: Checkout
@@ -27,32 +25,19 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: npm
-          cache-dependency-path: scraper/package-lock.json
 
       - name: Install dependencies
         working-directory: scraper
         run: |
-          npm ci
-          npx playwright install --with-deps chromium
+          npm install
 
-      - name: Generate ICS
+      - name: Generate ICS (full)
         env:
-          YOGASIX_COOKIES_JSON: ${{ secrets.YOGASIX_COOKIES_JSON }}
+          MODE: full
         run: node scraper/scrape.js
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
