@@ -2,8 +2,16 @@ name: Build + Deploy YogaSix ICS (Full Refresh)
 
 on:
   workflow_dispatch:
+  # Run on any commit to main (detect changes in repo)
+  push:
+    branches: ["main"]
+  # Run every 6 hours at :15 UTC (keeps your existing cadence)
   schedule:
     - cron: "15 */6 * * *"
+    # Run daily at 07:00 UTC = 00:00 Denver during STANDARD time (winter)
+    - cron: "0 7 * * *"
+    # Run daily at 06:00 UTC = 00:00 Denver during DAYLIGHT time (summer)
+    - cron: "0 6 * * *"
 
 concurrency:
   group: yogasix-ics-full
