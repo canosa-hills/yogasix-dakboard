@@ -4,6 +4,7 @@
   "type": "module",
   "dependencies": {
     "ical-generator": "^7.2.0",
-    "playwright": "^1.41.0"
+    "playwright": "^1.41.0",
+    "googleapis": "^171.0.0"
   }
 }
