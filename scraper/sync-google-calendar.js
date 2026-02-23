@@ -11,7 +11,7 @@ const GOOGLE_CLIENT_SECRET = (process.env.GOOGLE_CLIENT_SECRET || "").trim();
 const GOOGLE_REFRESH_TOKEN = (process.env.GOOGLE_REFRESH_TOKEN || "").trim();
 
 const GOOGLE_CALENDAR_ID_RAW = process.env.GOOGLE_CALENDAR_ID || "";
-const CALENDAR_ID = GOOGLE_CALENDAR_ID_RAW.trim(); // IMPORTANT: raw ID (do NOT encode for googleapis)
+const CALENDAR_ID = GOOGLE_CALENDAR_ID_RAW.trim(); // raw ID (do NOT encode for googleapis)
 
 if (!GOOGLE_CLIENT_ID || !GOOGLE_CLIENT_SECRET || !GOOGLE_REFRESH_TOKEN || !CALENDAR_ID) {
   throw new Error(
@@ -38,7 +38,6 @@ function startOfTodayInTZ(timeZone) {
   return localNow;
 }
 
-// Build a Date for YYYY-MM-DD 00:00 in the target timezone
 function startOfDayFromYMDInTZ(ymd, timeZone) {
   const local = new Date(new Date(`${ymd}T00:00:00`).toLocaleString("en-US", { timeZone }));
   local.setHours(0, 0, 0, 0);
@@ -83,14 +82,16 @@ function classify(titleRaw = "") {
   return "other-classes";
 }
 
-// Stable Google event ID (safe chars only)
+// Stable Google event ID (Google can be picky):
+// Use ONLY lowercase letters + digits. No underscores.
+// Format: "y6" + 40-char hex hash => 42 chars total
 function stableEventId(entry) {
   const base = entry?.id
     ? `${LOCATION}:${entry.id}`
     : `${LOCATION}:${entry.starts_at || ""}:${entry.title || ""}`;
 
-  const hash = crypto.createHash("sha1").update(base).digest("hex");
-  return `y6_${hash}`;
+  const hash = crypto.createHash("sha1").update(base).digest("hex"); // [0-9a-f]
+  return `y6${hash}`; // no underscore
 }
 
 function buildSummary(entry) {
@@ -106,7 +107,6 @@ function buildDescription(entry) {
   if (typeof entry.capacity === "number") lines.push(`Capacity: ${entry.capacity}`);
   if (entry.has_waitlist) lines.push(`Waitlist: ${entry.waitlist_size ?? "yes"}`);
   if (entry.booking_url) lines.push(`Book: ${entry.booking_url}`);
-
   lines.push(`Category: ${classify(entry.title || "")}`);
   return lines.join("\n");
 }
@@ -137,9 +137,7 @@ async function googleClient() {
   const oauth2 = new google.auth.OAuth2(GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET);
   oauth2.setCredentials({ refresh_token: GOOGLE_REFRESH_TOKEN });
 
-  // Ensure token refresh works
   await oauth2.getAccessToken();
-
   return google.calendar({ version: "v3", auth: oauth2 });
 }
 
@@ -152,6 +150,7 @@ async function upsertEvents(calendar, entries) {
     if (!start || !end) continue;
 
     const id = stableEventId(e);
+
     desired.set(id, {
       id,
       summary: buildSummary(e),
@@ -159,7 +158,7 @@ async function upsertEvents(calendar, entries) {
       location: "YogaSix Edgewater",
       start: { dateTime: start.toISOString() },
       end: { dateTime: end.toISOString() },
-      source: { title: "YogaSix Edgewater", url: e.booking_url || undefined },
+      // Removed "source" field to avoid schema edge cases
     });
   }
 
@@ -183,13 +182,13 @@ async function upsertEvents(calendar, entries) {
     });
 
     for (const item of resp.data.items || []) {
-      if (item.id?.startsWith("y6_")) existing.set(item.id, item);
+      if (item.id?.startsWith("y6")) existing.set(item.id, item);
     }
 
     pageToken = resp.data.nextPageToken || undefined;
   } while (pageToken);
 
-  console.log("Existing y6_ events in window:", existing.size);
+  console.log("Existing y6* events in window:", existing.size);
 
   let created = 0;
   let updated = 0;
@@ -205,7 +204,7 @@ async function upsertEvents(calendar, entries) {
     } else {
       await calendar.events.insert({
         calendarId: CALENDAR_ID,
-        requestBody: ev,
+        requestBody: ev, // includes "id"
       });
       created++;
     }
@@ -226,9 +225,6 @@ async function upsertEvents(calendar, entries) {
 }
 
 async function main() {
-  // Safe debug output (no secrets revealed)
-  console.log("Calendar ID (raw JSON):", JSON.stringify(GOOGLE_CALENDAR_ID_RAW));
-  console.log("Calendar ID (trimmed):", JSON.stringify(CALENDAR_ID));
   console.log("Calendar ID length:", CALENDAR_ID.length);
 
   const entries = await fetchYogaSixEntries();
