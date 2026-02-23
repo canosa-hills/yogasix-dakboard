@@ -139,6 +139,17 @@ async function googleClient() {
   return google.calendar({ version: "v3", auth: oauth2 });
 }
 
+function fingerprintEventFields(ev) {
+  const payload = {
+    summary: ev.summary || "",
+    description: ev.description || "",
+    location: ev.location || "",
+    start: ev.start?.dateTime || "",
+    end: ev.end?.dateTime || "",
+  };
+  return crypto.createHash("sha1").update(JSON.stringify(payload)).digest("hex");
+}
+
 function eventFromEntry(entry) {
   const start = parseDate(entry.starts_at);
   const end = parseDate(entry.ends_at);
@@ -146,7 +157,7 @@ function eventFromEntry(entry) {
 
   const key = stableKey(entry);
 
-  return {
+  const ev = {
     summary: buildSummary(entry),
     description: buildDescription(entry),
     location: "YogaSix Edgewater",
@@ -156,9 +167,15 @@ function eventFromEntry(entry) {
       private: {
         yogasixKey: key,
         yogasixLocation: LOCATION,
+        // yogasixFingerprint gets added below
       },
     },
   };
+
+  // Compute fingerprint after fields are set
+  ev.extendedProperties.private.yogasixFingerprint = fingerprintEventFields(ev);
+
+  return ev;
 }
 
 async function listExisting(calendar, timeMin, timeMax) {
@@ -207,26 +224,36 @@ async function upsertEvents(calendar, entries) {
 
   let created = 0;
   let updated = 0;
+  let skipped = 0;
+  let deleted = 0;
 
-  for (const [key, desiredEvent] of desiredByKey.entries()) {
-    const existing = existingByKey.get(key);
+for (const [key, desiredEvent] of desiredByKey.entries()) {
+  const existing = existingByKey.get(key);
 
-    if (existing?.id) {
-      await calendar.events.patch({
-        calendarId: CALENDAR_ID,
-        eventId: existing.id,
-        requestBody: desiredEvent,
-      });
-      updated++;
-    } else {
-      await calendar.events.insert({
-        calendarId: CALENDAR_ID,
-        requestBody: desiredEvent,
-      });
-      created++;
+  if (existing?.id) {
+    const existingFp = existing.extendedProperties?.private?.yogasixFingerprint || "";
+    const desiredFp  = desiredEvent.extendedProperties?.private?.yogasixFingerprint || "";
+
+    if (existingFp === desiredFp) {
+      skipped++;
+      continue; // No change; skip patch
     }
-  }
 
+    await calendar.events.patch({
+      calendarId: CALENDAR_ID,
+      eventId: existing.id,
+      requestBody: desiredEvent,
+    });
+    updated++;
+  } else {
+    await calendar.events.insert({
+      calendarId: CALENDAR_ID,
+      requestBody: desiredEvent,
+    });
+    created++;
+  }
+}
+  
   let deleted = 0;
   for (const [key, existing] of existingByKey.entries()) {
     if (!desiredByKey.has(key) && existing?.id) {
@@ -238,7 +265,7 @@ async function upsertEvents(calendar, entries) {
     }
   }
 
-  console.log("Created:", created, "Updated:", updated, "Deleted:", deleted);
+  console.log("Created:", created, "Updated:", updated, "Skipped:", skipped, "Deleted:", deleted);
 }
 
 async function main() {
