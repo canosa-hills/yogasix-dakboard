@@ -5,13 +5,12 @@ import { google } from "googleapis";
 const LOCATION = "yogasix-edgewater";
 const STUDIO_TIMEZONE = "America/Denver";
 
-// Secrets (GitHub Actions) — trim to remove invisible whitespace/newlines
 const GOOGLE_CLIENT_ID = (process.env.GOOGLE_CLIENT_ID || "").trim();
 const GOOGLE_CLIENT_SECRET = (process.env.GOOGLE_CLIENT_SECRET || "").trim();
 const GOOGLE_REFRESH_TOKEN = (process.env.GOOGLE_REFRESH_TOKEN || "").trim();
 
 const GOOGLE_CALENDAR_ID_RAW = process.env.GOOGLE_CALENDAR_ID || "";
-const CALENDAR_ID = GOOGLE_CALENDAR_ID_RAW.trim(); // raw ID (do NOT encode for googleapis)
+const CALENDAR_ID = GOOGLE_CALENDAR_ID_RAW.trim();
 
 if (!GOOGLE_CLIENT_ID || !GOOGLE_CLIENT_SECRET || !GOOGLE_REFRESH_TOKEN || !CALENDAR_ID) {
   throw new Error(
@@ -60,7 +59,7 @@ function parseDate(value) {
   return Number.isNaN(d.getTime()) ? null : d;
 }
 
-// --- Categorization (optional labels) ---
+// --- Classification (optional) ---
 function classify(titleRaw = "") {
   const t = titleRaw.toLowerCase();
 
@@ -82,16 +81,15 @@ function classify(titleRaw = "") {
   return "other-classes";
 }
 
-// Stable Google event ID (Google can be picky):
-// Use ONLY lowercase letters + digits. No underscores.
-// Format: "y6" + 40-char hex hash => 42 chars total
-function stableEventId(entry) {
+// This is our stable key for matching events across runs.
+// It can be ANY string; it does not have Google’s restrictive eventId rules.
+function stableKey(entry) {
   const base = entry?.id
     ? `${LOCATION}:${entry.id}`
     : `${LOCATION}:${entry.starts_at || ""}:${entry.title || ""}`;
 
-  const hash = crypto.createHash("sha1").update(base).digest("hex"); // [0-9a-f]
-  return `y6${hash}`; // no underscore
+  // Keep it short-ish but stable
+  return crypto.createHash("sha1").update(base).digest("hex"); // 40 chars
 }
 
 function buildSummary(entry) {
@@ -141,34 +139,30 @@ async function googleClient() {
   return google.calendar({ version: "v3", auth: oauth2 });
 }
 
-async function upsertEvents(calendar, entries) {
-  const desired = new Map();
+function eventFromEntry(entry) {
+  const start = parseDate(entry.starts_at);
+  const end = parseDate(entry.ends_at);
+  if (!start || !end) return null;
 
-  for (const e of entries) {
-    const start = parseDate(e.starts_at);
-    const end = parseDate(e.ends_at);
-    if (!start || !end) continue;
+  const key = stableKey(entry);
 
-    const id = stableEventId(e);
+  return {
+    summary: buildSummary(entry),
+    description: buildDescription(entry),
+    location: "YogaSix Edgewater",
+    start: { dateTime: start.toISOString() },
+    end: { dateTime: end.toISOString() },
+    extendedProperties: {
+      private: {
+        yogasixKey: key,
+        yogasixLocation: LOCATION,
+      },
+    },
+  };
+}
 
-    desired.set(id, {
-      id,
-      summary: buildSummary(e),
-      description: buildDescription(e),
-      location: "YogaSix Edgewater",
-      start: { dateTime: start.toISOString() },
-      end: { dateTime: end.toISOString() },
-      // Removed "source" field to avoid schema edge cases
-    });
-  }
-
-  console.log("Desired events:", desired.size);
-
-  const { start_date, end_date } = getDateRange(30);
-  const timeMin = startOfDayFromYMDInTZ(start_date, STUDIO_TIMEZONE).toISOString();
-  const timeMax = startOfDayFromYMDInTZ(end_date, STUDIO_TIMEZONE).toISOString();
-
-  const existing = new Map();
+async function listExisting(calendar, timeMin, timeMax) {
+  const existingByKey = new Map();
   let pageToken = undefined;
 
   do {
@@ -182,40 +176,63 @@ async function upsertEvents(calendar, entries) {
     });
 
     for (const item of resp.data.items || []) {
-      if (item.id?.startsWith("y6")) existing.set(item.id, item);
+      const key = item.extendedProperties?.private?.yogasixKey;
+      if (key) existingByKey.set(key, item);
     }
 
     pageToken = resp.data.nextPageToken || undefined;
   } while (pageToken);
 
-  console.log("Existing y6* events in window:", existing.size);
+  return existingByKey;
+}
+
+async function upsertEvents(calendar, entries) {
+  const desiredByKey = new Map();
+
+  for (const e of entries) {
+    const ev = eventFromEntry(e);
+    if (!ev) continue;
+    const key = ev.extendedProperties.private.yogasixKey;
+    desiredByKey.set(key, ev);
+  }
+
+  console.log("Desired events:", desiredByKey.size);
+
+  const { start_date, end_date } = getDateRange(30);
+  const timeMin = startOfDayFromYMDInTZ(start_date, STUDIO_TIMEZONE).toISOString();
+  const timeMax = startOfDayFromYMDInTZ(end_date, STUDIO_TIMEZONE).toISOString();
+
+  const existingByKey = await listExisting(calendar, timeMin, timeMax);
+  console.log("Existing events with yogasixKey in window:", existingByKey.size);
 
   let created = 0;
   let updated = 0;
 
-  for (const [id, ev] of desired.entries()) {
-    if (existing.has(id)) {
+  for (const [key, desiredEvent] of desiredByKey.entries()) {
+    const existing = existingByKey.get(key);
+
+    if (existing?.id) {
       await calendar.events.patch({
         calendarId: CALENDAR_ID,
-        eventId: id,
-        requestBody: ev,
+        eventId: existing.id,
+        requestBody: desiredEvent,
       });
       updated++;
     } else {
       await calendar.events.insert({
         calendarId: CALENDAR_ID,
-        requestBody: ev, // includes "id"
+        requestBody: desiredEvent,
       });
       created++;
     }
   }
 
   let deleted = 0;
-  for (const [id] of existing.entries()) {
-    if (!desired.has(id)) {
+  for (const [key, existing] of existingByKey.entries()) {
+    if (!desiredByKey.has(key) && existing?.id) {
       await calendar.events.delete({
         calendarId: CALENDAR_ID,
-        eventId: id,
+        eventId: existing.id,
       });
       deleted++;
     }
@@ -230,7 +247,7 @@ async function main() {
   const entries = await fetchYogaSixEntries();
   const calendar = await googleClient();
 
-  // Sanity check: confirm the token can access the calendar
+  // Sanity check: confirm calendar access
   const cal = await calendar.calendars.get({ calendarId: CALENDAR_ID });
   console.log("Target calendar summary:", cal.data.summary);
 
