@@ -9,10 +9,17 @@ const STUDIO_TIMEZONE = "America/Denver";
 const GOOGLE_CLIENT_ID = (process.env.GOOGLE_CLIENT_ID || "").trim();
 const GOOGLE_CLIENT_SECRET = (process.env.GOOGLE_CLIENT_SECRET || "").trim();
 const GOOGLE_REFRESH_TOKEN = (process.env.GOOGLE_REFRESH_TOKEN || "").trim();
-const CALENDAR_ID = (process.env.GOOGLE_CALENDAR_ID || "").trim();
 
-if (!GOOGLE_CLIENT_ID || !GOOGLE_CLIENT_SECRET || !GOOGLE_REFRESH_TOKEN || !CALENDAR_ID) {
-  throw new Error("Missing one or more required env vars: GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, GOOGLE_REFRESH_TOKEN, GOOGLE_CALENDAR_ID");
+// IMPORTANT: calendarId is frequently broken by invisible whitespace/newlines.
+// We trim AND URL-encode before passing to the API.
+const GOOGLE_CALENDAR_ID_RAW = process.env.GOOGLE_CALENDAR_ID || "";
+const GOOGLE_CALENDAR_ID = GOOGLE_CALENDAR_ID_RAW.trim();
+const CAL_ID = encodeURIComponent(GOOGLE_CALENDAR_ID);
+
+if (!GOOGLE_CLIENT_ID || !GOOGLE_CLIENT_SECRET || !GOOGLE_REFRESH_TOKEN || !GOOGLE_CALENDAR_ID) {
+  throw new Error(
+    "Missing one or more required env vars: GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, GOOGLE_REFRESH_TOKEN, GOOGLE_CALENDAR_ID"
+  );
 }
 
 // --- Time helpers (Denver) ---
@@ -23,22 +30,36 @@ function ymdInTZ(date, timeZone) {
     month: "2-digit",
     day: "2-digit",
   }).formatToParts(date);
+
   const get = (type) => parts.find((p) => p.type === type)?.value;
   return `${get("year")}-${get("month")}-${get("day")}`;
 }
 
+// Returns a Date object representing local "today at 00:00" in the target timezone.
 function startOfTodayInTZ(timeZone) {
   const localNow = new Date(new Date().toLocaleString("en-US", { timeZone }));
   localNow.setHours(0, 0, 0, 0);
   return localNow;
 }
 
+// Build a Date in the target timezone for YYYY-MM-DD at midnight.
+// We do this by creating a local string in that TZ then parsing as Date.
+function startOfDayFromYMDInTZ(ymd, timeZone) {
+  const local = new Date(
+    new Date(`${ymd}T00:00:00`).toLocaleString("en-US", { timeZone })
+  );
+  local.setHours(0, 0, 0, 0);
+  return local;
+}
+
 function getDateRange(days = 30) {
   const now = new Date();
   const start_date = ymdInTZ(now, STUDIO_TIMEZONE);
+
   const end = new Date(now);
   end.setDate(end.getDate() + days);
   const end_date = ymdInTZ(end, STUDIO_TIMEZONE);
+
   return { start_date, end_date };
 }
 
@@ -47,7 +68,7 @@ function parseDate(value) {
   return Number.isNaN(d.getTime()) ? null : d;
 }
 
-// --- Categorization (for calendar coloring/labels later if desired) ---
+// --- Categorization (optional labels for debugging) ---
 function classify(titleRaw = "") {
   const t = titleRaw.toLowerCase();
 
@@ -85,9 +106,11 @@ function stableEventId(entry) {
       ? `${LOCATION}:${entry.id}`
       : `${LOCATION}:${entry.starts_at || ""}:${entry.title || ""}`;
 
-  // Google Calendar eventId rules: 5-1024 chars, lowercase letters/digits/_- only.
+  // Google Calendar eventId rules:
+  // - 5-1024 chars
+  // - allowed: lowercase letters, digits, underscores, hyphens
   const hash = crypto.createHash("sha1").update(base).digest("hex"); // 40 chars
-  return `y6_${hash}`;
+  return `y6_${hash}`; // y6_ + 40 hex = safe
 }
 
 function buildSummary(entry) {
@@ -141,6 +164,7 @@ async function googleClient() {
 
   // Ensure token can refresh
   await oauth2.getAccessToken();
+
   return google.calendar({ version: "v3", auth: oauth2 });
 }
 
@@ -154,6 +178,7 @@ async function upsertEvents(calendar, entries) {
     if (!start || !end) continue;
 
     const id = stableEventId(e);
+
     desired.set(id, {
       id,
       summary: buildSummary(e),
@@ -167,17 +192,18 @@ async function upsertEvents(calendar, entries) {
 
   console.log("Desired events:", desired.size);
 
-  // Pull existing events in the same window (30 days from today)
+  // Pull existing events in the same window (30 days from today) in Denver time
   const { start_date, end_date } = getDateRange(30);
-  const timeMin = new Date(`${start_date}T00:00:00.000-07:00`).toISOString(); // Denver offset varies, but ISO is OK for query
-  const timeMax = new Date(`${end_date}T23:59:59.999-07:00`).toISOString();
+
+  const timeMin = startOfDayFromYMDInTZ(start_date, STUDIO_TIMEZONE).toISOString();
+  const timeMax = startOfDayFromYMDInTZ(end_date, STUDIO_TIMEZONE).toISOString();
 
   const existing = new Map();
   let pageToken = undefined;
 
   do {
     const resp = await calendar.events.list({
-      calendarId: CALENDAR_ID,
+      calendarId: CAL_ID,
       timeMin,
       timeMax,
       singleEvents: true,
@@ -201,14 +227,14 @@ async function upsertEvents(calendar, entries) {
   for (const [id, ev] of desired.entries()) {
     if (existing.has(id)) {
       await calendar.events.patch({
-        calendarId: CALENDAR_ID,
+        calendarId: CAL_ID,
         eventId: id,
         requestBody: ev,
       });
       updated++;
     } else {
       await calendar.events.insert({
-        calendarId: CALENDAR_ID,
+        calendarId: CAL_ID,
         requestBody: ev,
       });
       created++;
@@ -220,7 +246,7 @@ async function upsertEvents(calendar, entries) {
   for (const [id] of existing.entries()) {
     if (!desired.has(id)) {
       await calendar.events.delete({
-        calendarId: CALENDAR_ID,
+        calendarId: CAL_ID,
         eventId: id,
       });
       deleted++;
@@ -231,8 +257,18 @@ async function upsertEvents(calendar, entries) {
 }
 
 async function main() {
+  // Debug prints that help diagnose hidden whitespace and calendar ID issues
+  console.log("Calendar ID (raw JSON):", JSON.stringify(GOOGLE_CALENDAR_ID_RAW));
+  console.log("Calendar ID (trimmed):", JSON.stringify(GOOGLE_CALENDAR_ID));
+  console.log("Calendar ID length:", GOOGLE_CALENDAR_ID.length);
+
   const entries = await fetchYogaSixEntries();
   const calendar = await googleClient();
+
+  // Sanity check: can we access the calendar?
+  const cal = await calendar.calendars.get({ calendarId: CAL_ID });
+  console.log("Target calendar summary:", cal.data.summary);
+
   await upsertEvents(calendar, entries);
 
   // Optional: write a small status file for debugging
