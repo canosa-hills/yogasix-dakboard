@@ -9,12 +9,10 @@ const STUDIO_TIMEZONE = "America/Denver";
 const GOOGLE_CLIENT_ID = process.env.GOOGLE_CLIENT_ID;
 const GOOGLE_CLIENT_SECRET = process.env.GOOGLE_CLIENT_SECRET;
 const GOOGLE_REFRESH_TOKEN = process.env.GOOGLE_REFRESH_TOKEN;
-const GOOGLE_CALENDAR_ID = process.env.GOOGLE_CALENDAR_ID;
+const CALENDAR_ID = (process.env.GOOGLE_CALENDAR_ID || "").trim();
 
-if (!GOOGLE_CLIENT_ID || !GOOGLE_CLIENT_SECRET || !GOOGLE_REFRESH_TOKEN || !GOOGLE_CALENDAR_ID) {
-  throw new Error(
-    "Missing one or more required env vars: GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, GOOGLE_REFRESH_TOKEN, GOOGLE_CALENDAR_ID"
-  );
+if (!GOOGLE_CLIENT_ID || !GOOGLE_CLIENT_SECRET || !GOOGLE_REFRESH_TOKEN || !CALENDAR_ID) {
+  throw new Error("Missing one or more required env vars: GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, GOOGLE_REFRESH_TOKEN, GOOGLE_CALENDAR_ID");
 }
 
 // --- Time helpers (Denver) ---
@@ -179,7 +177,7 @@ async function upsertEvents(calendar, entries) {
 
   do {
     const resp = await calendar.events.list({
-      calendarId: GOOGLE_CALENDAR_ID,
+      calendarId: CALENDAR_ID,
       timeMin,
       timeMax,
       singleEvents: true,
@@ -203,14 +201,14 @@ async function upsertEvents(calendar, entries) {
   for (const [id, ev] of desired.entries()) {
     if (existing.has(id)) {
       await calendar.events.patch({
-        calendarId: GOOGLE_CALENDAR_ID,
+        calendarId: CALENDAR_ID,
         eventId: id,
         requestBody: ev,
       });
       updated++;
     } else {
       await calendar.events.insert({
-        calendarId: GOOGLE_CALENDAR_ID,
+        calendarId: CALENDAR_ID,
         requestBody: ev,
       });
       created++;
@@ -222,7 +220,7 @@ async function upsertEvents(calendar, entries) {
   for (const [id] of existing.entries()) {
     if (!desired.has(id)) {
       await calendar.events.delete({
-        calendarId: GOOGLE_CALENDAR_ID,
+        calendarId: CALENDAR_ID,
         eventId: id,
       });
       deleted++;
