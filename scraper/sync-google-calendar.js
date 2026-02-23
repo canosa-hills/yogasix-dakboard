@@ -254,7 +254,7 @@ for (const [key, desiredEvent] of desiredByKey.entries()) {
   }
 }
   
-  let deleted = 0;
+
   for (const [key, existing] of existingByKey.entries()) {
     if (!desiredByKey.has(key) && existing?.id) {
       await calendar.events.delete({
