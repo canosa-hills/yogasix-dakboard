@@ -1,29 +1,26 @@
-name: Build + Deploy YogaSix ICS (Full Refresh)
+name: Build + Deploy YogaSix ICS
 
 on:
   workflow_dispatch:
-  # Run on any commit to main (detect changes in repo)
-  push:
-    branches: ["main"]
-  # Run every 6 hours at :15 UTC (keeps your existing cadence)
   schedule:
+    # ICS build/deploy cadence (Denver midnight is 07:00Z or 06:00Z depending on DST; we handle with extra runs)
     - cron: "15 */6 * * *"
-    # Run daily at 07:00 UTC = 00:00 Denver during STANDARD time (winter)
-    - cron: "0 7 * * *"
-    # Run daily at 06:00 UTC = 00:00 Denver during DAYLIGHT time (summer)
-    - cron: "0 6 * * *"
+    # Near-real-time Google Calendar sync (spots + changes)
+    - cron: "*/15 * * * *"
 
 concurrency:
-  group: yogasix-ics-full
+  group: ${{ github.workflow }}
   cancel-in-progress: true
 
 permissions:
   contents: write
 
 jobs:
-  build:
+  build_and_deploy_ics:
+    # Only run this job on workflow_dispatch OR the 6-hour schedule
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.schedule == '15 */6 * * *' }}
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 15
 
     steps:
       - name: Checkout
@@ -37,11 +34,12 @@ jobs:
       - name: Install dependencies
         working-directory: scraper
         run: |
-          npm install
+          npm ci || npm install
+          npx playwright install --with-deps chromium
 
-      - name: Generate ICS (full)
+      - name: Generate ICS
         env:
-          MODE: full
+          YOGASIX_COOKIES_JSON: ${{ secrets.YOGASIX_COOKIES_JSON }}
         run: node scraper/scrape.js
 
       - name: Deploy to GitHub Pages
@@ -49,3 +47,31 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
+
+  sync_google_calendar:
+    # Only run this job on workflow_dispatch OR the 15-minute schedule
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.schedule == '*/15 * * * *' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        working-directory: scraper
+        run: |
+          npm ci || npm install
+
+      - name: Sync Google Calendar (near-real-time)
+        env:
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+          GOOGLE_CALENDAR_ID: ${{ secrets.GOOGLE_CALENDAR_ID }}
+        run: node scraper/sync-google-calendar.js
