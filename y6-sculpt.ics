@@ -4,9 +4,9 @@ PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — Sculpt
 X-WR-CALNAME:YogaSix Edgewater — Sculpt
 BEGIN:VEVENT
-UID:3b26f9b6-6b6d-4ddf-8dce-a326ae0ff60c
+UID:76fe70e9-c0b6-46bb-b7be-e29ebfdd6fba
 SEQUENCE:0
-DTSTAMP:20260616T220001Z
+DTSTAMP:20260616T234250Z
 DTSTART:20260616T133000Z
 DTEND:20260616T141500Z
 SUMMARY:Y6 Sculpt & Flow Express (45m) — Jess Markowitz — 18 spots
@@ -17,12 +17,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906145
  64
 END:VEVENT
 BEGIN:VEVENT
-UID:80022d23-5da1-4eef-98a7-b8289b6f49a1
+UID:ace3c330-fdd2-4f96-8b1f-dbf9e455ef9d
 SEQUENCE:0
-DTSTAMP:20260616T220001Z
+DTSTAMP:20260616T234250Z
 DTSTART:20260617T233000Z
 DTEND:20260618T003000Z
-SUMMARY:Y6 Sculpt & Flow  — Di C. — 26 spots
+SUMMARY:Y6 Sculpt — Di C. — 26 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90615951
@@ -30,12 +30,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906159
  51
 END:VEVENT
 BEGIN:VEVENT
-UID:9fbb8475-6ab3-4dbd-87ab-6cb470113ece
+UID:66a24b12-d6f0-4b9f-956e-4a96c7a5a34a
 SEQUENCE:0
-DTSTAMP:20260616T220001Z
+DTSTAMP:20260616T234250Z
 DTSTART:20260618T120000Z
 DTEND:20260618T130000Z
-SUMMARY:Y6 Sculpt & Flow  — Jane Krumholz — 25 spots
+SUMMARY:Y6 Sculpt — Jane Krumholz — 25 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90616129
@@ -43,12 +43,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906161
  29
 END:VEVENT
 BEGIN:VEVENT
-UID:0a49b1a6-a76e-4028-83a6-70d119ff6f62
+UID:b7cf51a7-953f-4b19-ac27-47421654e214
 SEQUENCE:0
-DTSTAMP:20260616T220001Z
+DTSTAMP:20260616T234250Z
 DTSTART:20260618T220000Z
 DTEND:20260618T230000Z
-SUMMARY:Y6 Sculpt & Flow  — Jess Markowitz — 27 spots
+SUMMARY:Y6 Sculpt — Jess Markowitz — 27 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90616563
@@ -56,12 +56,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906165
  63
 END:VEVENT
 BEGIN:VEVENT
-UID:b30e220f-9a93-4075-bf94-e73c0534c0f0
+UID:6c92e4b2-2b83-4420-8d94-108ace8cd123
 SEQUENCE:0
-DTSTAMP:20260616T220001Z
+DTSTAMP:20260616T234250Z
 DTSTART:20260619T220000Z
 DTEND:20260619T230000Z
-SUMMARY:Y6 Sculpt & Flow  — Kelsey Samson — 27 spots
+SUMMARY:Y6 Sculpt — Kelsey Samson — 27 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90337162
@@ -69,12 +69,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903371
  62
 END:VEVENT
 BEGIN:VEVENT
-UID:d9a7fa6b-98af-4069-be85-26889c856591
+UID:2e127b12-c56a-478d-bf8e-c74fa0dcc494
 SEQUENCE:0
-DTSTAMP:20260616T220001Z
+DTSTAMP:20260616T234250Z
 DTSTART:20260620T163000Z
 DTEND:20260620T173000Z
-SUMMARY:Y6 Sculpt & Flow  — Kristin Winkel — 26 spots
+SUMMARY:Y6 Sculpt — Kristin Winkel — 26 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90337472
@@ -82,12 +82,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903374
  72
 END:VEVENT
 BEGIN:VEVENT
-UID:10111e60-f92c-4e8a-9299-aa96f0892590
+UID:f65f1ece-e50e-411e-b244-a03a64aff78c
 SEQUENCE:0
-DTSTAMP:20260616T220001Z
+DTSTAMP:20260616T234250Z
 DTSTART:20260621T150000Z
 DTEND:20260621T160000Z
-SUMMARY:Y6 Sculpt & Flow  — Kristin Winkel — 27 spots
+SUMMARY:Y6 Sculpt — Kristin Winkel — 27 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90336252
@@ -95,22 +95,22 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903362
  52
 END:VEVENT
 BEGIN:VEVENT
-UID:a7adf82b-c82c-466c-889d-f99a783652d3
+UID:3c67c42a-1639-4a02-bb8b-bd98e5da4914
 SEQUENCE:0
-DTSTAMP:20260616T220001Z
+DTSTAMP:20260616T234250Z
 DTSTART:20260622T233000Z
 DTEND:20260623T003000Z
 SUMMARY:Emo Sculpt! — Jane Krumholz — 26 spots
 LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Sculpt & Flow \nCapacity: 30\nWaitlist: 0\nBook: htt
- ps://members.yogasix.com/book/yogasix-edgewater/cr_90382144
+DESCRIPTION:Notes: Y6 Sculpt\nCapacity: 30\nWaitlist: 0\nBook: https://mem
+ bers.yogasix.com/book/yogasix-edgewater/cr_90382144
 URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903821
  44
 END:VEVENT
 BEGIN:VEVENT
-UID:8166fcd1-c759-44ca-897c-8a3f11920733
+UID:d4ae767e-6dc6-4e4c-a8a4-7eada2ce2fcd
 SEQUENCE:0
-DTSTAMP:20260616T220001Z
+DTSTAMP:20260616T234250Z
 DTSTART:20260623T133000Z
 DTEND:20260623T141500Z
 SUMMARY:Y6 Sculpt & Flow Express (45m) — Kristin Winkel — 29 spots
@@ -121,12 +121,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906145
  66
 END:VEVENT
 BEGIN:VEVENT
-UID:4f6581e1-81a4-4796-a41c-ac73f9ea7298
+UID:a0fe6154-e0ee-4315-86de-2411d9442905
 SEQUENCE:0
-DTSTAMP:20260616T220001Z
+DTSTAMP:20260616T234250Z
 DTSTART:20260624T233000Z
 DTEND:20260625T003000Z
-SUMMARY:Y6 Sculpt & Flow  — Kristin Winkel — 30 spots
+SUMMARY:Y6 Sculpt — Kristin Winkel — 30 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90615952
@@ -134,12 +134,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906159
  52
 END:VEVENT
 BEGIN:VEVENT
-UID:baa59a23-e489-4a4f-ace4-12e9b47ccc63
+UID:00d18bc3-6bbc-4ce4-b0c7-79d1186efc43
 SEQUENCE:0
-DTSTAMP:20260616T220001Z
+DTSTAMP:20260616T234250Z
 DTSTART:20260625T120000Z
 DTEND:20260625T130000Z
-SUMMARY:Y6 Sculpt & Flow  — Scotty Guynn — 29 spots
+SUMMARY:Y6 Sculpt — Scotty Guynn — 29 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90616130
@@ -147,12 +147,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906161
  30
 END:VEVENT
 BEGIN:VEVENT
-UID:3aa11686-34d1-43f3-9ffe-5dd9bbc4fb63
+UID:29523e5a-f074-4a66-b2a6-111bd1dbf5f7
 SEQUENCE:0
-DTSTAMP:20260616T220001Z
+DTSTAMP:20260616T234250Z
 DTSTART:20260625T220000Z
 DTEND:20260625T230000Z
-SUMMARY:Y6 Sculpt & Flow  — Scotty Guynn — 29 spots
+SUMMARY:Y6 Sculpt — Scotty Guynn — 29 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90616564
@@ -160,12 +160,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906165
  64
 END:VEVENT
 BEGIN:VEVENT
-UID:b381d4ab-3b9d-48a3-9d2d-236f99062684
+UID:3ec54be7-0b74-46dc-83ff-948a39bfb17b
 SEQUENCE:0
-DTSTAMP:20260616T220001Z
+DTSTAMP:20260616T234250Z
 DTSTART:20260626T220000Z
 DTEND:20260626T230000Z
-SUMMARY:Y6 Sculpt & Flow  — Kelsey Samson — 26 spots
+SUMMARY:Y6 Sculpt — Kelsey Samson — 26 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90337163
@@ -173,12 +173,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903371
  63
 END:VEVENT
 BEGIN:VEVENT
-UID:684b73df-f19e-47f3-9c67-46426ca8f3ac
+UID:9e84b4cf-f7a9-4458-928d-cc72b9373794
 SEQUENCE:0
-DTSTAMP:20260616T220001Z
+DTSTAMP:20260616T234250Z
 DTSTART:20260627T163000Z
 DTEND:20260627T173000Z
-SUMMARY:Y6 Sculpt & Flow  — Mariah J. — 29 spots
+SUMMARY:Y6 Sculpt — Mariah J. — 29 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90337473
@@ -186,12 +186,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903374
  73
 END:VEVENT
 BEGIN:VEVENT
-UID:439c9515-e23c-45b1-a17e-357c5fea2d44
+UID:c387d109-67df-49cc-82ce-b187bc64f51f
 SEQUENCE:0
-DTSTAMP:20260616T220001Z
+DTSTAMP:20260616T234250Z
 DTSTART:20260628T150000Z
 DTEND:20260628T160000Z
-SUMMARY:Y6 Sculpt & Flow  — Di C. — 29 spots
+SUMMARY:Y6 Sculpt — Di C. — 29 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90336253
@@ -199,12 +199,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903362
  53
 END:VEVENT
 BEGIN:VEVENT
-UID:19a6bab3-8ed6-43ea-8f08-b2cad9cd781a
+UID:4f515ee8-eeda-4801-9456-ca9dc4925f76
 SEQUENCE:0
-DTSTAMP:20260616T220001Z
+DTSTAMP:20260616T234250Z
 DTSTART:20260629T233000Z
 DTEND:20260630T003000Z
-SUMMARY:Y6 Sculpt & Flow  — Jane Krumholz — 28 spots
+SUMMARY:Y6 Sculpt — Jane Krumholz — 28 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90382145
@@ -212,9 +212,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903821
  45
 END:VEVENT
 BEGIN:VEVENT
-UID:8a6c953b-ce08-44e0-af1c-a401cec588df
+UID:c545894c-2706-46bb-8873-f06f30b293d7
 SEQUENCE:0
-DTSTAMP:20260616T220001Z
+DTSTAMP:20260616T234250Z
 DTSTART:20260630T133000Z
 DTEND:20260630T141500Z
 SUMMARY:Y6 Sculpt & Flow Express (45m) — Jess Markowitz — 30 spots
@@ -225,12 +225,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906145
  67
 END:VEVENT
 BEGIN:VEVENT
-UID:244fffc7-0fa2-446c-8235-b75f3073b231
+UID:e26edef9-14c9-4882-8658-4c38aa300441
 SEQUENCE:0
-DTSTAMP:20260616T220001Z
+DTSTAMP:20260616T234250Z
 DTSTART:20260701T233000Z
 DTEND:20260702T003000Z
-SUMMARY:Y6 Sculpt & Flow  — Kristin Winkel — 30 spots
+SUMMARY:Y6 Sculpt — Kristin Winkel — 30 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90615953
@@ -238,12 +238,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906159
  53
 END:VEVENT
 BEGIN:VEVENT
-UID:89c26179-96d9-4bc0-a4c0-1ff04ba3b3d8
+UID:06830ec2-b8a5-4bd0-af14-7d81b26dcb2c
 SEQUENCE:0
-DTSTAMP:20260616T220001Z
+DTSTAMP:20260616T234250Z
 DTSTART:20260702T120000Z
 DTEND:20260702T130000Z
-SUMMARY:Y6 Sculpt & Flow  — Jane Krumholz — 30 spots
+SUMMARY:Y6 Sculpt — Jane Krumholz — 30 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90616131
@@ -251,12 +251,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906161
  31
 END:VEVENT
 BEGIN:VEVENT
-UID:3e960b4a-57ca-4a1d-a391-34de2bbee023
+UID:df17f511-5569-4705-ac32-7bb6d7384cad
 SEQUENCE:0
-DTSTAMP:20260616T220001Z
+DTSTAMP:20260616T234250Z
 DTSTART:20260702T220000Z
 DTEND:20260702T230000Z
-SUMMARY:Y6 Sculpt & Flow  — Jess Markowitz — 30 spots
+SUMMARY:Y6 Sculpt — Jess Markowitz — 30 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90616565
@@ -264,12 +264,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906165
  65
 END:VEVENT
 BEGIN:VEVENT
-UID:e5349f3f-80f2-4505-b59c-125b260cfdba
+UID:140136b6-dfe8-4607-8b8c-033eda25d085
 SEQUENCE:0
-DTSTAMP:20260616T220001Z
+DTSTAMP:20260616T234250Z
 DTSTART:20260704T163000Z
 DTEND:20260704T173000Z
-SUMMARY:Y6 Sculpt & Flow  — Mariah J. — 30 spots
+SUMMARY:Y6 Sculpt — Mariah J. — 30 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90337474
@@ -277,12 +277,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903374
  74
 END:VEVENT
 BEGIN:VEVENT
-UID:fbf6acf8-8b10-4e49-91ed-7d24a160a88a
+UID:faa8927c-ceb6-44fc-a6b1-6571c2d78d10
 SEQUENCE:0
-DTSTAMP:20260616T220001Z
+DTSTAMP:20260616T234250Z
 DTSTART:20260705T150000Z
 DTEND:20260705T160000Z
-SUMMARY:Y6 Sculpt & Flow  — Di C. — 30 spots
+SUMMARY:Y6 Sculpt — Di C. — 30 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90336254
@@ -290,12 +290,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903362
  54
 END:VEVENT
 BEGIN:VEVENT
-UID:028bf3c2-be45-4f8a-ad94-4ad6b1285286
+UID:c26c0818-20f9-4369-b771-c0e0bc4a10a3
 SEQUENCE:0
-DTSTAMP:20260616T220001Z
+DTSTAMP:20260616T234250Z
 DTSTART:20260706T233000Z
 DTEND:20260707T003000Z
-SUMMARY:Y6 Sculpt & Flow  — Jane Krumholz — 30 spots
+SUMMARY:Y6 Sculpt — Jane Krumholz — 30 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90382146
@@ -303,9 +303,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903821
  46
 END:VEVENT
 BEGIN:VEVENT
-UID:6a11f3b0-bf9a-4a04-b6b0-8b39b4b67a34
+UID:0d3ec8fb-6b8c-4d5d-9df1-20d6bbef7377
 SEQUENCE:0
-DTSTAMP:20260616T220001Z
+DTSTAMP:20260616T234250Z
 DTSTART:20260707T133000Z
 DTEND:20260707T141500Z
 SUMMARY:Y6 Sculpt & Flow Express (45m) — Jess Markowitz — 30 spots
@@ -316,12 +316,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906145
  68
 END:VEVENT
 BEGIN:VEVENT
-UID:05f2bb11-a936-4240-b34b-10b9af9785de
+UID:607d9f7a-4581-4d2b-a1c4-792fcad16b3b
 SEQUENCE:0
-DTSTAMP:20260616T220001Z
+DTSTAMP:20260616T234250Z
 DTSTART:20260708T233000Z
 DTEND:20260709T003000Z
-SUMMARY:Y6 Sculpt & Flow  — Kristin Winkel — 30 spots
+SUMMARY:Y6 Sculpt — Kristin Winkel — 30 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90615954
@@ -329,12 +329,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906159
  54
 END:VEVENT
 BEGIN:VEVENT
-UID:7583771b-954b-4a28-85fe-73d1fd58bbd0
+UID:8c8f7ec6-f813-4b0c-a55c-42c0f2f7e52a
 SEQUENCE:0
-DTSTAMP:20260616T220001Z
+DTSTAMP:20260616T234250Z
 DTSTART:20260709T120000Z
 DTEND:20260709T130000Z
-SUMMARY:Y6 Sculpt & Flow  — Jane Krumholz — 30 spots
+SUMMARY:Y6 Sculpt — Jane Krumholz — 30 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90616132
@@ -342,12 +342,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906161
  32
 END:VEVENT
 BEGIN:VEVENT
-UID:51798fb7-55a1-4119-8707-3e6692b0c6a4
+UID:2fccb121-ff9b-4ee6-943a-8010777d3ccb
 SEQUENCE:0
-DTSTAMP:20260616T220001Z
+DTSTAMP:20260616T234250Z
 DTSTART:20260709T220000Z
 DTEND:20260709T230000Z
-SUMMARY:Y6 Sculpt & Flow  — Jess Markowitz — 30 spots
+SUMMARY:Y6 Sculpt — Jess Markowitz — 30 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90616566
@@ -355,12 +355,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906165
  66
 END:VEVENT
 BEGIN:VEVENT
-UID:c4854336-ae17-4296-9992-91eb3132e204
+UID:8a504586-563e-47e5-9c66-d489023a3594
 SEQUENCE:0
-DTSTAMP:20260616T220001Z
+DTSTAMP:20260616T234250Z
 DTSTART:20260710T220000Z
 DTEND:20260710T230000Z
-SUMMARY:Y6 Sculpt & Flow  — Kelsey Samson — 30 spots
+SUMMARY:Y6 Sculpt — Kelsey Samson — 30 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90337165
@@ -368,12 +368,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903371
  65
 END:VEVENT
 BEGIN:VEVENT
-UID:126f25d2-d557-4a61-9bb0-4d225c109580
+UID:5c0458d6-c793-4b5b-9085-d618f61fd7df
 SEQUENCE:0
-DTSTAMP:20260616T220001Z
+DTSTAMP:20260616T234250Z
 DTSTART:20260711T163000Z
 DTEND:20260711T173000Z
-SUMMARY:Y6 Sculpt & Flow  — Mariah J. — 30 spots
+SUMMARY:Y6 Sculpt — Mariah J. — 30 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90337475
@@ -381,12 +381,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903374
  75
 END:VEVENT
 BEGIN:VEVENT
-UID:b81138bf-9586-44f6-a6b3-7c00f7cb65cf
+UID:2e7cde78-f5db-4bda-8dd4-189b8b138603
 SEQUENCE:0
-DTSTAMP:20260616T220001Z
+DTSTAMP:20260616T234250Z
 DTSTART:20260712T150000Z
 DTEND:20260712T160000Z
-SUMMARY:Y6 Sculpt & Flow  — Jess Markowitz — 30 spots
+SUMMARY:Y6 Sculpt — Jess Markowitz — 30 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90336255
@@ -394,12 +394,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903362
  55
 END:VEVENT
 BEGIN:VEVENT
-UID:e39a88d5-e661-402c-8376-b56b32293d48
+UID:505f76ae-122f-4418-b147-3af78cfbc11c
 SEQUENCE:0
-DTSTAMP:20260616T220001Z
+DTSTAMP:20260616T234250Z
 DTSTART:20260713T233000Z
 DTEND:20260714T003000Z
-SUMMARY:Y6 Sculpt & Flow  — Jane Krumholz — 30 spots
+SUMMARY:Y6 Sculpt — Jane Krumholz — 30 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90382147
@@ -407,9 +407,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903821
  47
 END:VEVENT
 BEGIN:VEVENT
-UID:875bfedb-db08-4c11-b404-d1046279df61
+UID:aea0127b-2ce4-4044-be28-814f8a116527
 SEQUENCE:0
-DTSTAMP:20260616T220001Z
+DTSTAMP:20260616T234250Z
 DTSTART:20260714T133000Z
 DTEND:20260714T141500Z
 SUMMARY:Y6 Sculpt & Flow Express (45m) — Jess Markowitz — 30 spots
@@ -420,12 +420,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906145
  69
 END:VEVENT
 BEGIN:VEVENT
-UID:32057ccd-133b-4d27-b2ae-df98efa162ee
+UID:38d1fcf0-870b-48c2-b146-4e1d387319af
 SEQUENCE:0
-DTSTAMP:20260616T220001Z
+DTSTAMP:20260616T234250Z
 DTSTART:20260715T233000Z
 DTEND:20260716T003000Z
-SUMMARY:Y6 Sculpt & Flow  — Kristin Winkel — 30 spots
+SUMMARY:Y6 Sculpt — Kristin Winkel — 30 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90615955
