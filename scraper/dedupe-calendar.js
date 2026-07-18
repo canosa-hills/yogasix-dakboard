@@ -1,4 +1,9 @@
 import { google } from "googleapis";
+import { withRetry, sleepMs } from "./lib/google-retry.js";
+
+// Small pause between sequential deletes to stay under Google Calendar's per-user rate limit —
+// cheap insurance against a large backlog of duplicates tripping the limit in the first place.
+const DELETE_THROTTLE_MS = 150;
 
 // One-off cleanup for the Google Calendar duplication that built up while the sync job was
 // getting cancelled mid-run (see README). Finds every event tagged with a yogasixKey, and for
@@ -33,12 +38,14 @@ async function main() {
   let scanned = 0;
 
   do {
-    const resp = await calendar.events.list({
-      calendarId: CALENDAR_ID,
-      singleEvents: true,
-      maxResults: 2500,
-      pageToken,
-    });
+    const resp = await withRetry(() =>
+      calendar.events.list({
+        calendarId: CALENDAR_ID,
+        singleEvents: true,
+        maxResults: 2500,
+        pageToken,
+      })
+    );
 
     for (const item of resp.data.items || []) {
       const key = item.extendedProperties?.private?.yogasixKey;
@@ -67,12 +74,15 @@ async function main() {
 
     for (const dup of duplicates) {
       try {
-        await calendar.events.delete({ calendarId: CALENDAR_ID, eventId: dup.id });
+        await withRetry(() =>
+          calendar.events.delete({ calendarId: CALENDAR_ID, eventId: dup.id })
+        );
         deleted++;
       } catch (err) {
         failed++;
         console.error(`Failed to delete duplicate (key=${key}, id=${dup.id}):`, err.message);
       }
+      await sleepMs(DELETE_THROTTLE_MS);
     }
   }
 

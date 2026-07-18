@@ -2,6 +2,10 @@ import fs from "node:fs";
 import crypto from "node:crypto";
 import { google } from "googleapis";
 import { classify } from "./lib/classify.js";
+import { withRetry, sleepMs } from "./lib/google-retry.js";
+
+// Small pause between sequential writes to stay under Google Calendar's per-user rate limit.
+const WRITE_THROTTLE_MS = 100;
 
 const LOCATION = "yogasix-edgewater";
 const STUDIO_TIMEZONE = "America/Denver";
@@ -191,14 +195,16 @@ async function listExisting(calendar, timeMin, timeMax) {
   let pageToken = undefined;
 
   do {
-    const resp = await calendar.events.list({
-      calendarId: CALENDAR_ID,
-      timeMin,
-      timeMax,
-      singleEvents: true,
-      maxResults: 2500,
-      pageToken,
-    });
+    const resp = await withRetry(() =>
+      calendar.events.list({
+        calendarId: CALENDAR_ID,
+        timeMin,
+        timeMax,
+        singleEvents: true,
+        maxResults: 2500,
+        pageToken,
+      })
+    );
 
     for (const item of resp.data.items || []) {
       const key = item.extendedProperties?.private?.yogasixKey;
@@ -256,17 +262,21 @@ async function upsertEvents(calendar, entries) {
           continue; // No change; skip patch
         }
 
-        await calendar.events.patch({
-          calendarId: CALENDAR_ID,
-          eventId: existing.id,
-          requestBody: desiredEvent,
-        });
+        await withRetry(() =>
+          calendar.events.patch({
+            calendarId: CALENDAR_ID,
+            eventId: existing.id,
+            requestBody: desiredEvent,
+          })
+        );
         updated++;
       } else {
-        await calendar.events.insert({
-          calendarId: CALENDAR_ID,
-          requestBody: desiredEvent,
-        });
+        await withRetry(() =>
+          calendar.events.insert({
+            calendarId: CALENDAR_ID,
+            requestBody: desiredEvent,
+          })
+        );
         created++;
       }
     } catch (err) {
@@ -275,20 +285,24 @@ async function upsertEvents(calendar, entries) {
       failed++;
       console.error(`Failed to upsert event (key=${key}):`, err.message);
     }
+    await sleepMs(WRITE_THROTTLE_MS);
   }
 
   for (const [key, existing] of existingByKey.entries()) {
     if (!desiredByKey.has(key) && existing?.id) {
       try {
-        await calendar.events.delete({
-          calendarId: CALENDAR_ID,
-          eventId: existing.id,
-        });
+        await withRetry(() =>
+          calendar.events.delete({
+            calendarId: CALENDAR_ID,
+            eventId: existing.id,
+          })
+        );
         deleted++;
       } catch (err) {
         failed++;
         console.error(`Failed to delete stale event (key=${key}, id=${existing.id}):`, err.message);
       }
+      await sleepMs(WRITE_THROTTLE_MS);
     }
   }
 
