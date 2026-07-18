@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sebbo.net//ical-generator//EN
+NAME:YogaSix Edgewater — Special Events / Workshops
+X-WR-CALNAME:YogaSix Edgewater — Special Events / Workshops
+BEGIN:VEVENT
+UID:d33ff46f-0b70-4d3c-91f1-c785d0763f11
+SEQUENCE:0
+DTSTAMP:20260718T222945Z
+DTSTART:20260719T193000Z
+DTEND:20260719T203000Z
+SUMMARY:TRX Pilates Pop-Up! — Kristin W — 5 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Workshop 60 (Free for Members)\nCapacity: 14\nWaitlist:
+  0\nBook: https://members.yogasix.com/book/yogasix-edgewater/cr_98716126
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_987161
+ 26
+END:VEVENT
+END:VCALENDAR
