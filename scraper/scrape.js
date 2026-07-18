@@ -1,8 +1,11 @@
 import ical from "ical-generator";
 import fs from "node:fs";
+import { classify, CATEGORY_META } from "./lib/classify.js";
 
 const LOCATION = "yogasix-edgewater";
 const STUDIO_TIMEZONE = "America/Denver";
+const FETCH_RETRIES = 3;
+const FETCH_RETRY_DELAY_MS = 2000;
 
 // MODE:
 // - "full"  = fetch schedule + write cache + generate ICS
@@ -44,19 +47,8 @@ function parseDate(value) {
   return Number.isNaN(d.getTime()) ? null : d;
 }
 
-// ---------- Classification / calendars ----------
-// You can expand this later; this keeps your existing behavior intact.
-function classify(titleRaw = "") {
-  const t = titleRaw.toLowerCase();
-
-  if (t.includes("sculpt")) return "sculpt";
-  if (t.includes("power")) return "power";
-  if (t.includes("signature hot")) return "signature-hot";
-  if (t.includes("restore") || t.includes("yin")) return "restore-yin";
-  if (t.includes("slow flow")) return "slow-flow";
-  if (t.includes("mobility")) return "mobility";
-
-  return "other";
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 function makeCalendar(name) {
@@ -72,6 +64,15 @@ function ensureDirs() {
   fs.mkdirSync(CACHE_DIR, { recursive: true });
 }
 
+// Keep only classes starting today or later (Denver), so the cache never grows unbounded and
+// the spots-only refresh only ever touches current/future classes.
+function pruneToTodayForward(entries, todayStart) {
+  return entries.filter((e) => {
+    const start = parseDate(e.starts_at);
+    return start && start >= todayStart;
+  });
+}
+
 function writeCache(entries) {
   ensureDirs();
   fs.writeFileSync(CACHE_FILE, JSON.stringify(entries, null, 2), "utf8");
@@ -85,14 +86,24 @@ function readCache() {
 // ---------- API fetch ----------
 async function fetchSchedule(start_date, end_date) {
   const url = `https://members.yogasix.com/api/v2/locations/${LOCATION}/schedule_entries?start_date=${start_date}&end_date=${end_date}`;
-  console.log("Fetching schedule from:", url);
 
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`Schedule API failed: ${res.status}`);
+  let lastErr;
+  for (let attempt = 1; attempt <= FETCH_RETRIES; attempt++) {
+    try {
+      console.log(`Fetching schedule from (attempt ${attempt}/${FETCH_RETRIES}):`, url);
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(`Schedule API failed: ${res.status}`);
 
-  const data = await res.json();
-  // API sometimes returns array, sometimes object
-  return Array.isArray(data) ? data : (data.schedule_entries || []);
+      const data = await res.json();
+      // API sometimes returns array, sometimes object
+      return Array.isArray(data) ? data : (data.schedule_entries || []);
+    } catch (err) {
+      lastErr = err;
+      console.error(`Fetch attempt ${attempt} failed:`, err.message);
+      if (attempt < FETCH_RETRIES) await sleep(FETCH_RETRY_DELAY_MS * attempt);
+    }
+  }
+  throw lastErr;
 }
 
 // In "spots" mode, we re-fetch the same date window, then map free_spots/capacity/waitlist fields
@@ -132,6 +143,7 @@ async function main() {
   ensureDirs();
 
   const { start_date, end_date } = getDateRange(30);
+  const todayStart = startOfTodayInTZ(STUDIO_TIMEZONE);
 
   let entries;
 
@@ -140,53 +152,39 @@ async function main() {
     if (!fs.existsSync(CACHE_FILE)) {
       console.log("Cache not found yet. Falling back to full fetch once.");
       entries = await fetchSchedule(start_date, end_date);
-      writeCache(entries);
     } else {
       entries = readCache();
       entries = await refreshSpotsFromLive(entries, start_date, end_date);
-      // keep cache up to date with new spots
-      writeCache(entries);
     }
   } else {
     console.log("MODE=full: fetching schedule and writing cache...");
     entries = await fetchSchedule(start_date, end_date);
-    writeCache(entries);
   }
 
-  console.log("Classes loaded:", entries.length);
+  // Prune past entries before persisting the cache so it doesn't grow unbounded, and so the
+  // spots-only refresh above never carries stale classes forward.
+  entries = pruneToTodayForward(entries, todayStart);
+  writeCache(entries);
 
-  const todayStart = startOfTodayInTZ(STUDIO_TIMEZONE);
+  console.log("Classes loaded:", entries.length);
 
   // Master calendar (stable filename)
   const calAll = makeCalendar("YogaSix Edgewater — All Classes");
 
-  // Type calendars (stable filenames)
-  const cals = {
-    sculpt: makeCalendar("YogaSix Edgewater — Sculpt"),
-    power: makeCalendar("YogaSix Edgewater — Power"),
-    "signature-hot": makeCalendar("YogaSix Edgewater — Signature Hot"),
-    "restore-yin": makeCalendar("YogaSix Edgewater — Restore/Yin"),
-    "slow-flow": makeCalendar("YogaSix Edgewater — Slow Flow"),
-    mobility: makeCalendar("YogaSix Edgewater — Mobility"),
-    other: makeCalendar("YogaSix Edgewater — Other"),
-  };
+  // Category calendars (stable filenames), driven by the shared classify() category list
+  const cals = Object.fromEntries(
+    CATEGORY_META.map(({ key, label }) => [key, makeCalendar(`YogaSix Edgewater — ${label}`)])
+  );
 
   let writtenAll = 0;
-  const writtenByType = Object.fromEntries(Object.keys(cals).map((k) => [k, 0]));
+  const writtenByType = Object.fromEntries(CATEGORY_META.map(({ key }) => [key, 0]));
   let skippedBadDates = 0;
-  let skippedPast = 0;
 
   for (const c of entries) {
     const start = parseDate(c.starts_at);
     const end = parseDate(c.ends_at);
     if (!start || !end) {
       skippedBadDates++;
-      continue;
-    }
-
-    // Only include events from today onward (Denver)
-    if (start < todayStart) {
-      skippedPast++;
       continue;
     }
 
@@ -215,9 +213,9 @@ async function main() {
     });
     writtenAll++;
 
-    // Type calendar
+    // Category calendar
     const bucket = classify(title);
-    const target = cals[bucket] ? bucket : "other";
+    const target = cals[bucket] ? bucket : "other-classes";
 
     cals[target].createEvent({
       start,
@@ -232,18 +230,13 @@ async function main() {
 
   // Write outputs (stable filenames)
   fs.writeFileSync("site/yogasix-edgewater.ics", calAll.toString(), "utf8");
-  fs.writeFileSync("site/y6-sculpt.ics", cals.sculpt.toString(), "utf8");
-  fs.writeFileSync("site/y6-power.ics", cals.power.toString(), "utf8");
-  fs.writeFileSync("site/y6-signature-hot.ics", cals["signature-hot"].toString(), "utf8");
-  fs.writeFileSync("site/y6-restore-yin.ics", cals["restore-yin"].toString(), "utf8");
-  fs.writeFileSync("site/y6-slow-flow.ics", cals["slow-flow"].toString(), "utf8");
-  fs.writeFileSync("site/y6-mobility.ics", cals.mobility.toString(), "utf8");
-  fs.writeFileSync("site/y6-other.ics", cals.other.toString(), "utf8");
+  for (const { key, file } of CATEGORY_META) {
+    fs.writeFileSync(`site/${file}`, cals[key].toString(), "utf8");
+  }
 
   console.log("Events written (all):", writtenAll);
   console.log("Events written (by type):", writtenByType);
   console.log("Skipped (bad dates):", skippedBadDates);
-  console.log("Skipped (past before today Denver):", skippedPast);
 }
 
 main().catch((err) => {

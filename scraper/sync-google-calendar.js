@@ -1,9 +1,15 @@
 import fs from "node:fs";
 import crypto from "node:crypto";
 import { google } from "googleapis";
+import { classify } from "./lib/classify.js";
 
 const LOCATION = "yogasix-edgewater";
 const STUDIO_TIMEZONE = "America/Denver";
+const FETCH_RETRIES = 3;
+const FETCH_RETRY_DELAY_MS = 2000;
+// Also delete stale tagged events up to this many days in the past, so classes that have
+// already happened don't linger on the calendar forever.
+const CLEANUP_LOOKBACK_DAYS = 2;
 
 const GOOGLE_CLIENT_ID = (process.env.GOOGLE_CLIENT_ID || "").trim();
 const GOOGLE_CLIENT_SECRET = (process.env.GOOGLE_CLIENT_SECRET || "").trim();
@@ -43,6 +49,12 @@ function startOfDayFromYMDInTZ(ymd, timeZone) {
   return local;
 }
 
+function addDays(date, days) {
+  const d = new Date(date);
+  d.setDate(d.getDate() + days);
+  return d;
+}
+
 function getDateRange(days = 30) {
   const now = new Date();
   const start_date = ymdInTZ(now, STUDIO_TIMEZONE);
@@ -59,26 +71,8 @@ function parseDate(value) {
   return Number.isNaN(d.getTime()) ? null : d;
 }
 
-// --- Classification (optional) ---
-function classify(titleRaw = "") {
-  const t = titleRaw.toLowerCase();
-
-  if (t.includes("workshop") || t.includes("special") || t.includes("teacher training")) return "special-events";
-  if (t.includes("private")) return "private";
-  if (t.includes("trx") || t.includes("prenatal") || t.includes("community")) return "other-classes";
-
-  if (t.includes("sculpt")) return "sculpt";
-  if (t.includes("power")) return "power";
-  if (t.includes("signature hot")) return "signature-hot";
-  if (t.includes("restore") || t.includes("yin")) return "restore-yin";
-  if (t.includes("slow flow")) return "slow-flow";
-  if (t.includes("mobility")) return "mobility";
-
-  if (t.includes("hot flow")) return "flow";
-  if (t.includes("y6 flow") || t.includes("y6flow")) return "flow";
-  if (t.includes(" flow")) return "flow";
-
-  return "other-classes";
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 // This is our stable key for matching events across runs.
@@ -112,13 +106,27 @@ function buildDescription(entry) {
 async function fetchYogaSixEntries() {
   const { start_date, end_date } = getDateRange(30);
   const url = `https://members.yogasix.com/api/v2/locations/${LOCATION}/schedule_entries?start_date=${start_date}&end_date=${end_date}`;
-  console.log("Fetching schedule from:", url);
 
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`Schedule API failed: ${res.status}`);
+  let entries;
+  let lastErr;
+  for (let attempt = 1; attempt <= FETCH_RETRIES; attempt++) {
+    try {
+      console.log(`Fetching schedule from (attempt ${attempt}/${FETCH_RETRIES}):`, url);
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(`Schedule API failed: ${res.status}`);
 
-  const data = await res.json();
-  const entries = Array.isArray(data) ? data : (data.schedule_entries || []);
+      const data = await res.json();
+      entries = Array.isArray(data) ? data : (data.schedule_entries || []);
+      lastErr = null;
+      break;
+    } catch (err) {
+      lastErr = err;
+      console.error(`Fetch attempt ${attempt} failed:`, err.message);
+      if (attempt < FETCH_RETRIES) await sleep(FETCH_RETRY_DELAY_MS * attempt);
+    }
+  }
+  if (lastErr) throw lastErr;
+
   console.log("Classes found:", entries.length);
 
   const todayStart = startOfTodayInTZ(STUDIO_TIMEZONE);
@@ -216,7 +224,14 @@ async function upsertEvents(calendar, entries) {
   console.log("Desired events:", desiredByKey.size);
 
   const { start_date, end_date } = getDateRange(30);
-  const timeMin = startOfDayFromYMDInTZ(start_date, STUDIO_TIMEZONE).toISOString();
+  // Look back a couple of days (beyond "today") so recently-past events are pulled into
+  // existingByKey and swept up by the orphan-delete pass below — desiredByKey only ever
+  // contains today-forward entries, so anything in this lookback window that isn't desired
+  // is safe to prune.
+  const timeMin = addDays(
+    startOfDayFromYMDInTZ(start_date, STUDIO_TIMEZONE),
+    -CLEANUP_LOOKBACK_DAYS
+  ).toISOString();
   const timeMax = startOfDayFromYMDInTZ(end_date, STUDIO_TIMEZONE).toISOString();
 
   const existingByKey = await listExisting(calendar, timeMin, timeMax);
@@ -226,49 +241,68 @@ async function upsertEvents(calendar, entries) {
   let updated = 0;
   let skipped = 0;
   let deleted = 0;
+  let failed = 0;
 
-for (const [key, desiredEvent] of desiredByKey.entries()) {
-  const existing = existingByKey.get(key);
+  for (const [key, desiredEvent] of desiredByKey.entries()) {
+    const existing = existingByKey.get(key);
 
-  if (existing?.id) {
-    const existingFp = existing.extendedProperties?.private?.yogasixFingerprint || "";
-    const desiredFp  = desiredEvent.extendedProperties?.private?.yogasixFingerprint || "";
+    try {
+      if (existing?.id) {
+        const existingFp = existing.extendedProperties?.private?.yogasixFingerprint || "";
+        const desiredFp = desiredEvent.extendedProperties?.private?.yogasixFingerprint || "";
 
-    if (existingFp === desiredFp) {
-      skipped++;
-      continue; // No change; skip patch
+        if (existingFp === desiredFp) {
+          skipped++;
+          continue; // No change; skip patch
+        }
+
+        await calendar.events.patch({
+          calendarId: CALENDAR_ID,
+          eventId: existing.id,
+          requestBody: desiredEvent,
+        });
+        updated++;
+      } else {
+        await calendar.events.insert({
+          calendarId: CALENDAR_ID,
+          requestBody: desiredEvent,
+        });
+        created++;
+      }
+    } catch (err) {
+      // One failing call must not abort the whole run — otherwise the delete pass below never
+      // runs and stale events accumulate instead of getting cleaned up.
+      failed++;
+      console.error(`Failed to upsert event (key=${key}):`, err.message);
     }
-
-    await calendar.events.patch({
-      calendarId: CALENDAR_ID,
-      eventId: existing.id,
-      requestBody: desiredEvent,
-    });
-    updated++;
-  } else {
-    await calendar.events.insert({
-      calendarId: CALENDAR_ID,
-      requestBody: desiredEvent,
-    });
-    created++;
   }
-}
-  
 
   for (const [key, existing] of existingByKey.entries()) {
     if (!desiredByKey.has(key) && existing?.id) {
-      await calendar.events.delete({
-        calendarId: CALENDAR_ID,
-        eventId: existing.id,
-      });
-      deleted++;
+      try {
+        await calendar.events.delete({
+          calendarId: CALENDAR_ID,
+          eventId: existing.id,
+        });
+        deleted++;
+      } catch (err) {
+        failed++;
+        console.error(`Failed to delete stale event (key=${key}, id=${existing.id}):`, err.message);
+      }
     }
   }
 
-  console.log("Created:", created, "Updated:", updated, "Skipped:", skipped, "Deleted:", deleted);
+  console.log(
+    "Created:", created,
+    "Updated:", updated,
+    "Skipped:", skipped,
+    "Deleted:", deleted,
+    "Failed:", failed
+  );
 }
 
 async function main() {
+  const startedAt = Date.now();
   console.log("Calendar ID length:", CALENDAR_ID.length);
 
   const entries = await fetchYogaSixEntries();
@@ -286,6 +320,8 @@ async function main() {
     JSON.stringify({ updatedAt: new Date().toISOString(), count: entries.length }, null, 2),
     "utf8"
   );
+
+  console.log(`Done in ${((Date.now() - startedAt) / 1000).toFixed(1)}s`);
 }
 
 main().catch((err) => {

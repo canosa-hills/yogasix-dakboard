@@ -1,26 +1,30 @@
-name: Build + Deploy YogaSix ICS
+name: Build + Deploy YogaSix Calendars
 
 on:
   workflow_dispatch:
   schedule:
-    # ICS build/deploy cadence (Denver midnight is 07:00Z or 06:00Z depending on DST; we handle with extra runs)
-    - cron: "15 */6 * * *"
-    # Near-real-time Google Calendar sync (spots + changes)
+    # Full rebuild — once daily at 5:00 AM Denver time (11:00 UTC during MDT; drifts ~1hr for
+    # about a week around the DST changeovers since cron doesn't shift for it)
+    - cron: "0 11 * * *"
+    # ICS spots-only refresh — current/future classes only
+    - cron: "*/10 * * * *"
+    # Google Calendar sync (near-real-time: class changes + open-spot counts)
     - cron: "*/15 * * * *"
-
-concurrency:
-  group: ${{ github.workflow }}
-  cancel-in-progress: true
 
 permissions:
   contents: write
 
 jobs:
   build_and_deploy_ics:
-    # Only run this job on workflow_dispatch OR the 6-hour schedule
-    if: ${{ github.event_name == 'workflow_dispatch' || github.event.schedule == '15 */6 * * *' }}
+    # Only run this job on workflow_dispatch OR the daily full-rebuild schedule
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.schedule == '0 11 * * *' }}
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    # Shares a concurrency group with the spots-refresh job below (both deploy to Pages) so
+    # overlapping runs queue instead of racing each other's deploy.
+    concurrency:
+      group: yogasix-pages-deploy
+      cancel-in-progress: false
 
     steps:
       - name: Checkout
@@ -33,13 +37,68 @@ jobs:
 
       - name: Install dependencies
         working-directory: scraper
-        run: |
-          npm ci || npm install
-          npx playwright install --with-deps chromium
+        run: npm ci || npm install
 
-      - name: Generate ICS
+      - name: Compute cache date key
+        id: cachedate
+        run: echo "value=$(TZ=America/Denver date +%F)" >> "$GITHUB_OUTPUT"
+
+      - name: Restore schedule cache
+        uses: actions/cache@v4
+        with:
+          path: cache
+          key: yogasix-schedule-cache-${{ steps.cachedate.outputs.value }}
+          restore-keys: |
+            yogasix-schedule-cache-
+
+      - name: Generate ICS (full rebuild)
         env:
-          YOGASIX_COOKIES_JSON: ${{ secrets.YOGASIX_COOKIES_JSON }}
+          MODE: full
+        run: node scraper/scrape.js
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+
+  ics_spots_refresh:
+    # Only run this job on workflow_dispatch OR the 10-minute spots schedule
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.schedule == '*/10 * * * *' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    concurrency:
+      group: yogasix-pages-deploy
+      cancel-in-progress: false
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        working-directory: scraper
+        run: npm ci || npm install
+
+      - name: Compute cache date key
+        id: cachedate
+        run: echo "value=$(TZ=America/Denver date +%F)" >> "$GITHUB_OUTPUT"
+
+      - name: Restore schedule cache
+        uses: actions/cache@v4
+        with:
+          path: cache
+          key: yogasix-schedule-cache-${{ steps.cachedate.outputs.value }}
+          restore-keys: |
+            yogasix-schedule-cache-
+
+      - name: Generate ICS (spots only)
+        env:
+          MODE: spots
         run: node scraper/scrape.js
 
       - name: Deploy to GitHub Pages
@@ -53,6 +112,14 @@ jobs:
     if: ${{ github.event_name == 'workflow_dispatch' || github.event.schedule == '*/15 * * * *' }}
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    # Its own concurrency group, separate from the Pages deploys above. Critically,
+    # cancel-in-progress is false: this used to be `true`, which killed slow runs mid-upsert
+    # (after inserting/updating events but before the delete-orphans pass), leaving stale
+    # duplicate events on the calendar that never got cleaned up. Queuing instead of cancelling
+    # fixes that at the root.
+    concurrency:
+      group: yogasix-google-sync
+      cancel-in-progress: false
 
     steps:
       - name: Checkout
@@ -65,8 +132,7 @@ jobs:
 
       - name: Install dependencies
         working-directory: scraper
-        run: |
-          npm ci || npm install
+        run: npm ci || npm install
 
       - name: Sync Google Calendar (near-real-time)
         env:
