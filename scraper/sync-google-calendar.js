@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import crypto from "node:crypto";
 import { google } from "googleapis";
-import { classify } from "./lib/classify.js";
+import { classify, CATEGORY_COLOR_IDS } from "./lib/classify.js";
 import { withRetry, sleepMs } from "./lib/google-retry.js";
 
 // Small pause between sequential writes to stay under Google Calendar's per-user rate limit.
@@ -158,6 +158,7 @@ function fingerprintEventFields(ev) {
     location: ev.location || "",
     start: ev.start?.dateTime || "",
     end: ev.end?.dateTime || "",
+    colorId: ev.colorId || "",
   };
   return crypto.createHash("sha1").update(JSON.stringify(payload)).digest("hex");
 }
@@ -168,6 +169,7 @@ function eventFromEntry(entry) {
   if (!start || !end) return null;
 
   const key = stableKey(entry);
+  const category = classify(entry.title || "");
 
   const ev = {
     summary: buildSummary(entry),
@@ -175,6 +177,7 @@ function eventFromEntry(entry) {
     location: "YogaSix Edgewater",
     start: { dateTime: start.toISOString() },
     end: { dateTime: end.toISOString() },
+    colorId: CATEGORY_COLOR_IDS[category],
     extendedProperties: {
       private: {
         yogasixKey: key,
