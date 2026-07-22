@@ -3,4 +3,17 @@ VERSION:2.0
 PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — Flow
 X-WR-CALNAME:YogaSix Edgewater — Flow
+BEGIN:VEVENT
+UID:ae661095-2e9e-46d9-ba9f-1da9fc431e9b
+SEQUENCE:0
+DTSTAMP:20260722T125157Z
+DTSTART:20260725T013000Z
+DTEND:20260725T030000Z
+SUMMARY:Late Night Flow & Hang W/Anthony — Anthony C. — 0 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Workshop 90 (Free for Members)\nCapacity: 30\nWaitlist:
+  1\nBook: https://members.yogasix.com/book/yogasix-edgewater/cr_98702535
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_987025
+ 35
+END:VEVENT
 END:VCALENDAR
