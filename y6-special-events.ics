@@ -3,4 +3,70 @@ VERSION:2.0
 PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — Special Events / Workshops
 X-WR-CALNAME:YogaSix Edgewater — Special Events / Workshops
+BEGIN:VEVENT
+UID:103f5df1-9389-4667-82c3-3dccca2dd7c7
+SEQUENCE:0
+DTSTAMP:20260722T124350Z
+DTSTART:20260725T013000Z
+DTEND:20260725T030000Z
+SUMMARY:Workshop 90 (Free for Members) — Anthony C. — 0 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Late Night Flow & Hang W/Anthony\nCapacity: 30\nWaitlis
+ t: 1\nBook: https://members.yogasix.com/book/yogasix-edgewater/cr_98702535
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_987025
+ 35
+END:VEVENT
+BEGIN:VEVENT
+UID:1b7e7262-de8f-4e5d-b2ec-58df9eb09210
+SEQUENCE:0
+DTSTAMP:20260722T124350Z
+DTSTART:20260725T140000Z
+DTEND:20260725T153000Z
+SUMMARY:Workshop - 90 min ($55) — Kelsey S — 9 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: SUP Yoga @ Bear Creek\nCapacity: 12\nBook: https://memb
+ ers.yogasix.com/book/yogasix-edgewater/cr_96860242
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_968602
+ 42
+END:VEVENT
+BEGIN:VEVENT
+UID:2593e3b2-0838-4aac-81d4-d2c69ef4ab51
+SEQUENCE:0
+DTSTAMP:20260722T124350Z
+DTSTART:20260725T193000Z
+DTEND:20260725T213000Z
+SUMMARY:Workshop 120 — Jessie L — 18 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Integrating Inversions In Practice\nCapacity: 29\nWaitl
+ ist: 0\nBook: https://members.yogasix.com/book/yogasix-edgewater/cr_977112
+ 45
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_977112
+ 45
+END:VEVENT
+BEGIN:VEVENT
+UID:f5ca521e-c578-49b4-8263-9aa8582af03f
+SEQUENCE:0
+DTSTAMP:20260722T124350Z
+DTSTART:20260808T180000Z
+DTEND:20260808T200000Z
+SUMMARY:Workshop 120 — Christina G. — 28 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: 2 Hour Advanced Practice\nCapacity: 29\nWaitlist: 0\nBo
+ ok: https://members.yogasix.com/book/yogasix-edgewater/cr_98090915
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_980909
+ 15
+END:VEVENT
+BEGIN:VEVENT
+UID:0d91a095-e206-4ee3-89fd-5d0f650b911d
+SEQUENCE:0
+DTSTAMP:20260722T124350Z
+DTSTART:20260815T010000Z
+DTEND:20260815T023000Z
+SUMMARY:Workshop 90 (Free for Members) — Kelsey S — 29 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Circular Breathwork\nCapacity: 30\nWaitlist: 0\nBook: h
+ ttps://members.yogasix.com/book/yogasix-edgewater/cr_97063980
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_970639
+ 80
+END:VEVENT
 END:VCALENDAR
