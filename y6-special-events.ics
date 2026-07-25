@@ -3,4 +3,57 @@ VERSION:2.0
 PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — Special Events / Workshops
 X-WR-CALNAME:YogaSix Edgewater — Special Events / Workshops
+BEGIN:VEVENT
+UID:a393521e-5c98-4031-8a7a-ec97f3ef82cd
+SEQUENCE:0
+DTSTAMP:20260725T120600Z
+DTSTART:20260725T140000Z
+DTEND:20260725T153000Z
+SUMMARY:Workshop - 90 min ($55) — Kelsey S — 9 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: SUP Yoga @ Bear Creek\nCapacity: 12\nBook: https://memb
+ ers.yogasix.com/book/yogasix-edgewater/cr_96860242
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_968602
+ 42
+END:VEVENT
+BEGIN:VEVENT
+UID:60f8f74b-5b14-432b-868e-5f6e23565502
+SEQUENCE:0
+DTSTAMP:20260725T120600Z
+DTSTART:20260725T193000Z
+DTEND:20260725T213000Z
+SUMMARY:Workshop 120 — Jessie L — 20 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Integrating Inversions In Practice\nCapacity: 29\nWaitl
+ ist: 0\nBook: https://members.yogasix.com/book/yogasix-edgewater/cr_977112
+ 45
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_977112
+ 45
+END:VEVENT
+BEGIN:VEVENT
+UID:ade92ab0-3463-46dd-8aea-5c09841261df
+SEQUENCE:0
+DTSTAMP:20260725T120600Z
+DTSTART:20260808T180000Z
+DTEND:20260808T200000Z
+SUMMARY:Workshop 120 — Christina G. — 26 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: 2 Hour Advanced Practice\nCapacity: 29\nWaitlist: 0\nBo
+ ok: https://members.yogasix.com/book/yogasix-edgewater/cr_98090915
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_980909
+ 15
+END:VEVENT
+BEGIN:VEVENT
+UID:e0362e31-70f5-4ba8-b837-8cf530192a4e
+SEQUENCE:0
+DTSTAMP:20260725T120600Z
+DTSTART:20260815T010000Z
+DTEND:20260815T023000Z
+SUMMARY:Workshop 90 (Free for Members) — Kelsey S — 29 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Circular Breathwork\nCapacity: 30\nWaitlist: 0\nBook: h
+ ttps://members.yogasix.com/book/yogasix-edgewater/cr_97063980
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_970639
+ 80
+END:VEVENT
 END:VCALENDAR
