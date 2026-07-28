@@ -4,9 +4,9 @@ PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — Signature Hot
 X-WR-CALNAME:YogaSix Edgewater — Signature Hot
 BEGIN:VEVENT
-UID:f8b9568d-8153-4392-b73d-f470c378ddf0
+UID:13017fa9-7cea-4b1a-a752-d23f93a8c5bc
 SEQUENCE:0
-DTSTAMP:20260728T125755Z
+DTSTAMP:20260728T143226Z
 DTSTART:20260728T233000Z
 DTEND:20260729T003000Z
 SUMMARY:Y6 Signature Hot — Bailey H — 25 spots
@@ -17,12 +17,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906150
  28
 END:VEVENT
 BEGIN:VEVENT
-UID:1f09f37e-8347-4159-8f55-324d030c46d3
+UID:db0f1485-0695-48e7-8040-991b1cfd617b
 SEQUENCE:0
-DTSTAMP:20260728T125755Z
+DTSTAMP:20260728T143226Z
 DTSTART:20260729T120000Z
 DTEND:20260729T130000Z
-SUMMARY:Y6 Signature Hot — Asia W — 25 spots
+SUMMARY:Y6 Signature Hot — Asia W — 24 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90615557
@@ -30,22 +30,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906155
  57
 END:VEVENT
 BEGIN:VEVENT
-UID:22faff79-1aaf-4ebb-b58e-83db75e6afd8
+UID:ba8f1c41-2c50-4a2a-bddf-03581bc008be
 SEQUENCE:0
-DTSTAMP:20260728T125755Z
-DTSTART:20260730T010000Z
-DTEND:20260730T020000Z
-SUMMARY:Y6 Signature Hot — Mariah J. — 24 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Candlelit Hot\nCapacity: 30\nWaitlist: 0\nBook: https:/
- /members.yogasix.com/book/yogasix-edgewater/cr_90616077
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906160
- 77
-END:VEVENT
-BEGIN:VEVENT
-UID:f79238e2-07ac-4aa7-a8a1-2836825d3a35
-SEQUENCE:0
-DTSTAMP:20260728T125755Z
+DTSTAMP:20260728T143226Z
 DTSTART:20260731T133000Z
 DTEND:20260731T143000Z
 SUMMARY:Y6 Signature Hot — Bailey H — 27 spots
@@ -56,35 +43,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903369
  18
 END:VEVENT
 BEGIN:VEVENT
-UID:5cbabfd8-ff27-453f-b232-97fc687ef6ab
+UID:84838744-348e-4102-be17-0390fc80dfc2
 SEQUENCE:0
-DTSTAMP:20260728T125755Z
-DTSTART:20260801T150000Z
-DTEND:20260801T160000Z
-SUMMARY:Y6 Signature Hot — Mariah J. — 30 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Candlelit Hot\nCapacity: 30\nWaitlist: 0\nBook: https:/
- /members.yogasix.com/book/yogasix-edgewater/cr_90337393
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903373
- 93
-END:VEVENT
-BEGIN:VEVENT
-UID:446c72d5-a774-453e-81b8-468584bda8f8
-SEQUENCE:0
-DTSTAMP:20260728T125755Z
-DTSTART:20260803T180000Z
-DTEND:20260803T190000Z
-SUMMARY:Y6 Signature Hot — Scotty G — 29 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Hot Evolved!\nCapacity: 30\nWaitlist: 0\nBook: https://
- members.yogasix.com/book/yogasix-edgewater/cr_90381903
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903819
- 03
-END:VEVENT
-BEGIN:VEVENT
-UID:989ddd4a-5a3e-4482-b1c4-18240dea74f8
-SEQUENCE:0
-DTSTAMP:20260728T125755Z
+DTSTAMP:20260728T143226Z
 DTSTART:20260804T233000Z
 DTEND:20260805T003000Z
 SUMMARY:Y6 Signature Hot — Bailey H — 30 spots
@@ -95,9 +56,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906150
  29
 END:VEVENT
 BEGIN:VEVENT
-UID:45f3527e-b4b8-4a04-bed5-95ff5f67967b
+UID:75d69ab5-587e-4962-a2a2-4efbcea314d4
 SEQUENCE:0
-DTSTAMP:20260728T125755Z
+DTSTAMP:20260728T143226Z
 DTSTART:20260805T120000Z
 DTEND:20260805T130000Z
 SUMMARY:Y6 Signature Hot — Asia W — 30 spots
@@ -108,22 +69,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906155
  58
 END:VEVENT
 BEGIN:VEVENT
-UID:3f496d1a-edd3-4d3f-8ebd-c5af327575c7
+UID:d15e394a-8929-4e5b-8114-edfb2468aca5
 SEQUENCE:0
-DTSTAMP:20260728T125755Z
-DTSTART:20260806T010000Z
-DTEND:20260806T020000Z
-SUMMARY:Y6 Signature Hot — Mariah J. — 30 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Candlelit Hot\nCapacity: 30\nWaitlist: 0\nBook: https:/
- /members.yogasix.com/book/yogasix-edgewater/cr_90616078
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906160
- 78
-END:VEVENT
-BEGIN:VEVENT
-UID:acc370ce-5461-4321-bf5b-62b21564d724
-SEQUENCE:0
-DTSTAMP:20260728T125755Z
+DTSTAMP:20260728T143226Z
 DTSTART:20260807T133000Z
 DTEND:20260807T143000Z
 SUMMARY:Y6 Signature Hot — Bailey H — 29 spots
@@ -134,35 +82,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903369
  19
 END:VEVENT
 BEGIN:VEVENT
-UID:8626105a-63a2-4bcd-8488-f2ffd6c437e1
+UID:ba90f3c2-19fa-49f8-bbd7-6a6967a15b20
 SEQUENCE:0
-DTSTAMP:20260728T125755Z
-DTSTART:20260808T150000Z
-DTEND:20260808T160000Z
-SUMMARY:Y6 Signature Hot — Mariah J. — 30 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Candlelit Hot\nCapacity: 30\nWaitlist: 0\nBook: https:/
- /members.yogasix.com/book/yogasix-edgewater/cr_90337394
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903373
- 94
-END:VEVENT
-BEGIN:VEVENT
-UID:738a23f9-95c7-4b80-ab3d-f1fc3c13cc4e
-SEQUENCE:0
-DTSTAMP:20260728T125755Z
-DTSTART:20260810T180000Z
-DTEND:20260810T190000Z
-SUMMARY:Y6 Signature Hot — Scotty G — 30 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Hot Evolved!\nCapacity: 30\nWaitlist: 0\nBook: https://
- members.yogasix.com/book/yogasix-edgewater/cr_90381904
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903819
- 04
-END:VEVENT
-BEGIN:VEVENT
-UID:39a9c17b-fb39-4873-9874-666a147e132e
-SEQUENCE:0
-DTSTAMP:20260728T125755Z
+DTSTAMP:20260728T143226Z
 DTSTART:20260811T233000Z
 DTEND:20260812T003000Z
 SUMMARY:Y6 Signature Hot — Bailey H — 30 spots
@@ -173,9 +95,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906150
  30
 END:VEVENT
 BEGIN:VEVENT
-UID:d11d7355-6e7b-444b-865d-515181ec6e0e
+UID:b57d2b26-dd39-4759-8e20-87e92471966c
 SEQUENCE:0
-DTSTAMP:20260728T125755Z
+DTSTAMP:20260728T143226Z
 DTSTART:20260812T120000Z
 DTEND:20260812T130000Z
 SUMMARY:Y6 Signature Hot — Asia W — 29 spots
@@ -186,22 +108,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906155
  59
 END:VEVENT
 BEGIN:VEVENT
-UID:5d52dc73-8468-484d-b818-a4eaa2bbc154
+UID:b7672b06-b5f6-476c-bb50-66ac2d6ecb91
 SEQUENCE:0
-DTSTAMP:20260728T125755Z
-DTSTART:20260813T010000Z
-DTEND:20260813T020000Z
-SUMMARY:Y6 Signature Hot — Mariah J. — 30 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Candlelit Hot\nCapacity: 30\nWaitlist: 0\nBook: https:/
- /members.yogasix.com/book/yogasix-edgewater/cr_90616079
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906160
- 79
-END:VEVENT
-BEGIN:VEVENT
-UID:0793f3a4-7039-43c4-829c-ce9277a3a4f4
-SEQUENCE:0
-DTSTAMP:20260728T125755Z
+DTSTAMP:20260728T143226Z
 DTSTART:20260814T133000Z
 DTEND:20260814T143000Z
 SUMMARY:Y6 Signature Hot — Bailey H — 30 spots
@@ -210,148 +119,5 @@ DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90336920
 URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903369
  20
-END:VEVENT
-BEGIN:VEVENT
-UID:add40b6f-e7a2-48c6-be5f-f7260a9a8a87
-SEQUENCE:0
-DTSTAMP:20260728T125755Z
-DTSTART:20260815T150000Z
-DTEND:20260815T160000Z
-SUMMARY:Y6 Signature Hot — Mariah J. — 30 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Candlelit Hot\nCapacity: 30\nWaitlist: 0\nBook: https:/
- /members.yogasix.com/book/yogasix-edgewater/cr_90337395
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903373
- 95
-END:VEVENT
-BEGIN:VEVENT
-UID:196ca1b3-e05a-4f73-90f5-4e1909c40d86
-SEQUENCE:0
-DTSTAMP:20260728T125755Z
-DTSTART:20260817T180000Z
-DTEND:20260817T190000Z
-SUMMARY:Y6 Signature Hot — Scotty G — 30 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Hot Evolved!\nCapacity: 30\nWaitlist: 0\nBook: https://
- members.yogasix.com/book/yogasix-edgewater/cr_90381905
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903819
- 05
-END:VEVENT
-BEGIN:VEVENT
-UID:11a9ce42-687b-413d-a8c6-534ae333ad9d
-SEQUENCE:0
-DTSTAMP:20260728T125755Z
-DTSTART:20260818T233000Z
-DTEND:20260819T003000Z
-SUMMARY:Y6 Signature Hot — Bailey H — 30 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
- ook/yogasix-edgewater/cr_90615031
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906150
- 31
-END:VEVENT
-BEGIN:VEVENT
-UID:6087f67d-dc31-48bd-a6c5-f6018a2fa466
-SEQUENCE:0
-DTSTAMP:20260728T125755Z
-DTSTART:20260819T120000Z
-DTEND:20260819T130000Z
-SUMMARY:Y6 Signature Hot — Asia W — 30 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
- ook/yogasix-edgewater/cr_90615560
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906155
- 60
-END:VEVENT
-BEGIN:VEVENT
-UID:233b41aa-1d75-464a-8491-309ae4719e65
-SEQUENCE:0
-DTSTAMP:20260728T125755Z
-DTSTART:20260820T010000Z
-DTEND:20260820T020000Z
-SUMMARY:Y6 Signature Hot — Mariah J. — 30 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Candlelit Hot\nCapacity: 30\nWaitlist: 0\nBook: https:/
- /members.yogasix.com/book/yogasix-edgewater/cr_90616080
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906160
- 80
-END:VEVENT
-BEGIN:VEVENT
-UID:e1f24dac-9eb9-4b81-8319-d7af7ba1827b
-SEQUENCE:0
-DTSTAMP:20260728T125755Z
-DTSTART:20260821T133000Z
-DTEND:20260821T143000Z
-SUMMARY:Y6 Signature Hot — Bailey H — 30 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
- ook/yogasix-edgewater/cr_90336921
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903369
- 21
-END:VEVENT
-BEGIN:VEVENT
-UID:1aad6487-5931-4336-9bda-ca09e82d8972
-SEQUENCE:0
-DTSTAMP:20260728T125755Z
-DTSTART:20260822T150000Z
-DTEND:20260822T160000Z
-SUMMARY:Y6 Signature Hot — Mariah J. — 30 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Candlelit Hot\nCapacity: 30\nWaitlist: 0\nBook: https:/
- /members.yogasix.com/book/yogasix-edgewater/cr_90337396
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903373
- 96
-END:VEVENT
-BEGIN:VEVENT
-UID:20dad565-21c8-480f-b53d-30e5bde3eceb
-SEQUENCE:0
-DTSTAMP:20260728T125755Z
-DTSTART:20260824T180000Z
-DTEND:20260824T190000Z
-SUMMARY:Y6 Signature Hot — Scotty G — 30 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Hot Evolved!\nCapacity: 30\nWaitlist: 0\nBook: https://
- members.yogasix.com/book/yogasix-edgewater/cr_90381906
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903819
- 06
-END:VEVENT
-BEGIN:VEVENT
-UID:748f8de1-1a9f-4a38-b862-192a2692b7ed
-SEQUENCE:0
-DTSTAMP:20260728T125755Z
-DTSTART:20260825T233000Z
-DTEND:20260826T003000Z
-SUMMARY:Y6 Signature Hot — Bailey H — 30 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
- ook/yogasix-edgewater/cr_90615032
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906150
- 32
-END:VEVENT
-BEGIN:VEVENT
-UID:706e1c60-819b-4a5d-98f7-152b3a46c820
-SEQUENCE:0
-DTSTAMP:20260728T125755Z
-DTSTART:20260826T120000Z
-DTEND:20260826T130000Z
-SUMMARY:Y6 Signature Hot — Asia W — 30 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
- ook/yogasix-edgewater/cr_90615561
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906155
- 61
-END:VEVENT
-BEGIN:VEVENT
-UID:9b6a884b-358c-418c-897b-60ca559ef199
-SEQUENCE:0
-DTSTAMP:20260728T125755Z
-DTSTART:20260827T010000Z
-DTEND:20260827T020000Z
-SUMMARY:Y6 Signature Hot — Mariah J. — 30 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Candlelit Hot\nCapacity: 30\nWaitlist: 0\nBook: https:/
- /members.yogasix.com/book/yogasix-edgewater/cr_90616081
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906160
- 81
 END:VEVENT
 END:VCALENDAR
