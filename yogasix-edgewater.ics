@@ -4,25 +4,12 @@ PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — All Classes
 X-WR-CALNAME:YogaSix Edgewater — All Classes
 BEGIN:VEVENT
-UID:28188b0f-82d8-4d75-ab5a-e6300edd6241
+UID:05337819-d778-4781-b14c-6c62fbab0113
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
-DTSTART:20260729T010000Z
-DTEND:20260729T020000Z
-SUMMARY:Yin Edition — Amanda FK — 19 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Restore \nCapacity: 27\nWaitlist: 0\nBook: https://m
- embers.yogasix.com/book/yogasix-edgewater/cr_90615190
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906151
- 90
-END:VEVENT
-BEGIN:VEVENT
-UID:85df1ff4-c2ec-4f97-aed1-c58f5a2ecb86
-SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260729T120000Z
 DTEND:20260729T130000Z
-SUMMARY:Y6 Signature Hot — Asia W — 20 spots
+SUMMARY:Y6 Signature Hot — Asia W — 18 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90615557
@@ -30,12 +17,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906155
  57
 END:VEVENT
 BEGIN:VEVENT
-UID:a760a165-8a6d-4139-ae83-bc038209fb8c
+UID:034ecf6e-0e90-4e97-8b6e-8ee1e0c24258
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260729T133000Z
 DTEND:20260729T141500Z
-SUMMARY:Y6 Slow Flow Express (45 Min) — Maggie L — 21 spots
+SUMMARY:Y6 Slow Flow Express (45 Min) — Maggie L — 18 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90615671
@@ -43,9 +30,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906156
  71
 END:VEVENT
 BEGIN:VEVENT
-UID:92bcff1e-0c44-45a3-a35f-5d5a49dc90e9
+UID:46b8d95d-8d62-45d0-b946-d807ddc479ab
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260729T180000Z
 DTEND:20260729T190000Z
 SUMMARY:Y6 Power Flow — Cassandra S — 26 spots
@@ -56,9 +43,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906157
  86
 END:VEVENT
 BEGIN:VEVENT
-UID:72e8274b-eaab-43de-9ba2-83d1056400dd
+UID:89907f25-d717-46ba-8574-61a20723fa73
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260729T220000Z
 DTEND:20260729T230000Z
 SUMMARY:Y6 Power Flow — Cassandra S — 28 spots
@@ -69,9 +56,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_921685
  90
 END:VEVENT
 BEGIN:VEVENT
-UID:d5374913-0120-4ecb-bf2e-ecf45e331c5e
+UID:d582c2cb-c649-41ed-9655-ecf5140f61ae
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260729T233000Z
 DTEND:20260730T003000Z
 SUMMARY:Y6 Sculpt — Kristin W — 28 spots
@@ -82,22 +69,22 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906159
  57
 END:VEVENT
 BEGIN:VEVENT
-UID:b4abadb3-9e18-4f93-9ce2-ee3c5bd6db24
+UID:4e7c7026-7347-4056-9b22-1f9b8b38241b
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260730T010000Z
 DTEND:20260730T020000Z
-SUMMARY:Candlelit Hot — Mariah J. — 22 spots
+SUMMARY:Y6 Signature Hot — Mariah J. — 22 spots
 LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Signature Hot\nCapacity: 30\nWaitlist: 0\nBook: http
- s://members.yogasix.com/book/yogasix-edgewater/cr_90616077
+DESCRIPTION:Notes: Candlelit Hot\nCapacity: 30\nWaitlist: 0\nBook: https:/
+ /members.yogasix.com/book/yogasix-edgewater/cr_90616077
 URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906160
  77
 END:VEVENT
 BEGIN:VEVENT
-UID:6eaa2c06-38ce-450e-b177-aa2833dc352b
+UID:ccf04748-038e-4620-a77c-edf010ef2420
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260730T120000Z
 DTEND:20260730T130000Z
 SUMMARY:Y6 Sculpt — Jane K — 24 spots
@@ -108,9 +95,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906161
  35
 END:VEVENT
 BEGIN:VEVENT
-UID:e8279015-6bd2-4938-8ff6-92bfe9737c62
+UID:b7abbf0e-1f98-4b7b-9d3a-5f2aaec7672d
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260730T133000Z
 DTEND:20260730T141500Z
 SUMMARY:Y6 Power Flow Express (45 Min) — Maggie L — 24 spots
@@ -121,22 +108,22 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906161
  95
 END:VEVENT
 BEGIN:VEVENT
-UID:e6b53b70-9c34-4ee6-9582-9aabd30ea489
+UID:4bff4879-6f13-45b3-9d01-f4976c7f8170
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260730T180000Z
 DTEND:20260730T190000Z
-SUMMARY:Burn-Pilates Inspired — Anna A — 27 spots
+SUMMARY:Y6 Core — Anna A — 27 spots
 LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Core\nCapacity: 30\nWaitlist: 0\nBook: https://membe
- rs.yogasix.com/book/yogasix-edgewater/cr_90616463
+DESCRIPTION:Notes: Burn-Pilates Inspired\nCapacity: 30\nWaitlist: 0\nBook:
+  https://members.yogasix.com/book/yogasix-edgewater/cr_90616463
 URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906164
  63
 END:VEVENT
 BEGIN:VEVENT
-UID:84bfb388-7727-4c39-8f5e-b38b824e8337
+UID:f7f48d6a-3081-4bc6-9a4d-ab52f9f0cb10
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260730T220000Z
 DTEND:20260730T230000Z
 SUMMARY:Y6 Sculpt — Kristin W — 26 spots
@@ -147,9 +134,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906165
  69
 END:VEVENT
 BEGIN:VEVENT
-UID:cef7d891-bd86-4232-b415-6374c98efea6
+UID:b0c960f6-01da-4983-9ed0-ed8ff5a043da
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260730T233000Z
 DTEND:20260731T003000Z
 SUMMARY:Y6 Power Flow — Christina G. — 24 spots
@@ -160,9 +147,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906168
  64
 END:VEVENT
 BEGIN:VEVENT
-UID:353a44ab-90c1-406e-b1c5-b6b1b75600cf
+UID:9e4fc42c-63c2-4aec-baad-b93dc7975ffc
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260731T010000Z
 DTEND:20260731T020000Z
 SUMMARY:Y6 Restore  — Christina G. — 25 spots
@@ -173,9 +160,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906170
  77
 END:VEVENT
 BEGIN:VEVENT
-UID:8303b164-d57c-49ac-aa1c-2ec54e60d8a6
+UID:e40f7164-5624-489f-9b31-dcd234970092
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260731T120000Z
 DTEND:20260731T130000Z
 SUMMARY:Y6 Slow Flow  — Jane K — 22 spots
@@ -186,9 +173,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903368
  06
 END:VEVENT
 BEGIN:VEVENT
-UID:27b48f68-34a9-4e9f-8086-cb6e60f6d33d
+UID:52d35955-2fe1-412f-9bf8-b1762f56d55d
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260731T133000Z
 DTEND:20260731T143000Z
 SUMMARY:Y6 Signature Hot — Bailey H — 27 spots
@@ -199,9 +186,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903369
  18
 END:VEVENT
 BEGIN:VEVENT
-UID:3c57e9ee-2033-4929-ad00-44569a76a91d
+UID:4efd765c-15b1-47ff-922b-697555fbc0a3
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260731T163000Z
 DTEND:20260731T173000Z
 SUMMARY:Y6 Mobility — Cassandra S — 29 spots
@@ -212,22 +199,22 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903369
  74
 END:VEVENT
 BEGIN:VEVENT
-UID:4c126485-1e93-4f54-9b14-a4f57590aaea
+UID:9c40d2de-4820-405d-b7a5-a63e2cc4fc60
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260731T180000Z
 DTEND:20260731T190000Z
-SUMMARY:Yin Edition — Cassandra S — 26 spots
+SUMMARY:Y6 Restore  — Cassandra S — 26 spots
 LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Restore \nCapacity: 27\nWaitlist: 0\nBook: https://m
+DESCRIPTION:Notes: Yin Edition\nCapacity: 27\nWaitlist: 0\nBook: https://m
  embers.yogasix.com/book/yogasix-edgewater/cr_90337115
 URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903371
  15
 END:VEVENT
 BEGIN:VEVENT
-UID:1c58b88a-66a0-4301-a019-d6dc03eeea87
+UID:2e37bef4-b7cb-4eec-97b2-8b5f24091197
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260731T220000Z
 DTEND:20260731T230000Z
 SUMMARY:Y6 Sculpt — Kelsey S — 25 spots
@@ -238,9 +225,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903371
  68
 END:VEVENT
 BEGIN:VEVENT
-UID:d4a015e0-6c17-45ae-9317-cde1f3d230be
+UID:4579ed3f-6644-4070-9fc2-ff0af3d6bad5
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260731T233000Z
 DTEND:20260801T003000Z
 SUMMARY:Y6 Power Flow — Kelsey S — 25 spots
@@ -251,9 +238,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903372
  52
 END:VEVENT
 BEGIN:VEVENT
-UID:7da26ce0-40d0-47d8-b4a7-0c583b7fc515
+UID:990f9f3d-2151-4a72-8d80-142fed7377fd
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260801T133000Z
 DTEND:20260801T143000Z
 SUMMARY:Y6 Power Flow — Scotty G — 25 spots
@@ -264,22 +251,22 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903373
  38
 END:VEVENT
 BEGIN:VEVENT
-UID:d807b1a4-c718-4753-b9d4-d826b34791e6
+UID:7280cbb8-30b5-421d-aae6-b3897a7eb487
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260801T150000Z
 DTEND:20260801T160000Z
-SUMMARY:Candlelit Hot — Mariah J. — 30 spots
+SUMMARY:Y6 Signature Hot — Mariah J. — 30 spots
 LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Signature Hot\nCapacity: 30\nWaitlist: 0\nBook: http
- s://members.yogasix.com/book/yogasix-edgewater/cr_90337393
+DESCRIPTION:Notes: Candlelit Hot\nCapacity: 30\nWaitlist: 0\nBook: https:/
+ /members.yogasix.com/book/yogasix-edgewater/cr_90337393
 URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903373
  93
 END:VEVENT
 BEGIN:VEVENT
-UID:d76ed193-1447-491f-9853-ca781c312f36
+UID:d3c7e75a-e8ca-47f2-bb1c-2436c6c8710b
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260801T163000Z
 DTEND:20260801T173000Z
 SUMMARY:Y6 Sculpt — Mariah J. — 28 spots
@@ -290,25 +277,25 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903374
  79
 END:VEVENT
 BEGIN:VEVENT
-UID:64d27f95-11e9-41fe-af6a-fe4337029f47
+UID:a5a28330-4bad-4912-bcca-1a012bd6313c
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260801T180000Z
 DTEND:20260801T190000Z
-SUMMARY:Pre & Post-Natal 75 mins — Cassandra S — 28 spots
+SUMMARY:Y6 Slow Flow  — Cassandra S — 28 spots
 LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Slow Flow \nCapacity: 30\nWaitlist: 0\nBook: https:/
- /members.yogasix.com/book/yogasix-edgewater/cr_98030194
+DESCRIPTION:Notes: Pre & Post-Natal 75 mins\nCapacity: 30\nWaitlist: 0\nBo
+ ok: https://members.yogasix.com/book/yogasix-edgewater/cr_98030194
 URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_980301
  94
 END:VEVENT
 BEGIN:VEVENT
-UID:b78581ac-d83c-4295-897c-2c9475703b6a
+UID:5979e9ba-9e26-4239-8ab5-b5e9175228bb
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260802T150000Z
 DTEND:20260802T160000Z
-SUMMARY:Y6 Sculpt — Di C. — 28 spots
+SUMMARY:Y6 Sculpt — Di C. — 27 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90336258
@@ -316,35 +303,35 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903362
  58
 END:VEVENT
 BEGIN:VEVENT
-UID:7b2ae669-b420-4dbf-85ae-606830733fad
+UID:12b63ca6-e242-405b-aa86-3e5b8becbb3f
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260802T163000Z
 DTEND:20260802T173000Z
-SUMMARY:75 min Power Flow — Kelsey S — 14 spots
+SUMMARY:Y6 Power Flow — Kelsey S — 14 spots
 LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Power Flow\nCapacity: 30\nWaitlist: 0\nBook: https:/
- /members.yogasix.com/book/yogasix-edgewater/cr_90336312
+DESCRIPTION:Notes: 75 min Power Flow\nCapacity: 30\nWaitlist: 0\nBook: htt
+ ps://members.yogasix.com/book/yogasix-edgewater/cr_90336312
 URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903363
  12
 END:VEVENT
 BEGIN:VEVENT
-UID:ae4128ed-2df0-4c6a-a717-031b5cb6e907
+UID:2668e80c-034a-4f1f-8f90-6fa46c4d3459
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260802T180000Z
 DTEND:20260802T190000Z
-SUMMARY:Yin Edition — Kelsey S — 24 spots
+SUMMARY:Y6 Restore  — Kelsey S — 24 spots
 LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Restore \nCapacity: 27\nWaitlist: 0\nBook: https://m
+DESCRIPTION:Notes: Yin Edition\nCapacity: 27\nWaitlist: 0\nBook: https://m
  embers.yogasix.com/book/yogasix-edgewater/cr_90336366
 URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903363
  66
 END:VEVENT
 BEGIN:VEVENT
-UID:0f68e2fc-4c4b-4458-817b-c6217ff71270
+UID:9263c806-69f4-42c3-aa2d-51496209ede1
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260802T220000Z
 DTEND:20260802T230000Z
 SUMMARY:Y6 Slow Flow  — Jessie L — 28 spots
@@ -355,9 +342,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903364
  19
 END:VEVENT
 BEGIN:VEVENT
-UID:cff33d5a-555c-4ab4-8fe9-e52a8e7ef1df
+UID:e0edc789-6f14-4c08-bf5a-d3561dbe8481
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260802T233000Z
 DTEND:20260803T003000Z
 SUMMARY:Y6 Mobility — Jessie L — 27 spots
@@ -368,22 +355,22 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903365
  04
 END:VEVENT
 BEGIN:VEVENT
-UID:39331bef-8ab1-473b-9f71-8c4364568d9c
+UID:fbfb332f-5fe6-41f3-8651-6eaa64cc8c45
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260803T010000Z
 DTEND:20260803T020000Z
-SUMMARY:Candlelit with Sound — Scotty G — 25 spots
+SUMMARY:Y6 Restore  — Scotty G — 25 spots
 LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Restore \nCapacity: 27\nWaitlist: 0\nBook: https://m
- embers.yogasix.com/book/yogasix-edgewater/cr_90336610
+DESCRIPTION:Notes: Candlelit with Sound\nCapacity: 27\nWaitlist: 0\nBook: 
+ https://members.yogasix.com/book/yogasix-edgewater/cr_90336610
 URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903366
  10
 END:VEVENT
 BEGIN:VEVENT
-UID:c2b9d97f-14e6-4c40-92ed-89fc4391eded
+UID:677d2a5d-5b3c-4c84-9f0d-cd0fa865b408
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260803T133000Z
 DTEND:20260803T143000Z
 SUMMARY:Y6 Power Flow — Jessie L — 30 spots
@@ -394,35 +381,35 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903804
  50
 END:VEVENT
 BEGIN:VEVENT
-UID:578b123b-c917-4d3a-bc76-7d0260432735
+UID:104a72dd-5b35-450e-a782-38397ac68eda
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260803T180000Z
 DTEND:20260803T190000Z
-SUMMARY:Hot Evolved! — Scotty G — 29 spots
+SUMMARY:Y6 Signature Hot — Scotty G — 29 spots
 LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Signature Hot\nCapacity: 30\nWaitlist: 0\nBook: http
- s://members.yogasix.com/book/yogasix-edgewater/cr_90381903
+DESCRIPTION:Notes: Hot Evolved!\nCapacity: 30\nWaitlist: 0\nBook: https://
+ members.yogasix.com/book/yogasix-edgewater/cr_90381903
 URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903819
  03
 END:VEVENT
 BEGIN:VEVENT
-UID:0a04d0eb-db8b-4885-b867-fd3d931ec2ca
+UID:eb41ade7-ae2f-44ed-9530-1d2deef2b017
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260803T220000Z
 DTEND:20260803T230000Z
 SUMMARY:Y6 Power Flow — Jane K — 21 spots
 LOCATION:YogaSix Edgewater
-DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
- ook/yogasix-edgewater/cr_90382046
+DESCRIPTION:Notes: James' 2000th Class!\nCapacity: 30\nWaitlist: 0\nBook: 
+ https://members.yogasix.com/book/yogasix-edgewater/cr_90382046
 URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903820
  46
 END:VEVENT
 BEGIN:VEVENT
-UID:4c39ee3a-9c04-429b-8662-5ab1a3ca371f
+UID:7d96d443-cf58-4ca9-9179-224ca27ba452
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260803T233000Z
 DTEND:20260804T003000Z
 SUMMARY:Y6 Sculpt — Jane K — 30 spots
@@ -433,9 +420,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903821
  50
 END:VEVENT
 BEGIN:VEVENT
-UID:6261662d-c8a0-4495-8509-a09eb2fe0e37
+UID:c98f5353-889a-4098-aaf1-e6c64c22b0ce
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260804T010000Z
 DTEND:20260804T020000Z
 SUMMARY:Y6 Slow Flow  — Kelsey S — 25 spots
@@ -446,9 +433,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903824
  91
 END:VEVENT
 BEGIN:VEVENT
-UID:3b8e21d6-ae15-480e-963b-0810f6dad1a4
+UID:2e00468f-83c2-4983-bacf-99448a6c7a48
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260804T120000Z
 DTEND:20260804T130000Z
 SUMMARY:Y6 Power Flow — Jane K — 29 spots
@@ -459,9 +446,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906144
  34
 END:VEVENT
 BEGIN:VEVENT
-UID:5c3a3674-c898-4897-866c-3f86698a8ff6
+UID:d823fdc0-312a-48ef-a658-b35bbb654a0b
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260804T133000Z
 DTEND:20260804T141500Z
 SUMMARY:Y6 Sculpt Express (45m) — Kristin W — 29 spots
@@ -472,9 +459,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906145
  73
 END:VEVENT
 BEGIN:VEVENT
-UID:5b9c436d-4434-426e-bcf6-c879da3674aa
+UID:71edf6a2-e19b-4cf8-b245-d08cc4253f96
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260804T180000Z
 DTEND:20260804T190000Z
 SUMMARY:Y6 Mobility — Maggie L — 30 spots
@@ -485,22 +472,22 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906147
  00
 END:VEVENT
 BEGIN:VEVENT
-UID:617547f4-554d-4342-a075-a1a94a65271d
+UID:c43b6a31-6c58-42f7-b49f-aeeae1ad8701
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260804T220000Z
 DTEND:20260804T230000Z
-SUMMARY:Burn-Pilates Inspired — Kristin W — 30 spots
+SUMMARY:Y6 Core — Kristin W — 30 spots
 LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Core\nCapacity: 30\nWaitlist: 0\nBook: https://membe
- rs.yogasix.com/book/yogasix-edgewater/cr_90614965
+DESCRIPTION:Notes: Burn-Pilates Inspired\nCapacity: 30\nWaitlist: 0\nBook:
+  https://members.yogasix.com/book/yogasix-edgewater/cr_90614965
 URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906149
  65
 END:VEVENT
 BEGIN:VEVENT
-UID:c6ee3f5d-700c-4114-8145-ddd760f3fcce
+UID:c030d4ae-364a-4216-bbc1-ed5b1cfb23e8
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260804T233000Z
 DTEND:20260805T003000Z
 SUMMARY:Y6 Signature Hot — Bailey H — 30 spots
@@ -511,22 +498,22 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906150
  29
 END:VEVENT
 BEGIN:VEVENT
-UID:2ed866ff-b06e-4acf-a256-d23b083fab0d
+UID:80a194a0-ce30-460c-9701-097fa22fd0c9
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260805T010000Z
 DTEND:20260805T020000Z
-SUMMARY:Yin Edition — Amanda FK — 24 spots
+SUMMARY:Y6 Restore  — Amanda FK — 24 spots
 LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Restore \nCapacity: 27\nWaitlist: 0\nBook: https://m
+DESCRIPTION:Notes: Yin Edition\nCapacity: 27\nWaitlist: 0\nBook: https://m
  embers.yogasix.com/book/yogasix-edgewater/cr_90615191
 URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906151
  91
 END:VEVENT
 BEGIN:VEVENT
-UID:67bb0ebb-6424-4aa4-842c-43e02b98b91e
+UID:86b6f8f3-a305-4e31-8b0c-5340c67535da
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260805T120000Z
 DTEND:20260805T130000Z
 SUMMARY:Y6 Signature Hot — Asia W — 30 spots
@@ -537,9 +524,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906155
  58
 END:VEVENT
 BEGIN:VEVENT
-UID:5e6b5934-3283-451e-a9b0-0ed2e321dcb3
+UID:1f4cbd40-1e9f-440a-84aa-b3acdf250a00
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260805T133000Z
 DTEND:20260805T141500Z
 SUMMARY:Y6 Slow Flow Express (45 Min) — Maggie L — 28 spots
@@ -550,9 +537,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906156
  72
 END:VEVENT
 BEGIN:VEVENT
-UID:f6de0c93-6481-4764-b9c0-dff6289c788d
+UID:5d5918c5-421d-4c15-bb3b-7f699ead4304
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260805T180000Z
 DTEND:20260805T190000Z
 SUMMARY:Y6 Power Flow — Jessie L — 30 spots
@@ -563,9 +550,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906157
  87
 END:VEVENT
 BEGIN:VEVENT
-UID:a1fb83c6-92c9-49f0-8f3c-67bb186e9b55
+UID:b26ea931-def3-4781-b7f8-fe29affcc21b
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260805T220000Z
 DTEND:20260805T230000Z
 SUMMARY:Y6 Power Flow — Jessie L — 30 spots
@@ -576,9 +563,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_921685
  91
 END:VEVENT
 BEGIN:VEVENT
-UID:8438e27a-9683-4375-a6d0-30b71d0c2a47
+UID:df2da043-8de5-48ff-8ef2-35cdaa64218e
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260805T233000Z
 DTEND:20260806T003000Z
 SUMMARY:Y6 Sculpt — Kristin W — 30 spots
@@ -589,22 +576,22 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906159
  58
 END:VEVENT
 BEGIN:VEVENT
-UID:ebd47610-0478-4f96-a259-685b3ca2378e
+UID:04fb8dcc-9f5b-42f7-8b76-e64780efd4dd
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260806T010000Z
 DTEND:20260806T020000Z
-SUMMARY:Candlelit Hot — Mariah J. — 30 spots
+SUMMARY:Y6 Signature Hot — Mariah J. — 30 spots
 LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Signature Hot\nCapacity: 30\nWaitlist: 0\nBook: http
- s://members.yogasix.com/book/yogasix-edgewater/cr_90616078
+DESCRIPTION:Notes: Candlelit Hot\nCapacity: 30\nWaitlist: 0\nBook: https:/
+ /members.yogasix.com/book/yogasix-edgewater/cr_90616078
 URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906160
  78
 END:VEVENT
 BEGIN:VEVENT
-UID:adbaf0b9-4008-4459-ba1d-4675a0ad2184
+UID:cc8133ae-3809-44db-9879-2986261783c5
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260806T120000Z
 DTEND:20260806T130000Z
 SUMMARY:Y6 Sculpt — Jane K — 30 spots
@@ -615,9 +602,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906161
  36
 END:VEVENT
 BEGIN:VEVENT
-UID:bd25927c-689a-4a64-9e3f-edec273ea32a
+UID:01c69825-c920-463f-8c88-949c06a6544f
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260806T133000Z
 DTEND:20260806T141500Z
 SUMMARY:Y6 Power Flow Express (45 Min) — Maggie L — 30 spots
@@ -628,22 +615,22 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906161
  96
 END:VEVENT
 BEGIN:VEVENT
-UID:d6d8d3d9-dbb5-4916-a8c8-3a5b4427bc2b
+UID:b66762d0-61fd-4d2b-a221-e771b5539020
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260806T180000Z
 DTEND:20260806T190000Z
-SUMMARY:Burn-Pilates Inspired — Anna A — 29 spots
+SUMMARY:Y6 Core — Anna A — 29 spots
 LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Core\nCapacity: 30\nWaitlist: 0\nBook: https://membe
- rs.yogasix.com/book/yogasix-edgewater/cr_90616464
+DESCRIPTION:Notes: Burn-Pilates Inspired\nCapacity: 30\nWaitlist: 0\nBook:
+  https://members.yogasix.com/book/yogasix-edgewater/cr_90616464
 URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906164
  64
 END:VEVENT
 BEGIN:VEVENT
-UID:b7eab612-37f1-4cc0-a51f-7f9eadd54f82
+UID:626a83da-e5b1-40a2-8bc3-e4242eceb31a
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260806T220000Z
 DTEND:20260806T230000Z
 SUMMARY:Y6 Sculpt — Kristin W — 29 spots
@@ -654,9 +641,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906165
  70
 END:VEVENT
 BEGIN:VEVENT
-UID:9871d03a-968d-42ec-85a0-2284f39690f9
+UID:914de04c-e877-44a5-a0ac-3b8db5706e65
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260806T233000Z
 DTEND:20260807T003000Z
 SUMMARY:Y6 Power Flow — Christina G. — 28 spots
@@ -667,9 +654,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906168
  65
 END:VEVENT
 BEGIN:VEVENT
-UID:43a7f415-298f-4d2b-9a5b-2f43bd543e91
+UID:f33abd10-5d1f-4650-b72f-c4ff5d6ef072
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260807T010000Z
 DTEND:20260807T020000Z
 SUMMARY:Y6 Restore  — Christina G. — 26 spots
@@ -680,9 +667,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906170
  78
 END:VEVENT
 BEGIN:VEVENT
-UID:083f0b5d-6296-407d-a22b-29f176e5d80a
+UID:8aef02c5-ff29-4c9a-9456-79c924afa6df
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260807T120000Z
 DTEND:20260807T130000Z
 SUMMARY:Y6 Slow Flow  — Jane K — 28 spots
@@ -693,9 +680,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903368
  08
 END:VEVENT
 BEGIN:VEVENT
-UID:64265f36-3279-4322-b814-4b2dbb12bee9
+UID:4a3b7c39-e1df-4ed4-961c-95ef71b6f7ed
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260807T133000Z
 DTEND:20260807T143000Z
 SUMMARY:Y6 Signature Hot — Bailey H — 29 spots
@@ -706,9 +693,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903369
  19
 END:VEVENT
 BEGIN:VEVENT
-UID:05803b13-2009-41ac-8061-5a7f7a4260fc
+UID:ecbc2069-5ace-4245-a0b5-bd8edbd1e616
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260807T163000Z
 DTEND:20260807T173000Z
 SUMMARY:Y6 Mobility — Scotty G — 29 spots
@@ -719,22 +706,22 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903369
  75
 END:VEVENT
 BEGIN:VEVENT
-UID:6852f9d6-8981-44d5-8d11-e302b1e8cf3a
+UID:05374114-11b6-489a-bd57-09122f9677ae
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260807T180000Z
 DTEND:20260807T190000Z
-SUMMARY:Yin Edition — Amanda FK — 27 spots
+SUMMARY:Y6 Restore  — Amanda FK — 27 spots
 LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Restore \nCapacity: 27\nWaitlist: 0\nBook: https://m
+DESCRIPTION:Notes: Yin Edition\nCapacity: 27\nWaitlist: 0\nBook: https://m
  embers.yogasix.com/book/yogasix-edgewater/cr_90337116
 URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903371
  16
 END:VEVENT
 BEGIN:VEVENT
-UID:8968a034-d7db-440e-8dc5-6408adbae1e0
+UID:98d77589-e148-4d3f-9ce6-4bb756990ef5
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260807T220000Z
 DTEND:20260807T230000Z
 SUMMARY:Y6 Sculpt — Jane K — 30 spots
@@ -745,9 +732,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903371
  69
 END:VEVENT
 BEGIN:VEVENT
-UID:e4130bb7-56d9-4d2a-955f-9c291b99d8c9
+UID:02f74d52-263d-45b7-9398-12384bd9730b
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260807T233000Z
 DTEND:20260808T003000Z
 SUMMARY:Y6 Power Flow — Jessie L — 29 spots
@@ -758,9 +745,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903372
  53
 END:VEVENT
 BEGIN:VEVENT
-UID:50b31071-4795-47b9-94e3-dac7ad13866d
+UID:93c6d690-0364-429a-b52c-f228d7779ded
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260808T133000Z
 DTEND:20260808T143000Z
 SUMMARY:Y6 Power Flow — Scotty G — 29 spots
@@ -771,22 +758,22 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903373
  39
 END:VEVENT
 BEGIN:VEVENT
-UID:4b1584b1-fa5a-4a63-be17-87b8068719be
+UID:c87f678c-7555-4c49-abe8-f6fbbc087764
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260808T150000Z
 DTEND:20260808T160000Z
-SUMMARY:Candlelit Hot — Mariah J. — 30 spots
+SUMMARY:Y6 Signature Hot — Mariah J. — 30 spots
 LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Signature Hot\nCapacity: 30\nWaitlist: 0\nBook: http
- s://members.yogasix.com/book/yogasix-edgewater/cr_90337394
+DESCRIPTION:Notes: Candlelit Hot\nCapacity: 30\nWaitlist: 0\nBook: https:/
+ /members.yogasix.com/book/yogasix-edgewater/cr_90337394
 URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903373
  94
 END:VEVENT
 BEGIN:VEVENT
-UID:100958bd-90d9-46fc-b159-11efe66445f7
+UID:74b899a3-e04d-487b-816b-373ba4a0a7a9
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260808T163000Z
 DTEND:20260808T173000Z
 SUMMARY:Y6 Sculpt — Mariah J. — 28 spots
@@ -797,22 +784,22 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903374
  80
 END:VEVENT
 BEGIN:VEVENT
-UID:9700ad2e-d76b-40e4-ae24-0cda9fce8d2d
+UID:34093b5a-6c4e-4ab1-b146-3d6fffd7869d
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260808T180000Z
 DTEND:20260808T200000Z
-SUMMARY:2 Hour Advanced Practice — Christina G. — 24 spots
+SUMMARY:Workshop 120 — Christina G. — 24 spots
 LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Workshop 120\nCapacity: 29\nWaitlist: 0\nBook: https://
- members.yogasix.com/book/yogasix-edgewater/cr_98090915
+DESCRIPTION:Notes: 2 Hour Advanced Practice\nCapacity: 29\nWaitlist: 0\nBo
+ ok: https://members.yogasix.com/book/yogasix-edgewater/cr_98090915
 URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_980909
  15
 END:VEVENT
 BEGIN:VEVENT
-UID:41766b5a-4888-4896-b7ac-a55882e554e4
+UID:24dcb364-f4ba-4177-b0af-f2dcb6c3282d
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260809T150000Z
 DTEND:20260809T160000Z
 SUMMARY:Y6 Sculpt — Di C. — 29 spots
@@ -823,35 +810,35 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903362
  59
 END:VEVENT
 BEGIN:VEVENT
-UID:ce4be5cb-6dc5-44d2-a619-9358583e5ebd
+UID:90c481c0-c8da-423f-b21c-192e55da06b7
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260809T163000Z
 DTEND:20260809T173000Z
-SUMMARY:75 min Power Flow — Jessie L — 28 spots
+SUMMARY:Y6 Power Flow — Jessie L — 28 spots
 LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Power Flow\nCapacity: 30\nWaitlist: 0\nBook: https:/
- /members.yogasix.com/book/yogasix-edgewater/cr_90336313
+DESCRIPTION:Notes: 75 min Power Flow\nCapacity: 30\nWaitlist: 0\nBook: htt
+ ps://members.yogasix.com/book/yogasix-edgewater/cr_90336313
 URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903363
  13
 END:VEVENT
 BEGIN:VEVENT
-UID:7571d630-582c-45e1-abcd-f295461c118e
+UID:4309282d-2e32-476b-9a50-255ab2a5bcad
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260809T180000Z
 DTEND:20260809T190000Z
-SUMMARY:Yin Edition — Amanda FK — 27 spots
+SUMMARY:Y6 Restore  — Amanda FK — 27 spots
 LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Restore \nCapacity: 27\nWaitlist: 0\nBook: https://m
+DESCRIPTION:Notes: Yin Edition\nCapacity: 27\nWaitlist: 0\nBook: https://m
  embers.yogasix.com/book/yogasix-edgewater/cr_90336367
 URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903363
  67
 END:VEVENT
 BEGIN:VEVENT
-UID:14767c29-1bbd-460f-a6fc-4f92965c3b8c
+UID:7d4d171a-9527-4ef6-8cd1-811b014ad71c
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260809T220000Z
 DTEND:20260809T230000Z
 SUMMARY:Y6 Slow Flow  — Jessie L — 30 spots
@@ -862,9 +849,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903364
  20
 END:VEVENT
 BEGIN:VEVENT
-UID:5ee9ef60-ef12-4af4-88a6-b4d33a590d70
+UID:e8adf03b-1876-4de8-b498-6f051bcb2655
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260809T233000Z
 DTEND:20260810T003000Z
 SUMMARY:Y6 Mobility — Jessie L — 30 spots
@@ -875,22 +862,22 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903365
  05
 END:VEVENT
 BEGIN:VEVENT
-UID:4cd22572-6f6e-4347-b0e7-6fdcd034d519
+UID:2911e230-6bd2-46e0-8ad3-0454ecd8c88e
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260810T010000Z
 DTEND:20260810T020000Z
-SUMMARY:Candlelit with Sound — Scotty G — 25 spots
+SUMMARY:Y6 Restore  — Scotty G — 25 spots
 LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Restore \nCapacity: 27\nWaitlist: 0\nBook: https://m
- embers.yogasix.com/book/yogasix-edgewater/cr_90336611
+DESCRIPTION:Notes: Candlelit with Sound\nCapacity: 27\nWaitlist: 0\nBook: 
+ https://members.yogasix.com/book/yogasix-edgewater/cr_90336611
 URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903366
  11
 END:VEVENT
 BEGIN:VEVENT
-UID:44d6c926-8c08-4dce-a1fe-dba4e2353d44
+UID:0abf8b7b-2d5b-4423-8fa7-ef48b6a4a6f0
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260810T133000Z
 DTEND:20260810T143000Z
 SUMMARY:Y6 Power Flow — Jessie L — 30 spots
@@ -901,22 +888,22 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903804
  51
 END:VEVENT
 BEGIN:VEVENT
-UID:51042c8f-d6ff-4416-93f7-a00a26894cdb
+UID:24a0b321-4611-4815-9578-aa70102e399b
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260810T180000Z
 DTEND:20260810T190000Z
-SUMMARY:Hot Evolved! — Scotty G — 30 spots
+SUMMARY:Y6 Signature Hot — Scotty G — 30 spots
 LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Signature Hot\nCapacity: 30\nWaitlist: 0\nBook: http
- s://members.yogasix.com/book/yogasix-edgewater/cr_90381904
+DESCRIPTION:Notes: Hot Evolved!\nCapacity: 30\nWaitlist: 0\nBook: https://
+ members.yogasix.com/book/yogasix-edgewater/cr_90381904
 URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903819
  04
 END:VEVENT
 BEGIN:VEVENT
-UID:03153550-d41f-481c-b3de-3bd4025e8736
+UID:ad0f429d-6128-4990-851a-11481f7c9eda
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260810T220000Z
 DTEND:20260810T230000Z
 SUMMARY:Y6 Power Flow — Jane K — 30 spots
@@ -927,9 +914,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903820
  47
 END:VEVENT
 BEGIN:VEVENT
-UID:770137cc-9b36-4f99-bc8f-5b37c38d02f1
+UID:b8a8b9de-b555-4aa2-877b-fd1aaac09003
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260810T233000Z
 DTEND:20260811T003000Z
 SUMMARY:Y6 Sculpt — Jane K — 29 spots
@@ -940,9 +927,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903821
  51
 END:VEVENT
 BEGIN:VEVENT
-UID:f7b94a26-752b-435f-a9fd-33083cc4ec97
+UID:7ebb4563-6ec0-4026-a186-5e939dfb0264
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260811T010000Z
 DTEND:20260811T020000Z
 SUMMARY:Y6 Slow Flow  — Asia W — 30 spots
@@ -953,9 +940,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903824
  92
 END:VEVENT
 BEGIN:VEVENT
-UID:1bb4fccc-04e9-45f1-bdf6-b0301ff41b5b
+UID:fafde189-61cd-4a91-abed-8186660f3170
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260811T120000Z
 DTEND:20260811T130000Z
 SUMMARY:Y6 Power Flow — Jane K — 29 spots
@@ -966,9 +953,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906144
  35
 END:VEVENT
 BEGIN:VEVENT
-UID:3375feb2-a6ef-453c-8e7f-69f1a444ed4a
+UID:df30b1f5-a842-4451-beaa-802db8df7a0a
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260811T133000Z
 DTEND:20260811T141500Z
 SUMMARY:Y6 Sculpt Express (45m) — Jess M — 30 spots
@@ -979,9 +966,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906145
  74
 END:VEVENT
 BEGIN:VEVENT
-UID:e14c68a3-1833-4f1e-a162-8e196d55f5b6
+UID:91cf7978-5d4d-4d64-b333-fe5830a843f8
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260811T180000Z
 DTEND:20260811T190000Z
 SUMMARY:Y6 Mobility — Maggie L — 30 spots
@@ -992,22 +979,22 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906147
  01
 END:VEVENT
 BEGIN:VEVENT
-UID:bb30f81d-066c-4be1-9390-ccb751517608
+UID:87170bbb-3a92-48f9-8e8c-52c441b592ff
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260811T220000Z
 DTEND:20260811T230000Z
-SUMMARY:Burn-Pilates Inspired — Kristin W — 30 spots
+SUMMARY:Y6 Core — Kristin W — 30 spots
 LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Core\nCapacity: 30\nWaitlist: 0\nBook: https://membe
- rs.yogasix.com/book/yogasix-edgewater/cr_90614966
+DESCRIPTION:Notes: Burn-Pilates Inspired\nCapacity: 30\nWaitlist: 0\nBook:
+  https://members.yogasix.com/book/yogasix-edgewater/cr_90614966
 URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906149
  66
 END:VEVENT
 BEGIN:VEVENT
-UID:4feeb9b5-39fa-43ed-ba1e-917bce49a96a
+UID:1124c2f7-473a-455c-b0d7-771bea191b43
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260811T233000Z
 DTEND:20260812T003000Z
 SUMMARY:Y6 Signature Hot — Bailey H — 30 spots
@@ -1018,22 +1005,22 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906150
  30
 END:VEVENT
 BEGIN:VEVENT
-UID:a0def80b-ddb3-4641-adfb-4e7cc483f4bd
+UID:c9b75afe-3b98-4cea-91c2-a285e21ea388
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260812T010000Z
 DTEND:20260812T020000Z
-SUMMARY:Yin Edition — Amanda FK — 27 spots
+SUMMARY:Y6 Restore  — Amanda FK — 27 spots
 LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Restore \nCapacity: 27\nWaitlist: 0\nBook: https://m
+DESCRIPTION:Notes: Yin Edition\nCapacity: 27\nWaitlist: 0\nBook: https://m
  embers.yogasix.com/book/yogasix-edgewater/cr_90615192
 URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906151
  92
 END:VEVENT
 BEGIN:VEVENT
-UID:939ac194-2a52-4e32-925b-6e211987bce5
+UID:69975721-a4b2-4fc7-8c44-35c4012ba20e
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260812T120000Z
 DTEND:20260812T130000Z
 SUMMARY:Y6 Signature Hot — Asia W — 29 spots
@@ -1044,9 +1031,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906155
  59
 END:VEVENT
 BEGIN:VEVENT
-UID:91533070-06c5-4733-b1ec-0198281e0741
+UID:7a35272f-75bb-4263-ba7a-ba8bd999f2a7
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260812T133000Z
 DTEND:20260812T141500Z
 SUMMARY:Y6 Slow Flow Express (45 Min) — Maggie L — 30 spots
@@ -1057,9 +1044,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906156
  73
 END:VEVENT
 BEGIN:VEVENT
-UID:cebcd3ad-eb84-4592-885e-fd4f0227e9f1
+UID:9a978b0e-b4b1-4734-a1b1-563198cd8995
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260812T180000Z
 DTEND:20260812T190000Z
 SUMMARY:Y6 Power Flow — Cassandra S — 30 spots
@@ -1070,9 +1057,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906157
  88
 END:VEVENT
 BEGIN:VEVENT
-UID:e1224acf-27c8-425b-aa32-5421773a9787
+UID:cc571b7f-6435-4c21-80ca-948d21122450
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260812T220000Z
 DTEND:20260812T230000Z
 SUMMARY:Y6 Power Flow — Cassandra S — 30 spots
@@ -1083,9 +1070,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_921685
  92
 END:VEVENT
 BEGIN:VEVENT
-UID:e1bbb932-d193-4830-bfe0-ab1ae3d495e3
+UID:f77bf27e-045a-4fd0-86db-196d8ba1a9bf
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260812T233000Z
 DTEND:20260813T003000Z
 SUMMARY:Y6 Sculpt — Kristin W — 30 spots
@@ -1096,22 +1083,22 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906159
  59
 END:VEVENT
 BEGIN:VEVENT
-UID:e13f212f-19bd-4c41-a7cd-d8c59a6ab303
+UID:2a6c2c78-c74b-4930-a289-e4065e83279f
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260813T010000Z
 DTEND:20260813T020000Z
-SUMMARY:Candlelit Hot — Mariah J. — 29 spots
+SUMMARY:Y6 Signature Hot — Mariah J. — 29 spots
 LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Signature Hot\nCapacity: 30\nWaitlist: 0\nBook: http
- s://members.yogasix.com/book/yogasix-edgewater/cr_90616079
+DESCRIPTION:Notes: Candlelit Hot\nCapacity: 30\nWaitlist: 0\nBook: https:/
+ /members.yogasix.com/book/yogasix-edgewater/cr_90616079
 URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906160
  79
 END:VEVENT
 BEGIN:VEVENT
-UID:0a7c4ae2-8098-4925-91d7-69d5cecd42eb
+UID:0168f2ee-0401-44c4-a6ab-0f1e74e29da6
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260813T120000Z
 DTEND:20260813T130000Z
 SUMMARY:Y6 Sculpt — Jane K — 30 spots
@@ -1122,9 +1109,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906161
  37
 END:VEVENT
 BEGIN:VEVENT
-UID:cb1c63fd-1d56-4e3b-8bf5-680a65c62ca2
+UID:b03827cf-1286-4e30-b3ec-023ff111df4a
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260813T133000Z
 DTEND:20260813T141500Z
 SUMMARY:Y6 Power Flow Express (45 Min) — Maggie L — 30 spots
@@ -1135,22 +1122,22 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906161
  97
 END:VEVENT
 BEGIN:VEVENT
-UID:bb584a66-10cb-4862-89a8-b3e8d1701eb5
+UID:fa2c72ea-ff50-410c-8800-f8f1a78595de
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260813T180000Z
 DTEND:20260813T190000Z
-SUMMARY:Burn-Pilates Inspired — Anna A — 30 spots
+SUMMARY:Y6 Core — Anna A — 30 spots
 LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Core\nCapacity: 30\nWaitlist: 0\nBook: https://membe
- rs.yogasix.com/book/yogasix-edgewater/cr_90616465
+DESCRIPTION:Notes: Burn-Pilates Inspired\nCapacity: 30\nWaitlist: 0\nBook:
+  https://members.yogasix.com/book/yogasix-edgewater/cr_90616465
 URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906164
  65
 END:VEVENT
 BEGIN:VEVENT
-UID:6e1b2769-36fe-4420-a7d7-9b0bb7facdc7
+UID:a6fb0f14-282b-4fcf-aa04-2c34dd19ecc9
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260813T220000Z
 DTEND:20260813T230000Z
 SUMMARY:Y6 Sculpt — Jess M — 30 spots
@@ -1161,9 +1148,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906165
  71
 END:VEVENT
 BEGIN:VEVENT
-UID:1414505a-c2e1-4b9e-b3a0-ca5b33192ac5
+UID:406f58b0-6109-46b0-8afc-bf727ae14fb0
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260813T233000Z
 DTEND:20260814T003000Z
 SUMMARY:Y6 Power Flow — Christina G. — 30 spots
@@ -1174,9 +1161,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906168
  66
 END:VEVENT
 BEGIN:VEVENT
-UID:2cef1d11-a35e-4e4a-aa62-2165fc3b55fc
+UID:4e468925-cd20-4a2b-9b6a-1435e8dd3ab2
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260814T010000Z
 DTEND:20260814T020000Z
 SUMMARY:Y6 Restore  — Christina G. — 27 spots
@@ -1187,9 +1174,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906170
  79
 END:VEVENT
 BEGIN:VEVENT
-UID:3538fbc1-b060-4350-90ac-25d106eaf440
+UID:718a75d9-a1cb-4ee0-ad94-2b08eef64691
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260814T120000Z
 DTEND:20260814T130000Z
 SUMMARY:Y6 Slow Flow  — Jane K — 30 spots
@@ -1200,9 +1187,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903368
  09
 END:VEVENT
 BEGIN:VEVENT
-UID:85901ac1-4851-4ee9-9594-a3ae3181f938
+UID:4780a40f-ee92-4707-b225-df10d1b046b4
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260814T133000Z
 DTEND:20260814T143000Z
 SUMMARY:Y6 Signature Hot — Bailey H — 30 spots
@@ -1213,9 +1200,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903369
  20
 END:VEVENT
 BEGIN:VEVENT
-UID:8f7f7ac5-1d46-4e53-8864-cbdb62e332d3
+UID:7cd372b5-9236-49a9-afb5-317d69450df3
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260814T163000Z
 DTEND:20260814T173000Z
 SUMMARY:Y6 Mobility — Cassandra S — 30 spots
@@ -1226,22 +1213,22 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903369
  76
 END:VEVENT
 BEGIN:VEVENT
-UID:5fc4fef6-5aeb-48b9-aff4-a78e84fb85b1
+UID:d005ff42-871d-4235-be9b-15f7a73bf20b
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260814T180000Z
 DTEND:20260814T190000Z
-SUMMARY:Yin Edition — Cassandra S — 26 spots
+SUMMARY:Y6 Restore  — Cassandra S — 26 spots
 LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Restore \nCapacity: 27\nWaitlist: 0\nBook: https://m
+DESCRIPTION:Notes: Yin Edition\nCapacity: 27\nWaitlist: 0\nBook: https://m
  embers.yogasix.com/book/yogasix-edgewater/cr_90337117
 URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903371
  17
 END:VEVENT
 BEGIN:VEVENT
-UID:bf981600-da6c-42ca-8de1-1ef36a5fb505
+UID:f0d7129e-622e-4432-8a5d-429087d2bc18
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260814T220000Z
 DTEND:20260814T230000Z
 SUMMARY:Y6 Sculpt — Kelsey S — 30 spots
@@ -1252,9 +1239,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903371
  70
 END:VEVENT
 BEGIN:VEVENT
-UID:52aaab49-6597-4e6f-b770-452e2609ad58
+UID:a0466e6a-aa36-421a-9a66-946a1976b9d4
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260814T233000Z
 DTEND:20260815T003000Z
 SUMMARY:Y6 Power Flow — Kelsey S — 29 spots
@@ -1265,22 +1252,22 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903372
  54
 END:VEVENT
 BEGIN:VEVENT
-UID:13dc630a-65b1-4a74-ab51-ec1b9967d2f7
+UID:85433552-5059-429d-b779-a3d1e010d0f4
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260815T010000Z
 DTEND:20260815T023000Z
-SUMMARY:Circular Breathwork — Kelsey S — 29 spots
+SUMMARY:Workshop 90 (Free for Members) — Kelsey S — 29 spots
 LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Workshop 90 (Free for Members)\nCapacity: 30\nWaitlist:
-  0\nBook: https://members.yogasix.com/book/yogasix-edgewater/cr_97063980
+DESCRIPTION:Notes: Circular Breathwork\nCapacity: 30\nWaitlist: 0\nBook: h
+ ttps://members.yogasix.com/book/yogasix-edgewater/cr_97063980
 URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_970639
  80
 END:VEVENT
 BEGIN:VEVENT
-UID:c4e550f8-b16e-4e01-a276-6a9302c9d5df
+UID:a3ae2144-12f9-4de1-a34f-1eb9974ac369
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260815T133000Z
 DTEND:20260815T143000Z
 SUMMARY:Y6 Power Flow — Scotty G — 30 spots
@@ -1291,35 +1278,35 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903373
  40
 END:VEVENT
 BEGIN:VEVENT
-UID:801f5592-f1ef-4a40-8367-eafcb30cc15f
+UID:85c88dee-fc9f-4fec-bf4d-92c9c96033b6
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260815T150000Z
 DTEND:20260815T160000Z
-SUMMARY:Rooftop Yoga @Edgewater Market! — Jessie L — 27 spots
+SUMMARY:Y6 Signature Hot — Mariah J. — 30 spots
 LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Pop-Up (60 min)\nCapacity: 30\nWaitlist: 0\nBook: ht
- tps://members.yogasix.com/book/yogasix-edgewater/cr_96633152
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_966331
- 52
-END:VEVENT
-BEGIN:VEVENT
-UID:80c3b511-1d76-43d0-86b3-b7b1ce974279
-SEQUENCE:0
-DTSTAMP:20260729T113657Z
-DTSTART:20260815T150000Z
-DTEND:20260815T160000Z
-SUMMARY:Candlelit Hot — Mariah J. — 30 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Signature Hot\nCapacity: 30\nWaitlist: 0\nBook: http
- s://members.yogasix.com/book/yogasix-edgewater/cr_90337395
+DESCRIPTION:Notes: Candlelit Hot\nCapacity: 30\nWaitlist: 0\nBook: https:/
+ /members.yogasix.com/book/yogasix-edgewater/cr_90337395
 URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903373
  95
 END:VEVENT
 BEGIN:VEVENT
-UID:8a883fee-962e-4f7e-a763-589ee0e94293
+UID:856ec1ea-7565-4e46-b8f0-f6b76cea2251
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
+DTSTART:20260815T150000Z
+DTEND:20260815T160000Z
+SUMMARY:Y6 Pop-Up (60 min) — Jessie L — 27 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Rooftop Yoga @Edgewater Market!\nCapacity: 30\nWaitlist
+ : 0\nBook: https://members.yogasix.com/book/yogasix-edgewater/cr_96633152
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_966331
+ 52
+END:VEVENT
+BEGIN:VEVENT
+UID:719e319b-ad27-4702-a2ef-0a2b64e5de66
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
 DTSTART:20260815T163000Z
 DTEND:20260815T173000Z
 SUMMARY:Y6 Sculpt — Mariah J. — 30 spots
@@ -1330,9 +1317,22 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903374
  81
 END:VEVENT
 BEGIN:VEVENT
-UID:68445913-b95b-4415-9325-2225d48bdd6f
+UID:e25030dd-ec23-4df5-81c6-ff3e216545b8
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
+DTSTART:20260815T210000Z
+DTEND:20260816T010000Z
+SUMMARY:Workshop - 240  min ($180) — Cassandra S — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Standing Poses Breakdown\nCapacity: 30\nBook: https://m
+ embers.yogasix.com/book/yogasix-edgewater/cr_99313890
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_993138
+ 90
+END:VEVENT
+BEGIN:VEVENT
+UID:3d30ae4b-2ccd-4d00-8f8f-76a3d644ba4e
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
 DTSTART:20260816T150000Z
 DTEND:20260816T160000Z
 SUMMARY:Y6 Sculpt — Mariah J. — 30 spots
@@ -1343,35 +1343,35 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903362
  60
 END:VEVENT
 BEGIN:VEVENT
-UID:abdd096e-08b7-4b0b-a95c-cb64f7ebbd48
+UID:701133f8-6eee-461f-9b2a-3aad75140d70
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260816T163000Z
 DTEND:20260816T173000Z
-SUMMARY:75 min Power Flow — Kelsey S — 29 spots
+SUMMARY:Y6 Power Flow — Kelsey S — 29 spots
 LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Power Flow\nCapacity: 30\nWaitlist: 0\nBook: https:/
- /members.yogasix.com/book/yogasix-edgewater/cr_90336314
+DESCRIPTION:Notes: 75 min Power Flow\nCapacity: 30\nWaitlist: 0\nBook: htt
+ ps://members.yogasix.com/book/yogasix-edgewater/cr_90336314
 URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903363
  14
 END:VEVENT
 BEGIN:VEVENT
-UID:dafd7d13-adc1-4fc7-88d7-5c44a6805b5b
+UID:d77c2410-0fde-48e6-a8c9-a41d7b5101fd
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260816T180000Z
 DTEND:20260816T190000Z
-SUMMARY:Yin Edition — Kelsey S — 27 spots
+SUMMARY:Y6 Restore  — Kelsey S — 27 spots
 LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Restore \nCapacity: 27\nWaitlist: 0\nBook: https://m
+DESCRIPTION:Notes: Yin Edition\nCapacity: 27\nWaitlist: 0\nBook: https://m
  embers.yogasix.com/book/yogasix-edgewater/cr_90336368
 URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903363
  68
 END:VEVENT
 BEGIN:VEVENT
-UID:9de52123-3752-40c9-8e69-6f2205286502
+UID:5a962212-18f8-4637-b466-ce373ef73966
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260816T220000Z
 DTEND:20260816T230000Z
 SUMMARY:Y6 Slow Flow  — Jessie L — 30 spots
@@ -1382,9 +1382,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903364
  21
 END:VEVENT
 BEGIN:VEVENT
-UID:804ebdba-995d-4b36-8ba2-ddb55114857c
+UID:1a0867d2-477c-4de3-bd36-ebaf5cddbb14
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260816T233000Z
 DTEND:20260817T003000Z
 SUMMARY:Y6 Mobility — Jessie L — 30 spots
@@ -1395,16 +1395,822 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903365
  06
 END:VEVENT
 BEGIN:VEVENT
-UID:d0fd5e93-30ae-47c2-b869-e6d5380652d4
+UID:6218198f-8f47-4ca8-8901-3763ee92f86d
 SEQUENCE:0
-DTSTAMP:20260729T113657Z
+DTSTAMP:20260729T130527Z
 DTSTART:20260817T010000Z
 DTEND:20260817T020000Z
-SUMMARY:Candlelit with Sound — Scotty G — 26 spots
+SUMMARY:Y6 Restore  — Scotty G — 26 spots
 LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Restore \nCapacity: 27\nWaitlist: 0\nBook: https://m
- embers.yogasix.com/book/yogasix-edgewater/cr_90336612
+DESCRIPTION:Notes: Candlelit with Sound\nCapacity: 27\nWaitlist: 0\nBook: 
+ https://members.yogasix.com/book/yogasix-edgewater/cr_90336612
 URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903366
  12
+END:VEVENT
+BEGIN:VEVENT
+UID:07fcfc31-ad45-4b42-94c7-b18285469352
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260817T133000Z
+DTEND:20260817T143000Z
+SUMMARY:Y6 Power Flow — Jessie L — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90380452
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903804
+ 52
+END:VEVENT
+BEGIN:VEVENT
+UID:cf5d325b-0c20-4b9c-9c57-e07895b0de51
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260817T180000Z
+DTEND:20260817T190000Z
+SUMMARY:Y6 Signature Hot — Scotty G — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Hot Evolved!\nCapacity: 30\nWaitlist: 0\nBook: https://
+ members.yogasix.com/book/yogasix-edgewater/cr_90381905
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903819
+ 05
+END:VEVENT
+BEGIN:VEVENT
+UID:1b18e95a-4f32-4d04-b369-62153ee3d7df
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260817T220000Z
+DTEND:20260817T230000Z
+SUMMARY:Y6 Power Flow — Jane K — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90382048
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903820
+ 48
+END:VEVENT
+BEGIN:VEVENT
+UID:e77e2337-75ca-4410-8037-bcc79787988d
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260817T233000Z
+DTEND:20260818T003000Z
+SUMMARY:Y6 Sculpt — Jane K — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90382152
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903821
+ 52
+END:VEVENT
+BEGIN:VEVENT
+UID:dbe1e94c-f1a7-441e-a782-b7ddfbd85b0d
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260818T010000Z
+DTEND:20260818T020000Z
+SUMMARY:Y6 Slow Flow  — Kelsey S — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90382493
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903824
+ 93
+END:VEVENT
+BEGIN:VEVENT
+UID:d8e27780-ffea-4447-a234-f4e3ca09470d
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260818T120000Z
+DTEND:20260818T130000Z
+SUMMARY:Y6 Power Flow — Jane K — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90614436
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906144
+ 36
+END:VEVENT
+BEGIN:VEVENT
+UID:56154e36-6126-451c-9fdd-9fd8ecbd82b0
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260818T133000Z
+DTEND:20260818T141500Z
+SUMMARY:Y6 Sculpt Express (45m) — Jess M — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90614575
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906145
+ 75
+END:VEVENT
+BEGIN:VEVENT
+UID:21e94e75-7008-40e3-862f-c5a94d5c4f3f
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260818T180000Z
+DTEND:20260818T190000Z
+SUMMARY:Y6 Mobility — Jessie L — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90614702
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906147
+ 02
+END:VEVENT
+BEGIN:VEVENT
+UID:71bc69ae-19bb-4c8c-ac1d-e45e73ad4c79
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260818T220000Z
+DTEND:20260818T230000Z
+SUMMARY:Y6 Core — Kristin W — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Burn-Pilates Inspired\nCapacity: 30\nWaitlist: 0\nBook:
+  https://members.yogasix.com/book/yogasix-edgewater/cr_90614967
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906149
+ 67
+END:VEVENT
+BEGIN:VEVENT
+UID:5abd783b-9fc9-4a96-a12c-b60880473252
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260818T233000Z
+DTEND:20260819T003000Z
+SUMMARY:Y6 Signature Hot — Bailey H — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90615031
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906150
+ 31
+END:VEVENT
+BEGIN:VEVENT
+UID:bd83d115-c8ff-4327-a9c3-391fd2181f19
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260819T010000Z
+DTEND:20260819T020000Z
+SUMMARY:Y6 Restore  — Amanda FK — 26 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Yin Edition\nCapacity: 27\nWaitlist: 0\nBook: https://m
+ embers.yogasix.com/book/yogasix-edgewater/cr_90615193
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906151
+ 93
+END:VEVENT
+BEGIN:VEVENT
+UID:2669f314-eae9-43f2-bda9-d238314590c3
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260819T120000Z
+DTEND:20260819T130000Z
+SUMMARY:Y6 Signature Hot — Asia W — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90615560
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906155
+ 60
+END:VEVENT
+BEGIN:VEVENT
+UID:36c806f9-8ef2-46c5-b2e8-283b0eb5dc05
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260819T133000Z
+DTEND:20260819T141500Z
+SUMMARY:Y6 Slow Flow Express (45 Min) — Asia W — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90615674
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906156
+ 74
+END:VEVENT
+BEGIN:VEVENT
+UID:1917b4b5-cc0b-4073-a090-6c9c8ae02238
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260819T180000Z
+DTEND:20260819T190000Z
+SUMMARY:Y6 Power Flow — Cassandra S — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90615789
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906157
+ 89
+END:VEVENT
+BEGIN:VEVENT
+UID:0fc1f786-28c9-477c-8525-32dd2b28d64e
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260819T220000Z
+DTEND:20260819T230000Z
+SUMMARY:Y6 Power Flow — Cassandra S — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_92168593
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_921685
+ 93
+END:VEVENT
+BEGIN:VEVENT
+UID:1b9fcb29-23ba-4506-89ae-b6a04e248bad
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260819T233000Z
+DTEND:20260820T003000Z
+SUMMARY:Y6 Sculpt — Kristin W — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90615960
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906159
+ 60
+END:VEVENT
+BEGIN:VEVENT
+UID:0ce1cb2f-3819-48c2-a2d2-c858d5c3034d
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260820T010000Z
+DTEND:20260820T020000Z
+SUMMARY:Y6 Signature Hot — Mariah J. — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Candlelit Hot\nCapacity: 30\nWaitlist: 0\nBook: https:/
+ /members.yogasix.com/book/yogasix-edgewater/cr_90616080
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906160
+ 80
+END:VEVENT
+BEGIN:VEVENT
+UID:4663d0f7-3330-4c91-886c-348e2db96463
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260820T120000Z
+DTEND:20260820T130000Z
+SUMMARY:Y6 Sculpt — Jane K — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90616138
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906161
+ 38
+END:VEVENT
+BEGIN:VEVENT
+UID:cb69a968-9bfb-4683-bdd4-7351c452c68c
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260820T133000Z
+DTEND:20260820T141500Z
+SUMMARY:Y6 Power Flow Express (45 Min) — Maggie L — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90616198
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906161
+ 98
+END:VEVENT
+BEGIN:VEVENT
+UID:fde5e69b-749f-46fc-bce3-a2bf3d366a51
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260820T180000Z
+DTEND:20260820T190000Z
+SUMMARY:Y6 Core — Anna A — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Burn-Pilates Inspired\nCapacity: 30\nWaitlist: 0\nBook:
+  https://members.yogasix.com/book/yogasix-edgewater/cr_90616466
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906164
+ 66
+END:VEVENT
+BEGIN:VEVENT
+UID:a4955d8e-ee00-4a26-9828-b4cdde29082d
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260820T220000Z
+DTEND:20260820T230000Z
+SUMMARY:Y6 Sculpt — Jess M — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90616572
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906165
+ 72
+END:VEVENT
+BEGIN:VEVENT
+UID:1d152fcc-f1fe-4bbd-b6f7-97a9aa569c66
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260820T233000Z
+DTEND:20260821T003000Z
+SUMMARY:Y6 Power Flow — Christina G. — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90616867
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906168
+ 67
+END:VEVENT
+BEGIN:VEVENT
+UID:7686a1ec-2fd8-4d1b-86ac-3ca2a017e433
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260821T010000Z
+DTEND:20260821T020000Z
+SUMMARY:Y6 Restore  — Christina G. — 27 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 27\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90617080
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906170
+ 80
+END:VEVENT
+BEGIN:VEVENT
+UID:557d6870-900d-4210-9a13-3bb3496cd472
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260821T120000Z
+DTEND:20260821T130000Z
+SUMMARY:Y6 Slow Flow  — Jane K — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90336810
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903368
+ 10
+END:VEVENT
+BEGIN:VEVENT
+UID:cfbdaf94-5d48-4abe-88dc-6ad76201ebad
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260821T133000Z
+DTEND:20260821T143000Z
+SUMMARY:Y6 Signature Hot — Bailey H — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90336921
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903369
+ 21
+END:VEVENT
+BEGIN:VEVENT
+UID:eafdce77-7c05-4185-ae5a-0f86b122454b
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260821T163000Z
+DTEND:20260821T173000Z
+SUMMARY:Y6 Mobility — Cassandra S — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90336977
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903369
+ 77
+END:VEVENT
+BEGIN:VEVENT
+UID:c30e605d-c904-4da3-9270-9bad1bef9d22
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260821T180000Z
+DTEND:20260821T190000Z
+SUMMARY:Y6 Restore  — Cassandra S — 27 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Yin Edition\nCapacity: 27\nWaitlist: 0\nBook: https://m
+ embers.yogasix.com/book/yogasix-edgewater/cr_90337118
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903371
+ 18
+END:VEVENT
+BEGIN:VEVENT
+UID:91f3287d-7d43-4215-9e53-34d27535dc6e
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260821T220000Z
+DTEND:20260821T230000Z
+SUMMARY:Y6 Sculpt — Kelsey S — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90337171
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903371
+ 71
+END:VEVENT
+BEGIN:VEVENT
+UID:0ca98b6b-707f-4c7d-86d0-160c1440e494
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260821T233000Z
+DTEND:20260822T003000Z
+SUMMARY:Y6 Power Flow — Kelsey S — 29 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90337256
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903372
+ 56
+END:VEVENT
+BEGIN:VEVENT
+UID:74c78566-ea77-49f9-a025-649d9955f938
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260822T133000Z
+DTEND:20260822T143000Z
+SUMMARY:Y6 Power Flow — Scotty G — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90337341
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903373
+ 41
+END:VEVENT
+BEGIN:VEVENT
+UID:c72789a3-753b-4054-99d5-fc8d952b625f
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260822T150000Z
+DTEND:20260822T160000Z
+SUMMARY:Y6 Signature Hot — Mariah J. — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Candlelit Hot\nCapacity: 30\nWaitlist: 0\nBook: https:/
+ /members.yogasix.com/book/yogasix-edgewater/cr_90337396
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903373
+ 96
+END:VEVENT
+BEGIN:VEVENT
+UID:56b29849-bb80-426e-8c78-258b5e7c43c8
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260822T163000Z
+DTEND:20260822T173000Z
+SUMMARY:Y6 Sculpt — Mariah J. — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90337482
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903374
+ 82
+END:VEVENT
+BEGIN:VEVENT
+UID:b21b060a-f4dd-459b-ab10-88319321ca1b
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260822T230000Z
+DTEND:20260823T010000Z
+SUMMARY:Workshop - 120 min ($120) — Cassandra S — 26 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Seated Poses Breakdown\nCapacity: 26\nWaitlist: 0\nBook
+ : https://members.yogasix.com/book/yogasix-edgewater/cr_99320631
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_993206
+ 31
+END:VEVENT
+BEGIN:VEVENT
+UID:5acb2da4-6940-42e0-9e80-d86d487c218d
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260823T150000Z
+DTEND:20260823T160000Z
+SUMMARY:Y6 Sculpt — Di C. — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90336261
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903362
+ 61
+END:VEVENT
+BEGIN:VEVENT
+UID:6902f7b8-85b3-4233-8ce2-4346ef16f14f
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260823T163000Z
+DTEND:20260823T173000Z
+SUMMARY:Y6 Power Flow — Kelsey S — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: 75 min Power Flow\nCapacity: 30\nWaitlist: 0\nBook: htt
+ ps://members.yogasix.com/book/yogasix-edgewater/cr_90336315
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903363
+ 15
+END:VEVENT
+BEGIN:VEVENT
+UID:8ca86b62-3444-48fe-8df4-c7190302dfac
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260823T180000Z
+DTEND:20260823T190000Z
+SUMMARY:Y6 Restore  — Kelsey S — 27 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Yin Edition\nCapacity: 27\nWaitlist: 0\nBook: https://m
+ embers.yogasix.com/book/yogasix-edgewater/cr_90336369
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903363
+ 69
+END:VEVENT
+BEGIN:VEVENT
+UID:00f2ba20-6935-458f-a95f-4a017a3b5939
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260823T220000Z
+DTEND:20260823T230000Z
+SUMMARY:Y6 Slow Flow  — Jessie L — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90336422
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903364
+ 22
+END:VEVENT
+BEGIN:VEVENT
+UID:bd40a147-66eb-461e-a170-91e924f5cda6
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260823T233000Z
+DTEND:20260824T003000Z
+SUMMARY:Y6 Mobility — Jessie L — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90336507
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903365
+ 07
+END:VEVENT
+BEGIN:VEVENT
+UID:dd3b7050-247c-4936-adac-ad122d4047d6
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260824T010000Z
+DTEND:20260824T020000Z
+SUMMARY:Y6 Restore  — Scotty G — 27 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Candlelit with Sound\nCapacity: 27\nWaitlist: 0\nBook: 
+ https://members.yogasix.com/book/yogasix-edgewater/cr_90336613
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903366
+ 13
+END:VEVENT
+BEGIN:VEVENT
+UID:0f01dc97-ac72-43bd-91f2-091d8ebd649c
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260824T133000Z
+DTEND:20260824T143000Z
+SUMMARY:Y6 Power Flow — Jessie L — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90380453
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903804
+ 53
+END:VEVENT
+BEGIN:VEVENT
+UID:1e2f06ff-3ca3-40f6-b0aa-cb046f420401
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260824T180000Z
+DTEND:20260824T190000Z
+SUMMARY:Y6 Signature Hot — Scotty G — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Hot Evolved!\nCapacity: 30\nWaitlist: 0\nBook: https://
+ members.yogasix.com/book/yogasix-edgewater/cr_90381906
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903819
+ 06
+END:VEVENT
+BEGIN:VEVENT
+UID:4a58aebd-fe06-44cf-8cd4-96158fd85a66
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260824T220000Z
+DTEND:20260824T230000Z
+SUMMARY:Y6 Power Flow — Jane K — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90382049
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903820
+ 49
+END:VEVENT
+BEGIN:VEVENT
+UID:99084934-3f06-4cf5-b59e-a4bd2fa9ca63
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260824T233000Z
+DTEND:20260825T003000Z
+SUMMARY:Y6 Sculpt — Jane K — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90382153
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903821
+ 53
+END:VEVENT
+BEGIN:VEVENT
+UID:81bb27a2-d5c5-4cbb-a69a-7a4615bacf5e
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260825T010000Z
+DTEND:20260825T020000Z
+SUMMARY:Y6 Slow Flow  — Kelsey S — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90382494
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903824
+ 94
+END:VEVENT
+BEGIN:VEVENT
+UID:2df21421-51a4-4f75-80bd-0a4ad8363e72
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260825T120000Z
+DTEND:20260825T130000Z
+SUMMARY:Y6 Power Flow — Jane K — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90614438
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906144
+ 38
+END:VEVENT
+BEGIN:VEVENT
+UID:b42016af-9c24-47b0-887e-e1932ac9dab4
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260825T133000Z
+DTEND:20260825T141500Z
+SUMMARY:Y6 Sculpt Express (45m) — Jess M — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90614576
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906145
+ 76
+END:VEVENT
+BEGIN:VEVENT
+UID:63368356-9e88-47c7-931a-868a54a5f97e
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260825T180000Z
+DTEND:20260825T190000Z
+SUMMARY:Y6 Mobility — Jessie L — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90614703
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906147
+ 03
+END:VEVENT
+BEGIN:VEVENT
+UID:6b63ed6d-57c2-477d-9cd4-692c87f8fb1b
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260825T220000Z
+DTEND:20260825T230000Z
+SUMMARY:Y6 Core — Kristin W — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Burn-Pilates Inspired\nCapacity: 30\nWaitlist: 0\nBook:
+  https://members.yogasix.com/book/yogasix-edgewater/cr_90614968
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906149
+ 68
+END:VEVENT
+BEGIN:VEVENT
+UID:a1cf88c2-59a5-4497-b435-d2b745654c49
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260825T233000Z
+DTEND:20260826T003000Z
+SUMMARY:Y6 Signature Hot — Bailey H — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90615032
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906150
+ 32
+END:VEVENT
+BEGIN:VEVENT
+UID:65f006fc-f311-49aa-a150-65ef5f51e574
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260826T010000Z
+DTEND:20260826T020000Z
+SUMMARY:Y6 Restore  — Amanda FK — 27 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Yin Edition\nCapacity: 27\nWaitlist: 0\nBook: https://m
+ embers.yogasix.com/book/yogasix-edgewater/cr_90615194
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906151
+ 94
+END:VEVENT
+BEGIN:VEVENT
+UID:e4dd3bba-c7e2-4669-9e44-3fe0b286626e
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260826T120000Z
+DTEND:20260826T130000Z
+SUMMARY:Y6 Signature Hot — Asia W — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90615561
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906155
+ 61
+END:VEVENT
+BEGIN:VEVENT
+UID:b90d5625-d12a-48cf-820b-6fb8896b8e4d
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260826T133000Z
+DTEND:20260826T141500Z
+SUMMARY:Y6 Slow Flow Express (45 Min) — Asia W — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90615675
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906156
+ 75
+END:VEVENT
+BEGIN:VEVENT
+UID:5ec2e0f3-f678-48a5-a9b9-effebaae006e
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260826T180000Z
+DTEND:20260826T190000Z
+SUMMARY:Y6 Power Flow — Cassandra S — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90615790
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906157
+ 90
+END:VEVENT
+BEGIN:VEVENT
+UID:18ee4d7e-9d10-4302-8cf7-523a4c37c921
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260826T220000Z
+DTEND:20260826T230000Z
+SUMMARY:Y6 Power Flow — Cassandra S — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_92168594
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_921685
+ 94
+END:VEVENT
+BEGIN:VEVENT
+UID:580258e4-8ce1-4afe-b0cb-b446bad6dff9
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260826T233000Z
+DTEND:20260827T003000Z
+SUMMARY:Y6 Sculpt — Kristin W — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90615961
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906159
+ 61
+END:VEVENT
+BEGIN:VEVENT
+UID:d9398e76-00d3-4519-9f11-fb3d4316155c
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260827T010000Z
+DTEND:20260827T020000Z
+SUMMARY:Y6 Signature Hot — Mariah J. — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Candlelit Hot\nCapacity: 30\nWaitlist: 0\nBook: https:/
+ /members.yogasix.com/book/yogasix-edgewater/cr_90616081
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906160
+ 81
+END:VEVENT
+BEGIN:VEVENT
+UID:b7ba3f27-98fc-4951-a839-3332392647ca
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260827T120000Z
+DTEND:20260827T130000Z
+SUMMARY:Y6 Sculpt — Jane K — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90616139
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906161
+ 39
+END:VEVENT
+BEGIN:VEVENT
+UID:1445f2c7-02ff-475a-ad32-a388fa7c6d77
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260827T133000Z
+DTEND:20260827T141500Z
+SUMMARY:Y6 Power Flow Express (45 Min) — Maggie L — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90616199
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906161
+ 99
+END:VEVENT
+BEGIN:VEVENT
+UID:ca122762-8754-4a69-8093-4764a4794825
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260827T180000Z
+DTEND:20260827T190000Z
+SUMMARY:Y6 Core — Anna A — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Burn-Pilates Inspired\nCapacity: 30\nWaitlist: 0\nBook:
+  https://members.yogasix.com/book/yogasix-edgewater/cr_90616467
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906164
+ 67
+END:VEVENT
+BEGIN:VEVENT
+UID:f31c7a38-a557-4bf6-9044-b4ccce082326
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260827T220000Z
+DTEND:20260827T230000Z
+SUMMARY:Y6 Sculpt — Jess M — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90616573
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906165
+ 73
+END:VEVENT
+BEGIN:VEVENT
+UID:c0d6fec4-5444-4ffb-952a-0c667ac6193d
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260827T233000Z
+DTEND:20260828T003000Z
+SUMMARY:Y6 Power Flow — Christina G. — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90616868
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906168
+ 68
+END:VEVENT
+BEGIN:VEVENT
+UID:8d74c984-5741-4537-81ad-f702425ed315
+SEQUENCE:0
+DTSTAMP:20260729T130527Z
+DTSTART:20260828T010000Z
+DTEND:20260828T020000Z
+SUMMARY:Y6 Restore  — Christina G. — 27 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 27\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90617081
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906170
+ 81
 END:VEVENT
 END:VCALENDAR
