@@ -4,12 +4,12 @@ PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — Signature Hot
 X-WR-CALNAME:YogaSix Edgewater — Signature Hot
 BEGIN:VEVENT
-UID:94c0f44a-4ccd-493a-b542-39879b58bf58
+UID:3ceadbc8-2757-47f6-a935-1ebf45acf856
 SEQUENCE:0
-DTSTAMP:20260812T094623Z
+DTSTAMP:20260812T104529Z
 DTSTART:20260812T120000Z
 DTEND:20260812T130000Z
-SUMMARY:Y6 Signature Hot — Asia W — 24 spots
+SUMMARY:Y6 Signature Hot — Asia W — 23 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90615559
@@ -17,9 +17,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906155
  59
 END:VEVENT
 BEGIN:VEVENT
-UID:e71d8de2-12ae-4444-ada5-0bb0edcfa6a8
+UID:0d89afbd-5a0e-4443-ad99-78af3fbb932c
 SEQUENCE:0
-DTSTAMP:20260812T094623Z
+DTSTAMP:20260812T104529Z
 DTSTART:20260814T133000Z
 DTEND:20260814T143000Z
 SUMMARY:Y6 Signature Hot — Bailey H — 22 spots
