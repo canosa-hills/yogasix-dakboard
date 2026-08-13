@@ -4,12 +4,12 @@ PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — Other
 X-WR-CALNAME:YogaSix Edgewater — Other
 BEGIN:VEVENT
-UID:1aa4f471-4c2e-40d2-84d5-c95d1181beb0
+UID:e56d6c83-ab86-43d9-9f41-4f3151a49aaa
 SEQUENCE:0
-DTSTAMP:20260813T022426Z
+DTSTAMP:20260813T042602Z
 DTSTART:20260813T010000Z
 DTEND:20260813T020000Z
-SUMMARY:Candlelit Hot — Mariah J. — 14 spots
+SUMMARY:Candlelit Hot — Mariah J. — 13 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Notes: Y6 Signature Hot\nCapacity: 30\nWaitlist: 0\nBook: http
  s://members.yogasix.com/book/yogasix-edgewater/cr_90616079
@@ -17,12 +17,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906160
  79
 END:VEVENT
 BEGIN:VEVENT
-UID:a1ad35de-50c5-47c6-8a36-7b2e440ba30b
+UID:9a64463a-ddef-482a-bd0d-92fc97f09c38
 SEQUENCE:0
-DTSTAMP:20260813T022426Z
+DTSTAMP:20260813T042602Z
 DTSTART:20260813T180000Z
 DTEND:20260813T190000Z
-SUMMARY:Burn-Pilates Inspired — Anna A — 24 spots
+SUMMARY:Burn-Pilates Inspired — Anna A — 25 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Notes: Y6 Core\nCapacity: 30\nWaitlist: 0\nBook: https://membe
  rs.yogasix.com/book/yogasix-edgewater/cr_90616465
@@ -30,9 +30,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906164
  65
 END:VEVENT
 BEGIN:VEVENT
-UID:a40a6858-fd7f-4cc3-ae3f-ebe5256852f3
+UID:0ce96125-195c-4a85-968f-4a27e3e81e8e
 SEQUENCE:0
-DTSTAMP:20260813T022426Z
+DTSTAMP:20260813T042602Z
 DTSTART:20260815T010000Z
 DTEND:20260815T023000Z
 SUMMARY:Circular Breathwork — Kelsey S — 21 spots
@@ -43,9 +43,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_970639
  80
 END:VEVENT
 BEGIN:VEVENT
-UID:c28bf92a-6b26-4020-9326-32788e67ef42
+UID:4b80b0ef-1a8e-45d7-b241-e5402f78b5f3
 SEQUENCE:0
-DTSTAMP:20260813T022426Z
+DTSTAMP:20260813T042602Z
 DTSTART:20260815T150000Z
 DTEND:20260815T160000Z
 SUMMARY:Rooftop Yoga @Edgewater Market! — Jessie L — 10 spots
@@ -56,9 +56,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_966331
  52
 END:VEVENT
 BEGIN:VEVENT
-UID:1cb307bc-2a04-4e97-b3e4-d9c7fb5339f4
+UID:e14259e1-cec2-4412-bd33-9da4a510d5fc
 SEQUENCE:0
-DTSTAMP:20260813T022426Z
+DTSTAMP:20260813T042602Z
 DTSTART:20260815T150000Z
 DTEND:20260815T160000Z
 SUMMARY:Candlelit Hot — Mariah J. — 30 spots
@@ -69,9 +69,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903373
  95
 END:VEVENT
 BEGIN:VEVENT
-UID:2f4728e4-82a0-43ee-9894-b07cfced4fda
+UID:c541fde9-4640-49d2-b5b9-da6a193c8e37
 SEQUENCE:0
-DTSTAMP:20260813T022426Z
+DTSTAMP:20260813T042602Z
 DTSTART:20260817T010000Z
 DTEND:20260817T020000Z
 SUMMARY:Candlelit with Sound — Scotty G — 24 spots
