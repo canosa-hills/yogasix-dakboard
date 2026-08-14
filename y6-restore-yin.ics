@@ -4,9 +4,9 @@ PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — Restore/Yin
 X-WR-CALNAME:YogaSix Edgewater — Restore/Yin
 BEGIN:VEVENT
-UID:d9fcac6d-0e97-41eb-bff8-3ef65a56a183
+UID:7520a973-7baa-4715-ae98-cae2c08696c3
 SEQUENCE:0
-DTSTAMP:20260814T142738Z
+DTSTAMP:20260814T152333Z
 DTSTART:20260814T010000Z
 DTEND:20260814T020000Z
 SUMMARY:Y6 Restore  — Christina G. — 23 spots
@@ -17,12 +17,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906170
  79
 END:VEVENT
 BEGIN:VEVENT
-UID:09bd26d3-598d-430f-a5fb-050dd610bca7
+UID:8103b3b5-e865-4f02-b9a6-1346792001ba
 SEQUENCE:0
-DTSTAMP:20260814T142738Z
+DTSTAMP:20260814T152333Z
 DTSTART:20260814T180000Z
 DTEND:20260814T190000Z
-SUMMARY:Yin Edition — Cassandra S — 23 spots
+SUMMARY:Yin Edition — Cassandra S — 22 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Notes: Y6 Restore \nCapacity: 27\nWaitlist: 0\nBook: https://m
  embers.yogasix.com/book/yogasix-edgewater/cr_90337117
@@ -30,9 +30,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903371
  17
 END:VEVENT
 BEGIN:VEVENT
-UID:efcd698b-493c-4132-abaf-6087e2ad3623
+UID:e98b3865-3e2c-49bd-b1db-8387c9009346
 SEQUENCE:0
-DTSTAMP:20260814T142738Z
+DTSTAMP:20260814T152333Z
 DTSTART:20260816T180000Z
 DTEND:20260816T190000Z
 SUMMARY:Yin Edition — Kelsey S — 18 spots
