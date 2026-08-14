@@ -4,12 +4,12 @@ PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — Other
 X-WR-CALNAME:YogaSix Edgewater — Other
 BEGIN:VEVENT
-UID:469376ae-a530-48b1-bc03-553dada10a35
+UID:f5549d9e-37e0-44c4-9095-965baa384d3f
 SEQUENCE:0
-DTSTAMP:20260814T232934Z
+DTSTAMP:20260814T235339Z
 DTSTART:20260815T010000Z
 DTEND:20260815T023000Z
-SUMMARY:Circular Breathwork — Kelsey S — 18 spots
+SUMMARY:Circular Breathwork — Kelsey S — 17 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Notes: Workshop 90 (Free for Members)\nCapacity: 30\nWaitlist:
   0\nBook: https://members.yogasix.com/book/yogasix-edgewater/cr_97063980
@@ -17,9 +17,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_970639
  80
 END:VEVENT
 BEGIN:VEVENT
-UID:b07c306f-9ef4-4836-bf87-6480e514ed6b
+UID:5835c6bd-c0e7-4574-a206-d5c674292895
 SEQUENCE:0
-DTSTAMP:20260814T232934Z
+DTSTAMP:20260814T235339Z
 DTSTART:20260815T150000Z
 DTEND:20260815T160000Z
 SUMMARY:Rooftop Yoga @Edgewater Market! — Jessie L — 1 spots
@@ -30,12 +30,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_966331
  52
 END:VEVENT
 BEGIN:VEVENT
-UID:2deeee3d-bcd8-4e28-aeda-992c3ab8bc45
+UID:93f6b17c-928d-4fee-a548-19f993a88069
 SEQUENCE:0
-DTSTAMP:20260814T232934Z
+DTSTAMP:20260814T235339Z
 DTSTART:20260815T150000Z
 DTEND:20260815T160000Z
-SUMMARY:Candlelit Hot — Mariah J. — 28 spots
+SUMMARY:Candlelit Hot — Mariah J. — 27 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Notes: Y6 Signature Hot\nCapacity: 30\nWaitlist: 0\nBook: http
  s://members.yogasix.com/book/yogasix-edgewater/cr_90337395
@@ -43,9 +43,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903373
  95
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4251e3-a306-4dec-bb5a-8c3e953d1c16
+UID:0fb97e30-9abe-41e8-896d-98ca8f9b59df
 SEQUENCE:0
-DTSTAMP:20260814T232934Z
+DTSTAMP:20260814T235339Z
 DTSTART:20260817T010000Z
 DTEND:20260817T020000Z
 SUMMARY:Candlelit with Sound — Scotty G — 22 spots
