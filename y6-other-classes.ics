@@ -4,35 +4,9 @@ PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — Other
 X-WR-CALNAME:YogaSix Edgewater — Other
 BEGIN:VEVENT
-UID:1f2010f9-9a12-40e4-a026-d5be88aaee52
+UID:15ee35c2-ed82-4b17-90be-06989c658e73
 SEQUENCE:0
-DTSTAMP:20260814T055643Z
-DTSTART:20260813T010000Z
-DTEND:20260813T020000Z
-SUMMARY:Candlelit Hot — Mariah J. — 22 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Signature Hot\nCapacity: 30\nWaitlist: 0\nBook: http
- s://members.yogasix.com/book/yogasix-edgewater/cr_90616079
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906160
- 79
-END:VEVENT
-BEGIN:VEVENT
-UID:2d2cb180-9fd0-46e4-a4cc-5f3e3b8ff132
-SEQUENCE:0
-DTSTAMP:20260814T055643Z
-DTSTART:20260813T180000Z
-DTEND:20260813T190000Z
-SUMMARY:Burn-Pilates Inspired — Anna A — 21 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Core\nCapacity: 30\nWaitlist: 0\nBook: https://membe
- rs.yogasix.com/book/yogasix-edgewater/cr_90616465
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906164
- 65
-END:VEVENT
-BEGIN:VEVENT
-UID:d05e5fb2-b598-4e65-94dd-61b0dab3e37e
-SEQUENCE:0
-DTSTAMP:20260814T055643Z
+DTSTAMP:20260814T074141Z
 DTSTART:20260815T010000Z
 DTEND:20260815T023000Z
 SUMMARY:Circular Breathwork — Kelsey S — 21 spots
@@ -43,9 +17,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_970639
  80
 END:VEVENT
 BEGIN:VEVENT
-UID:6ead93d9-b5c7-45ca-8982-d01bd9387aa0
+UID:84b61a2f-b8d7-4b7f-99a8-318455d0e115
 SEQUENCE:0
-DTSTAMP:20260814T055643Z
+DTSTAMP:20260814T074141Z
 DTSTART:20260815T150000Z
 DTEND:20260815T160000Z
 SUMMARY:Rooftop Yoga @Edgewater Market! — Jessie L — 8 spots
@@ -56,9 +30,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_966331
  52
 END:VEVENT
 BEGIN:VEVENT
-UID:e180c99d-09f2-4fba-ab17-dde642337c38
+UID:e92144bf-60e6-46a4-854d-ea435ad4d339
 SEQUENCE:0
-DTSTAMP:20260814T055643Z
+DTSTAMP:20260814T074141Z
 DTSTART:20260815T150000Z
 DTEND:20260815T160000Z
 SUMMARY:Candlelit Hot — Mariah J. — 30 spots
@@ -69,9 +43,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903373
  95
 END:VEVENT
 BEGIN:VEVENT
-UID:3c280b40-c188-4c6d-bd10-242638b2266a
+UID:d0c3064a-6bd3-494d-bfc0-4f1ba9754614
 SEQUENCE:0
-DTSTAMP:20260814T055643Z
+DTSTAMP:20260814T074141Z
 DTSTART:20260817T010000Z
 DTEND:20260817T020000Z
 SUMMARY:Candlelit with Sound — Scotty G — 22 spots
