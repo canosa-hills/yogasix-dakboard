@@ -4,12 +4,12 @@ PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — Sculpt
 X-WR-CALNAME:YogaSix Edgewater — Sculpt
 BEGIN:VEVENT
-UID:5e3e2d6e-9e56-4fcb-8c87-72292a97af8f
+UID:dee85aba-571a-4e74-9bb0-e248a499a7dd
 SEQUENCE:0
-DTSTAMP:20260815T152807Z
+DTSTAMP:20260815T154913Z
 DTSTART:20260815T163000Z
 DTEND:20260815T173000Z
-SUMMARY:Y6 Sculpt — Mariah J. — 17 spots
+SUMMARY:Y6 Sculpt — Mariah J. — 15 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90337481
@@ -17,9 +17,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903374
  81
 END:VEVENT
 BEGIN:VEVENT
-UID:346e6419-c07c-43f3-aa83-b847d3794fb9
+UID:f952e73f-37bd-49ae-9b83-35c070be3ad5
 SEQUENCE:0
-DTSTAMP:20260815T152807Z
+DTSTAMP:20260815T154913Z
 DTSTART:20260816T150000Z
 DTEND:20260816T160000Z
 SUMMARY:Y6 Sculpt — Mariah J. — 25 spots
