@@ -4,9 +4,9 @@ PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — Power
 X-WR-CALNAME:YogaSix Edgewater — Power
 BEGIN:VEVENT
-UID:268f5a7f-3ef1-423b-a5f0-f970bc5e29dc
+UID:9276738b-f74c-4766-9264-b60a95bb6b96
 SEQUENCE:0
-DTSTAMP:20260815T040439Z
+DTSTAMP:20260815T044414Z
 DTSTART:20260814T233000Z
 DTEND:20260815T003000Z
 SUMMARY:Y6 Power Flow — Kelsey S — 5 spots
@@ -17,12 +17,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903372
  54
 END:VEVENT
 BEGIN:VEVENT
-UID:10c8d2a5-d08a-4d4a-a8ff-9dd37fe61cf9
+UID:11b8e9bc-25fb-4b4c-9e05-da1cd08f7f7e
 SEQUENCE:0
-DTSTAMP:20260815T040439Z
+DTSTAMP:20260815T044414Z
 DTSTART:20260815T133000Z
 DTEND:20260815T143000Z
-SUMMARY:Y6 Power Flow — Scotty G — 26 spots
+SUMMARY:Y6 Power Flow — Scotty G — 25 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90337340
@@ -30,12 +30,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903373
  40
 END:VEVENT
 BEGIN:VEVENT
-UID:063d8965-5c7d-46c4-a69e-6060d38b5183
+UID:85f94aba-f8bb-48a7-a25a-442ce1328cb4
 SEQUENCE:0
-DTSTAMP:20260815T040439Z
+DTSTAMP:20260815T044414Z
 DTSTART:20260816T163000Z
 DTEND:20260816T173000Z
-SUMMARY:75 min Power Flow — Kelsey S — 3 spots
+SUMMARY:75 min Power Flow — Kelsey S — 2 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Notes: Y6 Power Flow\nCapacity: 30\nWaitlist: 0\nBook: https:/
  /members.yogasix.com/book/yogasix-edgewater/cr_90336314
