@@ -4,9 +4,9 @@ PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — Mobility
 X-WR-CALNAME:YogaSix Edgewater — Mobility
 BEGIN:VEVENT
-UID:32d14727-26de-4aed-8bd2-46da2460e562
+UID:7e7b612a-29b4-4a5a-b6b6-1e994a799a45
 SEQUENCE:0
-DTSTAMP:20260815T032110Z
+DTSTAMP:20260815T040439Z
 DTSTART:20260814T163000Z
 DTEND:20260814T173000Z
 SUMMARY:Y6 Mobility — Cassandra S — 27 spots
@@ -17,12 +17,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903369
  76
 END:VEVENT
 BEGIN:VEVENT
-UID:5b1f28c7-22bd-4f52-abc7-57a14befa926
+UID:0b248f25-ea6c-4dc1-be7d-4a708410c9bf
 SEQUENCE:0
-DTSTAMP:20260815T032110Z
+DTSTAMP:20260815T040439Z
 DTSTART:20260816T233000Z
 DTEND:20260817T003000Z
-SUMMARY:Y6 Mobility — Jessie L — 27 spots
+SUMMARY:Y6 Mobility — Jessie L — 26 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
  ook/yogasix-edgewater/cr_90336506
