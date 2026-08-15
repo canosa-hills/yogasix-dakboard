@@ -4,12 +4,12 @@ PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — Other
 X-WR-CALNAME:YogaSix Edgewater — Other
 BEGIN:VEVENT
-UID:f5549d9e-37e0-44c4-9095-965baa384d3f
+UID:a274e750-122d-4949-9048-5df210a02a05
 SEQUENCE:0
-DTSTAMP:20260814T235339Z
+DTSTAMP:20260815T012132Z
 DTSTART:20260815T010000Z
 DTEND:20260815T023000Z
-SUMMARY:Circular Breathwork — Kelsey S — 17 spots
+SUMMARY:Circular Breathwork — Kelsey S — 15 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Notes: Workshop 90 (Free for Members)\nCapacity: 30\nWaitlist:
   0\nBook: https://members.yogasix.com/book/yogasix-edgewater/cr_97063980
@@ -17,12 +17,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_970639
  80
 END:VEVENT
 BEGIN:VEVENT
-UID:5835c6bd-c0e7-4574-a206-d5c674292895
+UID:2cd0f916-f46a-4b41-bbe2-bc404a716000
 SEQUENCE:0
-DTSTAMP:20260814T235339Z
+DTSTAMP:20260815T012132Z
 DTSTART:20260815T150000Z
 DTEND:20260815T160000Z
-SUMMARY:Rooftop Yoga @Edgewater Market! — Jessie L — 1 spots
+SUMMARY:Rooftop Yoga @Edgewater Market! — Jessie L — 0 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Notes: Y6 Pop-Up (60 min)\nCapacity: 30\nWaitlist: 0\nBook: ht
  tps://members.yogasix.com/book/yogasix-edgewater/cr_96633152
@@ -30,12 +30,12 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_966331
  52
 END:VEVENT
 BEGIN:VEVENT
-UID:93f6b17c-928d-4fee-a548-19f993a88069
+UID:b6e181b5-5bc2-463c-835b-747d2583eecf
 SEQUENCE:0
-DTSTAMP:20260814T235339Z
+DTSTAMP:20260815T012132Z
 DTSTART:20260815T150000Z
 DTEND:20260815T160000Z
-SUMMARY:Candlelit Hot — Mariah J. — 27 spots
+SUMMARY:Candlelit Hot — Mariah J. — 26 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Notes: Y6 Signature Hot\nCapacity: 30\nWaitlist: 0\nBook: http
  s://members.yogasix.com/book/yogasix-edgewater/cr_90337395
@@ -43,9 +43,9 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903373
  95
 END:VEVENT
 BEGIN:VEVENT
-UID:0fb97e30-9abe-41e8-896d-98ca8f9b59df
+UID:454aab79-6e9e-41c6-8cf8-f1a174e6d942
 SEQUENCE:0
-DTSTAMP:20260814T235339Z
+DTSTAMP:20260815T012132Z
 DTSTART:20260817T010000Z
 DTEND:20260817T020000Z
 SUMMARY:Candlelit with Sound — Scotty G — 22 spots
