@@ -4,22 +4,9 @@ PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — Slow Flow
 X-WR-CALNAME:YogaSix Edgewater — Slow Flow
 BEGIN:VEVENT
-UID:1564ec5a-b021-43c0-88e8-0372bdc7d49c
+UID:f5aca51d-170c-4350-8763-4d04c41523b0
 SEQUENCE:0
-DTSTAMP:20260815T054523Z
-DTSTART:20260814T120000Z
-DTEND:20260814T130000Z
-SUMMARY:Y6 Slow Flow  — Jane K — 15 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
- ook/yogasix-edgewater/cr_90336809
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903368
- 09
-END:VEVENT
-BEGIN:VEVENT
-UID:61b27872-6cd9-457c-aff8-3e627734cc15
-SEQUENCE:0
-DTSTAMP:20260815T054523Z
+DTSTAMP:20260815T061257Z
 DTSTART:20260816T220000Z
 DTEND:20260816T230000Z
 SUMMARY:Y6 Slow Flow  — Jessie L — 28 spots
