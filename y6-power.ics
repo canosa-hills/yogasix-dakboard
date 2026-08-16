@@ -4,9 +4,9 @@ PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — Power
 X-WR-CALNAME:YogaSix Edgewater — Power
 BEGIN:VEVENT
-UID:b91ab0f7-f805-4ec2-9df5-37452426df05
+UID:f141a2c9-c04c-4c9d-b250-296779eb2884
 SEQUENCE:0
-DTSTAMP:20260816T045524Z
+DTSTAMP:20260816T053035Z
 DTSTART:20260815T133000Z
 DTEND:20260815T143000Z
 SUMMARY:Y6 Power Flow — Scotty G — 23 spots
@@ -17,14 +17,14 @@ URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903373
  40
 END:VEVENT
 BEGIN:VEVENT
-UID:2f5b0983-06e5-4fc9-9327-3f65bdfcfb3c
+UID:2783f2ec-7480-4466-b211-d815e26353da
 SEQUENCE:0
-DTSTAMP:20260816T045524Z
+DTSTAMP:20260816T053035Z
 DTSTART:20260816T163000Z
 DTEND:20260816T173000Z
 SUMMARY:75 min Power Flow — Kelsey S — 0 spots
 LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Power Flow\nCapacity: 30\nWaitlist: 1\nBook: https:/
+DESCRIPTION:Notes: Y6 Power Flow\nCapacity: 30\nWaitlist: 0\nBook: https:/
  /members.yogasix.com/book/yogasix-edgewater/cr_90336314
 URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903363
  14
