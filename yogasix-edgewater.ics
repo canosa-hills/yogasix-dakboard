@@ -4,77 +4,12 @@ PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — All Classes
 X-WR-CALNAME:YogaSix Edgewater — All Classes
 BEGIN:VEVENT
-UID:e5b1ef81-2f62-4170-99c3-b7e19182beff
+UID:7ab3004a-4140-4ad8-ad7a-6d3f52176bb9
 SEQUENCE:0
-DTSTAMP:20260817T055037Z
-DTSTART:20260816T150000Z
-DTEND:20260816T160000Z
-SUMMARY:Y6 Sculpt — Mariah J. — 19 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
- ook/yogasix-edgewater/cr_90336260
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903362
- 60
-END:VEVENT
-BEGIN:VEVENT
-UID:ecc7fe1b-0833-492a-8289-04c2f00c6058
-SEQUENCE:0
-DTSTAMP:20260817T055037Z
-DTSTART:20260816T163000Z
-DTEND:20260816T173000Z
-SUMMARY:75 min Power Flow — Kelsey S — 1 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Power Flow\nCapacity: 30\nWaitlist: 0\nBook: https:/
- /members.yogasix.com/book/yogasix-edgewater/cr_90336314
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903363
- 14
-END:VEVENT
-BEGIN:VEVENT
-UID:e717ae60-a466-44de-9130-edf2767f0bec
-SEQUENCE:0
-DTSTAMP:20260817T055037Z
-DTSTART:20260816T180000Z
-DTEND:20260816T190000Z
-SUMMARY:Yin Edition — Kelsey S — 8 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Restore \nCapacity: 27\nWaitlist: 0\nBook: https://m
- embers.yogasix.com/book/yogasix-edgewater/cr_90336368
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903363
- 68
-END:VEVENT
-BEGIN:VEVENT
-UID:54523ae9-1900-408f-9e04-b1b30c77da0b
-SEQUENCE:0
-DTSTAMP:20260817T055037Z
-DTSTART:20260816T220000Z
-DTEND:20260816T230000Z
-SUMMARY:Y6 Slow Flow  — Jessie L — 25 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
- ook/yogasix-edgewater/cr_90336421
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903364
- 21
-END:VEVENT
-BEGIN:VEVENT
-UID:922bf8a9-8e3c-49b9-98e6-759fee6d56ac
-SEQUENCE:0
-DTSTAMP:20260817T055037Z
-DTSTART:20260816T233000Z
-DTEND:20260817T003000Z
-SUMMARY:Y6 Mobility — Jessie L — 16 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
- ook/yogasix-edgewater/cr_90336506
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903365
- 06
-END:VEVENT
-BEGIN:VEVENT
-UID:51bc029b-d2c2-4c94-ad6e-582c22d703cf
-SEQUENCE:0
-DTSTAMP:20260817T055037Z
+DTSTAMP:20260817T065934Z
 DTSTART:20260817T010000Z
 DTEND:20260817T020000Z
-SUMMARY:Candlelit with Sound — Scotty G — 17 spots
+SUMMARY:Candlelit with Sound — Scotty G — 22 spots
 LOCATION:YogaSix Edgewater
 DESCRIPTION:Notes: Y6 Restore \nCapacity: 27\nWaitlist: 0\nBook: https://m
  embers.yogasix.com/book/yogasix-edgewater/cr_90336612
