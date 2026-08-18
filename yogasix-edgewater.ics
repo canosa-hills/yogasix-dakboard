@@ -3,17 +3,4 @@ VERSION:2.0
 PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — All Classes
 X-WR-CALNAME:YogaSix Edgewater — All Classes
-BEGIN:VEVENT
-UID:754b2976-7d13-4903-bf19-9f9c61d5b3ab
-SEQUENCE:0
-DTSTAMP:20260818T053619Z
-DTSTART:20260817T010000Z
-DTEND:20260817T020000Z
-SUMMARY:Candlelit with Sound — Scotty G — 22 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Y6 Restore \nCapacity: 27\nWaitlist: 0\nBook: https://m
- embers.yogasix.com/book/yogasix-edgewater/cr_90336612
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903366
- 12
-END:VEVENT
 END:VCALENDAR
