@@ -3,4 +3,147 @@ VERSION:2.0
 PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — Special Events / Workshops
 X-WR-CALNAME:YogaSix Edgewater — Special Events / Workshops
+BEGIN:VEVENT
+UID:61b00907-5784-4000-baf5-cf3e17d81ba1
+SEQUENCE:0
+DTSTAMP:20260825T113438Z
+DTSTART:20260829T010000Z
+DTEND:20260829T020000Z
+SUMMARY:Workshop 60 (Free for Members) — Scotty G — 19 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Sounds of the Season Sound Bath!\nCapacity: 30\nWaitlis
+ t: 0\nBook: https://members.yogasix.com/book/yogasix-edgewater/cr_98226750
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_982267
+ 50
+END:VEVENT
+BEGIN:VEVENT
+UID:4c01c8e4-bc3b-4a5e-b6eb-7516a3b7998d
+SEQUENCE:0
+DTSTAMP:20260825T113438Z
+DTSTART:20260829T230000Z
+DTEND:20260830T010000Z
+SUMMARY:Workshop - 120 min ($120) — Cassandra S — 26 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Core use in Poses Breakdown\nCapacity: 26\nWaitlist: 0\
+ nBook: https://members.yogasix.com/book/yogasix-edgewater/cr_99320662
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_993206
+ 62
+END:VEVENT
+BEGIN:VEVENT
+UID:67335a6c-7a8a-4df3-a351-1e55c152fb9f
+SEQUENCE:0
+DTSTAMP:20260825T113438Z
+DTSTART:20260830T140000Z
+DTEND:20260830T153000Z
+SUMMARY:Workshop - 90 min ($55) — Kelsey S — 10 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: SUP Yoga @ Bear Creek\nCapacity: 12\nBook: https://memb
+ ers.yogasix.com/book/yogasix-edgewater/cr_98821455
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_988214
+ 55
+END:VEVENT
+BEGIN:VEVENT
+UID:242a6de6-4930-4812-a440-7071fce645d2
+SEQUENCE:0
+DTSTAMP:20260825T113438Z
+DTSTART:20260830T193000Z
+DTEND:20260830T203000Z
+SUMMARY:Y6 TRX  — Mariah J. — 12 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: POP UP!\nCapacity: 14\nWaitlist: 0\nBook: https://membe
+ rs.yogasix.com/book/yogasix-edgewater/cr_99221705
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_992217
+ 05
+END:VEVENT
+BEGIN:VEVENT
+UID:ec14db89-2ee5-4a02-a1bd-50b508d66183
+SEQUENCE:0
+DTSTAMP:20260825T113438Z
+DTSTART:20260905T210000Z
+DTEND:20260906T010000Z
+SUMMARY:Workshop - 240  min ($180) — Cassandra S — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Twists in Poses Breakdown\nCapacity: 30\nBook: https://
+ members.yogasix.com/book/yogasix-edgewater/cr_99320672
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_993206
+ 72
+END:VEVENT
+BEGIN:VEVENT
+UID:ac5704dc-fd01-4785-b86f-293c007103e4
+SEQUENCE:0
+DTSTAMP:20260825T113438Z
+DTSTART:20260906T010000Z
+DTEND:20260906T020000Z
+SUMMARY:Workshop - 60 min ($10) — Katie H. — 40 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: SunSet Yoga\nCapacity: 40\nBook: https://members.yogasi
+ x.com/book/yogasix-edgewater/cr_99484167
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_994841
+ 67
+END:VEVENT
+BEGIN:VEVENT
+UID:26b2c744-8ba3-46b5-abd4-cd8df0f9d249
+SEQUENCE:0
+DTSTAMP:20260825T113438Z
+DTSTART:20260912T010000Z
+DTEND:20260912T023000Z
+SUMMARY:Workshop 90 (Free for Members) — Kelsey S — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Circular Breathwork\nCapacity: 30\nWaitlist: 0\nBook: h
+ ttps://members.yogasix.com/book/yogasix-edgewater/cr_97063991
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_970639
+ 91
+END:VEVENT
+BEGIN:VEVENT
+UID:7e66b0c4-26e9-4e38-bce1-ab6563304bc9
+SEQUENCE:0
+DTSTAMP:20260825T113438Z
+DTSTART:20260912T180000Z
+DTEND:20260912T220000Z
+SUMMARY:Workshop - 240  min ($180) — Cassandra S — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Creative Cueing\, Conscious Language\nCapacity: 30\nBoo
+ k: https://members.yogasix.com/book/yogasix-edgewater/cr_94785532
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_947855
+ 32
+END:VEVENT
+BEGIN:VEVENT
+UID:b84c0a63-7a35-43ca-b893-b9d5b85560b7
+SEQUENCE:0
+DTSTAMP:20260825T113438Z
+DTSTART:20260912T221500Z
+DTEND:20260913T011500Z
+SUMMARY:Workshop - 180 min ($180) — Cassandra S — 40 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Balancing Pose Breakdown\nCapacity: 40\nBook: https://m
+ embers.yogasix.com/book/yogasix-edgewater/cr_99321132
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_993211
+ 32
+END:VEVENT
+BEGIN:VEVENT
+UID:b4015e01-fc4d-47e6-a44d-e49ad6b7ffd4
+SEQUENCE:0
+DTSTAMP:20260825T113438Z
+DTSTART:20260919T010000Z
+DTEND:20260919T020000Z
+SUMMARY:Workshop - 60 min ($10) — Katie H. — 40 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: SunSet Yoga\nCapacity: 40\nBook: https://members.yogasi
+ x.com/book/yogasix-edgewater/cr_99484180
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_994841
+ 80
+END:VEVENT
+BEGIN:VEVENT
+UID:a5cff660-53a5-4186-92b0-61439afdd8b3
+SEQUENCE:0
+DTSTAMP:20260825T113438Z
+DTSTART:20260919T220000Z
+DTEND:20260920T010000Z
+SUMMARY:Workshop - 180 min ($180) — Cassandra S — 40 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Backbend Pose Breakdown\nCapacity: 40\nBook: https://me
+ mbers.yogasix.com/book/yogasix-edgewater/cr_99321189
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_993211
+ 89
+END:VEVENT
 END:VCALENDAR
