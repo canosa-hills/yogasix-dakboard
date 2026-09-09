@@ -3,4 +3,277 @@ VERSION:2.0
 PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — Restore/Yin
 X-WR-CALNAME:YogaSix Edgewater — Restore/Yin
+BEGIN:VEVENT
+UID:bb2e24a0-ccc1-4f99-974b-5e96eb4c89df
+SEQUENCE:0
+DTSTAMP:20260909T150402Z
+DTSTART:20260911T010000Z
+DTEND:20260911T020000Z
+SUMMARY:Y6 Restore  — Christina G. — 25 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 27\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90617083
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906170
+ 83
+END:VEVENT
+BEGIN:VEVENT
+UID:dcf5759c-5975-4140-a746-dd64c06104f0
+SEQUENCE:0
+DTSTAMP:20260909T150402Z
+DTSTART:20260911T180000Z
+DTEND:20260911T190000Z
+SUMMARY:Y6 Restore  — Cassandra S — 23 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Yin Edition\nCapacity: 27\nWaitlist: 0\nBook: https://m
+ embers.yogasix.com/book/yogasix-edgewater/cr_90337121
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903371
+ 21
+END:VEVENT
+BEGIN:VEVENT
+UID:05ba337f-f036-43ca-87ac-3833cd08791f
+SEQUENCE:0
+DTSTAMP:20260909T150402Z
+DTSTART:20260913T180000Z
+DTEND:20260913T190000Z
+SUMMARY:Y6 Restore  — Kelsey S — 22 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Yin Edition\nCapacity: 27\nWaitlist: 0\nBook: https://m
+ embers.yogasix.com/book/yogasix-edgewater/cr_90336372
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903363
+ 72
+END:VEVENT
+BEGIN:VEVENT
+UID:f360d027-d07d-4d00-b4c1-5254c0df00af
+SEQUENCE:0
+DTSTAMP:20260909T150402Z
+DTSTART:20260914T010000Z
+DTEND:20260914T020000Z
+SUMMARY:Y6 Restore  — Christina G. — 25 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Candlelit with Sound\nCapacity: 27\nWaitlist: 0\nBook: 
+ https://members.yogasix.com/book/yogasix-edgewater/cr_90336616
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903366
+ 16
+END:VEVENT
+BEGIN:VEVENT
+UID:008dd532-747a-4e84-88f0-a4b4e0742a81
+SEQUENCE:0
+DTSTAMP:20260909T150402Z
+DTSTART:20260916T010000Z
+DTEND:20260916T020000Z
+SUMMARY:Y6 Restore  — Amanda FK — 24 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Yin Edition\nCapacity: 27\nWaitlist: 0\nBook: https://m
+ embers.yogasix.com/book/yogasix-edgewater/cr_90615197
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906151
+ 97
+END:VEVENT
+BEGIN:VEVENT
+UID:aa691b69-bfa8-4c77-ae04-6d9eaf6aafee
+SEQUENCE:0
+DTSTAMP:20260909T150402Z
+DTSTART:20260918T010000Z
+DTEND:20260918T020000Z
+SUMMARY:Y6 Restore  — Christina G. — 24 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Class Crash Addition\nCapacity: 27\nWaitlist: 0\nBook: 
+ https://members.yogasix.com/book/yogasix-edgewater/cr_90617084
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906170
+ 84
+END:VEVENT
+BEGIN:VEVENT
+UID:9a74d4c9-185d-4b01-a6ef-99353a025d95
+SEQUENCE:0
+DTSTAMP:20260909T150402Z
+DTSTART:20260918T180000Z
+DTEND:20260918T190000Z
+SUMMARY:Y6 Restore  — Cassandra S — 27 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Yin Edition\nCapacity: 27\nWaitlist: 0\nBook: https://m
+ embers.yogasix.com/book/yogasix-edgewater/cr_90337122
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903371
+ 22
+END:VEVENT
+BEGIN:VEVENT
+UID:614df2d5-e21e-48dc-9941-aa954eafb851
+SEQUENCE:0
+DTSTAMP:20260909T150402Z
+DTSTART:20260920T180000Z
+DTEND:20260920T190000Z
+SUMMARY:Y6 Restore  — Kelsey S — 24 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Yin Edition\nCapacity: 27\nWaitlist: 0\nBook: https://m
+ embers.yogasix.com/book/yogasix-edgewater/cr_90336373
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903363
+ 73
+END:VEVENT
+BEGIN:VEVENT
+UID:d30c99a2-323d-4745-a8f6-1d4d83f8543a
+SEQUENCE:0
+DTSTAMP:20260909T150402Z
+DTSTART:20260921T010000Z
+DTEND:20260921T020000Z
+SUMMARY:Y6 Restore  — Scotty G — 26 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Candlelit with Sound\nCapacity: 27\nWaitlist: 0\nBook: 
+ https://members.yogasix.com/book/yogasix-edgewater/cr_90336617
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903366
+ 17
+END:VEVENT
+BEGIN:VEVENT
+UID:da7445cc-e888-43bf-9c0c-11a14d42a577
+SEQUENCE:0
+DTSTAMP:20260909T150402Z
+DTSTART:20260923T010000Z
+DTEND:20260923T020000Z
+SUMMARY:Y6 Restore  — Amanda FK — 24 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Yin Edition\nCapacity: 27\nWaitlist: 0\nBook: https://m
+ embers.yogasix.com/book/yogasix-edgewater/cr_90615198
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906151
+ 98
+END:VEVENT
+BEGIN:VEVENT
+UID:c84ddca9-c784-4189-8242-bf926638044c
+SEQUENCE:0
+DTSTAMP:20260909T150402Z
+DTSTART:20260925T010000Z
+DTEND:20260925T020000Z
+SUMMARY:Y6 Restore  — Christina G. — 27 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 27\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90617085
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906170
+ 85
+END:VEVENT
+BEGIN:VEVENT
+UID:a9295738-a166-4c51-9f40-b75415cc5a83
+SEQUENCE:0
+DTSTAMP:20260909T150402Z
+DTSTART:20260925T180000Z
+DTEND:20260925T190000Z
+SUMMARY:Y6 Restore  — Cassandra S — 27 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Yin Edition\nCapacity: 27\nWaitlist: 0\nBook: https://m
+ embers.yogasix.com/book/yogasix-edgewater/cr_90337123
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903371
+ 23
+END:VEVENT
+BEGIN:VEVENT
+UID:0855b83d-90eb-40b8-8b00-5f3e2a7fb89a
+SEQUENCE:0
+DTSTAMP:20260909T150402Z
+DTSTART:20260927T180000Z
+DTEND:20260927T190000Z
+SUMMARY:Y6 Restore  — Kelsey S — 27 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Yin Edition\nCapacity: 27\nWaitlist: 0\nBook: https://m
+ embers.yogasix.com/book/yogasix-edgewater/cr_90336374
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903363
+ 74
+END:VEVENT
+BEGIN:VEVENT
+UID:5197fd9d-4467-4f77-b589-faed2ae444e8
+SEQUENCE:0
+DTSTAMP:20260909T150402Z
+DTSTART:20260928T010000Z
+DTEND:20260928T020000Z
+SUMMARY:Y6 Restore  — Scotty G — 27 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Candlelit with Sound\nCapacity: 27\nWaitlist: 0\nBook: 
+ https://members.yogasix.com/book/yogasix-edgewater/cr_90336618
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903366
+ 18
+END:VEVENT
+BEGIN:VEVENT
+UID:2cf65c28-2ae0-45c7-9fa9-4abc252de389
+SEQUENCE:0
+DTSTAMP:20260909T150402Z
+DTSTART:20260930T010000Z
+DTEND:20260930T020000Z
+SUMMARY:Y6 Restore  — Amanda FK — 27 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Yin Edition\nCapacity: 27\nWaitlist: 0\nBook: https://m
+ embers.yogasix.com/book/yogasix-edgewater/cr_90615199
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906151
+ 99
+END:VEVENT
+BEGIN:VEVENT
+UID:c11daaf4-d171-41b1-8fd8-33597b597e90
+SEQUENCE:0
+DTSTAMP:20260909T150402Z
+DTSTART:20261002T010000Z
+DTEND:20261002T020000Z
+SUMMARY:Y6 Restore  — Christina G. — 27 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 27\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90617086
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906170
+ 86
+END:VEVENT
+BEGIN:VEVENT
+UID:4c0f7468-16e6-425b-a3b5-329b1345f389
+SEQUENCE:0
+DTSTAMP:20260909T150402Z
+DTSTART:20261002T180000Z
+DTEND:20261002T190000Z
+SUMMARY:Y6 Restore  — Cassandra S — 27 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Yin Edition\nCapacity: 27\nWaitlist: 0\nBook: https://m
+ embers.yogasix.com/book/yogasix-edgewater/cr_90337124
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903371
+ 24
+END:VEVENT
+BEGIN:VEVENT
+UID:a7dfa6c2-0963-46b7-8673-e394f8e74810
+SEQUENCE:0
+DTSTAMP:20260909T150402Z
+DTSTART:20261004T180000Z
+DTEND:20261004T190000Z
+SUMMARY:Y6 Restore  — Kelsey S — 27 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Yin Edition\nCapacity: 27\nWaitlist: 0\nBook: https://m
+ embers.yogasix.com/book/yogasix-edgewater/cr_90336375
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903363
+ 75
+END:VEVENT
+BEGIN:VEVENT
+UID:84ff4aba-9bb5-4a4d-886d-990352abc1e5
+SEQUENCE:0
+DTSTAMP:20260909T150402Z
+DTSTART:20261005T010000Z
+DTEND:20261005T020000Z
+SUMMARY:Y6 Restore  — Scotty G — 27 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Candlelit with Sound\nCapacity: 27\nWaitlist: 0\nBook: 
+ https://members.yogasix.com/book/yogasix-edgewater/cr_90336619
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903366
+ 19
+END:VEVENT
+BEGIN:VEVENT
+UID:550e44ca-a6dc-4e11-92c2-8dfa0265b500
+SEQUENCE:0
+DTSTAMP:20260909T150402Z
+DTSTART:20261007T010000Z
+DTEND:20261007T020000Z
+SUMMARY:Y6 Restore  — Amanda FK — 27 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Yin Edition\nCapacity: 27\nWaitlist: 0\nBook: https://m
+ embers.yogasix.com/book/yogasix-edgewater/cr_90615200
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906152
+ 00
+END:VEVENT
+BEGIN:VEVENT
+UID:05d109dc-f25f-47c1-97e8-95641c32d992
+SEQUENCE:0
+DTSTAMP:20260909T150402Z
+DTSTART:20261009T010000Z
+DTEND:20261009T020000Z
+SUMMARY:Y6 Restore  — Christina G. — 27 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 27\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90617087
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906170
+ 87
+END:VEVENT
 END:VCALENDAR

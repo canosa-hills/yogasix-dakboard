@@ -3,4 +3,121 @@ VERSION:2.0
 PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — Other
 X-WR-CALNAME:YogaSix Edgewater — Other
+BEGIN:VEVENT
+UID:99ef144c-6bb2-46c8-9846-f3a24c3d6f62
+SEQUENCE:0
+DTSTAMP:20260909T150402Z
+DTSTART:20260910T180000Z
+DTEND:20260910T190000Z
+SUMMARY:Y6 Core — Anna A — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Burn-Pilates Inspired\nCapacity: 30\nWaitlist: 0\nBook:
+  https://members.yogasix.com/book/yogasix-edgewater/cr_90616469
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906164
+ 69
+END:VEVENT
+BEGIN:VEVENT
+UID:0d762336-2955-45cd-96bf-7a190ee829f0
+SEQUENCE:0
+DTSTAMP:20260909T150402Z
+DTSTART:20260915T220000Z
+DTEND:20260915T230000Z
+SUMMARY:Y6 Core — Kristin W — 29 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Burn-Pilates Inspired\nCapacity: 30\nWaitlist: 0\nBook:
+  https://members.yogasix.com/book/yogasix-edgewater/cr_90614971
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906149
+ 71
+END:VEVENT
+BEGIN:VEVENT
+UID:18bca78a-fc74-49b0-b17c-9202b9e57023
+SEQUENCE:0
+DTSTAMP:20260909T150402Z
+DTSTART:20260917T180000Z
+DTEND:20260917T190000Z
+SUMMARY:Y6 Core — Anna A — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Burn-Pilates Inspired\nCapacity: 30\nWaitlist: 0\nBook:
+  https://members.yogasix.com/book/yogasix-edgewater/cr_90616470
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906164
+ 70
+END:VEVENT
+BEGIN:VEVENT
+UID:a8c80e4e-ffca-4c4b-8fba-6197e12b3337
+SEQUENCE:0
+DTSTAMP:20260909T150402Z
+DTSTART:20260922T220000Z
+DTEND:20260922T230000Z
+SUMMARY:Y6 Core — Kristin W — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Burn-Pilates Inspired\nCapacity: 30\nWaitlist: 0\nBook:
+  https://members.yogasix.com/book/yogasix-edgewater/cr_90614972
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906149
+ 72
+END:VEVENT
+BEGIN:VEVENT
+UID:db226b81-4f5e-4c1f-bd55-2b67d58a6648
+SEQUENCE:0
+DTSTAMP:20260909T150402Z
+DTSTART:20260924T180000Z
+DTEND:20260924T190000Z
+SUMMARY:Y6 Core — Anna A — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Burn-Pilates Inspired\nCapacity: 30\nWaitlist: 0\nBook:
+  https://members.yogasix.com/book/yogasix-edgewater/cr_90616471
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906164
+ 71
+END:VEVENT
+BEGIN:VEVENT
+UID:00f8f7bb-9e58-4159-afdc-9c42e2679fe3
+SEQUENCE:0
+DTSTAMP:20260909T150402Z
+DTSTART:20260929T220000Z
+DTEND:20260929T230000Z
+SUMMARY:Y6 Core — Kristin W — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Burn-Pilates Inspired\nCapacity: 30\nWaitlist: 0\nBook:
+  https://members.yogasix.com/book/yogasix-edgewater/cr_90614973
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906149
+ 73
+END:VEVENT
+BEGIN:VEVENT
+UID:61d11d60-f610-45b2-9a46-3ae54bd579cd
+SEQUENCE:0
+DTSTAMP:20260909T150402Z
+DTSTART:20261001T180000Z
+DTEND:20261001T190000Z
+SUMMARY:Y6 Core — Anna A — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Burn-Pilates Inspired\nCapacity: 30\nWaitlist: 0\nBook:
+  https://members.yogasix.com/book/yogasix-edgewater/cr_90616472
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906164
+ 72
+END:VEVENT
+BEGIN:VEVENT
+UID:8bc34cdc-dbb0-4173-8568-b941df3a942c
+SEQUENCE:0
+DTSTAMP:20260909T150402Z
+DTSTART:20261006T220000Z
+DTEND:20261006T230000Z
+SUMMARY:Y6 Core — Kristin W — 29 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Burn-Pilates Inspired\nCapacity: 30\nWaitlist: 0\nBook:
+  https://members.yogasix.com/book/yogasix-edgewater/cr_90614974
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906149
+ 74
+END:VEVENT
+BEGIN:VEVENT
+UID:f75abdc6-206b-43e4-8643-cc992f98efbd
+SEQUENCE:0
+DTSTAMP:20260909T150402Z
+DTSTART:20261008T180000Z
+DTEND:20261008T190000Z
+SUMMARY:Y6 Core — Anna A — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Burn-Pilates Inspired\nCapacity: 30\nWaitlist: 0\nBook:
+  https://members.yogasix.com/book/yogasix-edgewater/cr_90616473
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906164
+ 73
+END:VEVENT
 END:VCALENDAR
