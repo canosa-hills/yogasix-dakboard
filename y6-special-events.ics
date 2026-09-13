@@ -3,4 +3,56 @@ VERSION:2.0
 PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — Special Events / Workshops
 X-WR-CALNAME:YogaSix Edgewater — Special Events / Workshops
+BEGIN:VEVENT
+UID:7a08a8c9-2580-4bf2-a3ea-53253fa12784
+SEQUENCE:0
+DTSTAMP:20260913T145303Z
+DTSTART:20260919T010000Z
+DTEND:20260919T020000Z
+SUMMARY:Workshop 60 (Free for Members) — Katie H. — 29 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: SunSet Yoga on the Lawn\nCapacity: 30\nWaitlist: 0\nBoo
+ k: https://members.yogasix.com/book/yogasix-edgewater/cr_99910774
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_999107
+ 74
+END:VEVENT
+BEGIN:VEVENT
+UID:2ff818ca-997c-4aff-86a7-cf524ea4eba0
+SEQUENCE:0
+DTSTAMP:20260913T145303Z
+DTSTART:20260919T220000Z
+DTEND:20260920T010000Z
+SUMMARY:Workshop - 180 min ($180) — Cassandra S — 40 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Backbend Pose Breakdown\nCapacity: 40\nBook: https://me
+ mbers.yogasix.com/book/yogasix-edgewater/cr_99321189
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_993211
+ 89
+END:VEVENT
+BEGIN:VEVENT
+UID:4e1650f3-dcdd-4f12-aa0d-3ba81b653d89
+SEQUENCE:0
+DTSTAMP:20260913T145303Z
+DTSTART:20260926T010000Z
+DTEND:20260926T023000Z
+SUMMARY:Workshop 90 (Free for Members) — Scotty G — 29 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: VinYin with Asia and Scotty!\nCapacity: 30\nWaitlist: 0
+ \nBook: https://members.yogasix.com/book/yogasix-edgewater/cr_99660682
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_996606
+ 82
+END:VEVENT
+BEGIN:VEVENT
+UID:8d005b05-4cdf-45a0-885c-30fd07e88e86
+SEQUENCE:0
+DTSTAMP:20260913T145303Z
+DTSTART:20261010T010000Z
+DTEND:20261010T023000Z
+SUMMARY:Workshop 90 (Free for Members) — Kelsey S — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Circular Breathwork\nCapacity: 30\nWaitlist: 0\nBook: h
+ ttps://members.yogasix.com/book/yogasix-edgewater/cr_97063996
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_970639
+ 96
+END:VEVENT
 END:VCALENDAR
