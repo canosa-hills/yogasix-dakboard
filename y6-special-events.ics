@@ -3,43 +3,4 @@ VERSION:2.0
 PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — Special Events / Workshops
 X-WR-CALNAME:YogaSix Edgewater — Special Events / Workshops
-BEGIN:VEVENT
-UID:85dbd0aa-6850-4f7b-b8c8-d25a22a89a4b
-SEQUENCE:0
-DTSTAMP:20260917T152936Z
-DTSTART:20260919T220000Z
-DTEND:20260920T010000Z
-SUMMARY:Workshop - 180 min ($180) — Cassandra S — 40 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Backbend Pose Breakdown\nCapacity: 40\nBook: https://me
- mbers.yogasix.com/book/yogasix-edgewater/cr_99321189
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_993211
- 89
-END:VEVENT
-BEGIN:VEVENT
-UID:28bdae49-ad4d-429e-80b6-7753b6fb9763
-SEQUENCE:0
-DTSTAMP:20260917T152936Z
-DTSTART:20260926T010000Z
-DTEND:20260926T023000Z
-SUMMARY:Workshop 90 (Free for Members) — Scotty G — 29 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: VinYin with Asia and Scotty!\nCapacity: 30\nWaitlist: 0
- \nBook: https://members.yogasix.com/book/yogasix-edgewater/cr_99660682
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_996606
- 82
-END:VEVENT
-BEGIN:VEVENT
-UID:59ce1d52-0b65-4ae6-a1b5-89e2afd113e9
-SEQUENCE:0
-DTSTAMP:20260917T152936Z
-DTSTART:20261010T010000Z
-DTEND:20261010T023000Z
-SUMMARY:Workshop 90 (Free for Members) — Kelsey S — 30 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Circular Breathwork\nCapacity: 30\nWaitlist: 0\nBook: h
- ttps://members.yogasix.com/book/yogasix-edgewater/cr_97063996
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_970639
- 96
-END:VEVENT
 END:VCALENDAR
