@@ -3,4 +3,57 @@ VERSION:2.0
 PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — Special Events / Workshops
 X-WR-CALNAME:YogaSix Edgewater — Special Events / Workshops
+BEGIN:VEVENT
+UID:0619effe-db85-4d38-be17-4ce518fa63df
+SEQUENCE:0
+DTSTAMP:20260918T145339Z
+DTSTART:20260919T220000Z
+DTEND:20260920T010000Z
+SUMMARY:Workshop - 180 min ($180) — Cassandra S — 40 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Backbend Pose Breakdown\nCapacity: 40\nBook: https://me
+ mbers.yogasix.com/book/yogasix-edgewater/cr_99321189
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_993211
+ 89
+END:VEVENT
+BEGIN:VEVENT
+UID:3071d2ec-cd73-443c-a088-6cc31bed4967
+SEQUENCE:0
+DTSTAMP:20260918T145339Z
+DTSTART:20260926T010000Z
+DTEND:20260926T023000Z
+SUMMARY:Workshop 90 (Free for Members) — Scotty G — 29 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: VinYin with Asia and Scotty!\nCapacity: 30\nWaitlist: 0
+ \nBook: https://members.yogasix.com/book/yogasix-edgewater/cr_99660682
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_996606
+ 82
+END:VEVENT
+BEGIN:VEVENT
+UID:2bd485ca-ca47-4f4e-b35d-2b396056b10b
+SEQUENCE:0
+DTSTAMP:20260918T145339Z
+DTSTART:20261010T010000Z
+DTEND:20261010T023000Z
+SUMMARY:Workshop 90 (Free for Members) — Kelsey S — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Circular Breathwork\nCapacity: 30\nWaitlist: 0\nBook: h
+ ttps://members.yogasix.com/book/yogasix-edgewater/cr_97063996
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_970639
+ 96
+END:VEVENT
+BEGIN:VEVENT
+UID:196df5a4-d9dc-4b66-9b74-71d3dd3141d6
+SEQUENCE:0
+DTSTAMP:20260918T145339Z
+DTSTART:20261017T180000Z
+DTEND:20261017T200000Z
+SUMMARY:Workshop 120 — Cassandra S — 29 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: 2hr Master Class- The 7 Doorways\nCapacity: 29\nWaitlis
+ t: 0\nBook: https://members.yogasix.com/book/yogasix-edgewater/cr_10037621
+ 6
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_100376
+ 216
+END:VEVENT
 END:VCALENDAR
