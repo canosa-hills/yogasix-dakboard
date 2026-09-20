@@ -3,44 +3,4 @@ VERSION:2.0
 PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — Special Events / Workshops
 X-WR-CALNAME:YogaSix Edgewater — Special Events / Workshops
-BEGIN:VEVENT
-UID:d23b5f7f-a8d1-40fb-bd1f-ce4fcc35908b
-SEQUENCE:0
-DTSTAMP:20260920T143825Z
-DTSTART:20260926T010000Z
-DTEND:20260926T023000Z
-SUMMARY:Workshop 90 (Free for Members) — Scotty G — 29 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: VinYin with Asia and Scotty!\nCapacity: 30\nWaitlist: 0
- \nBook: https://members.yogasix.com/book/yogasix-edgewater/cr_99660682
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_996606
- 82
-END:VEVENT
-BEGIN:VEVENT
-UID:f96432c3-9cf8-4a17-b0f0-a588a97ee816
-SEQUENCE:0
-DTSTAMP:20260920T143825Z
-DTSTART:20261010T010000Z
-DTEND:20261010T023000Z
-SUMMARY:Workshop 90 (Free for Members) — Kelsey S — 30 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Circular Breathwork\nCapacity: 30\nWaitlist: 0\nBook: h
- ttps://members.yogasix.com/book/yogasix-edgewater/cr_97063996
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_970639
- 96
-END:VEVENT
-BEGIN:VEVENT
-UID:d6dc081e-95b0-4d78-a4f5-abe88e6b7b60
-SEQUENCE:0
-DTSTAMP:20260920T143825Z
-DTSTART:20261017T180000Z
-DTEND:20261017T200000Z
-SUMMARY:Workshop 120 — Cassandra S — 29 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: 2hr Master Class- The 7 Doorways\nCapacity: 29\nWaitlis
- t: 0\nBook: https://members.yogasix.com/book/yogasix-edgewater/cr_10037621
- 6
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_100376
- 216
-END:VEVENT
 END:VCALENDAR
