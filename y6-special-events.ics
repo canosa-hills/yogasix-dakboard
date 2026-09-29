@@ -3,4 +3,83 @@ VERSION:2.0
 PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — Special Events / Workshops
 X-WR-CALNAME:YogaSix Edgewater — Special Events / Workshops
+BEGIN:VEVENT
+UID:f3f64988-4c90-4b9c-a329-2a2ca6dc64ec
+SEQUENCE:0
+DTSTAMP:20260929T165100Z
+DTSTART:20261010T010000Z
+DTEND:20261010T023000Z
+SUMMARY:Workshop 90 (Free for Members) — Kelsey S — 29 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Circular Breathwork\nCapacity: 30\nWaitlist: 0\nBook: h
+ ttps://members.yogasix.com/book/yogasix-edgewater/cr_97063996
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_970639
+ 96
+END:VEVENT
+BEGIN:VEVENT
+UID:d1003e95-c164-43fb-a48e-504e318a0ac7
+SEQUENCE:0
+DTSTAMP:20260929T165100Z
+DTSTART:20261010T180000Z
+DTEND:20261010T190000Z
+SUMMARY:Workshop 60 (Free for Members) — TBA — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Free Class with YTT Grad Anna!\nCapacity: 30\nWaitlist:
+  0\nBook: https://members.yogasix.com/book/yogasix-edgewater/cr_100696974
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_100696
+ 974
+END:VEVENT
+BEGIN:VEVENT
+UID:40ae127a-e6fd-4b82-bc4c-5051cc1060d3
+SEQUENCE:0
+DTSTAMP:20260929T165100Z
+DTSTART:20261010T193000Z
+DTEND:20261010T203000Z
+SUMMARY:Workshop 60 (Free for Members) — TBA — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Free Class with YTT Grad Shai!\nCapacity: 30\nWaitlist:
+  0\nBook: https://members.yogasix.com/book/yogasix-edgewater/cr_100696979
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_100696
+ 979
+END:VEVENT
+BEGIN:VEVENT
+UID:ca841849-329f-4945-9456-e91533bd245f
+SEQUENCE:0
+DTSTAMP:20260929T165100Z
+DTSTART:20261010T210000Z
+DTEND:20261010T220000Z
+SUMMARY:Workshop 60 (Free for Members) — TBA — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Free Class with YTT Grad Erin!\nCapacity: 30\nWaitlist:
+  0\nBook: https://members.yogasix.com/book/yogasix-edgewater/cr_100696986
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_100696
+ 986
+END:VEVENT
+BEGIN:VEVENT
+UID:601edc36-625e-44f6-a1df-8be1da388985
+SEQUENCE:0
+DTSTAMP:20260929T165100Z
+DTSTART:20261017T180000Z
+DTEND:20261017T200000Z
+SUMMARY:Workshop 120 — Cassandra S — 29 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: 2hr Master Class- The 7 Doorways\nCapacity: 29\nWaitlis
+ t: 0\nBook: https://members.yogasix.com/book/yogasix-edgewater/cr_10037621
+ 6
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_100376
+ 216
+END:VEVENT
+BEGIN:VEVENT
+UID:63d35533-b4ee-4a91-b93c-ca58f88e2fe7
+SEQUENCE:0
+DTSTAMP:20260929T165100Z
+DTSTART:20261024T010000Z
+DTEND:20261024T023000Z
+SUMMARY:Workshop 90 (Free for Members) — Amanda FK — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Yin into Yoga Nidra\nCapacity: 30\nWaitlist: 0\nBook: h
+ ttps://members.yogasix.com/book/yogasix-edgewater/cr_99842157
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_998421
+ 57
+END:VEVENT
 END:VCALENDAR
