@@ -3,4 +3,108 @@ VERSION:2.0
 PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — Other
 X-WR-CALNAME:YogaSix Edgewater — Other
+BEGIN:VEVENT
+UID:3f2e2e92-e1ed-4bef-a1be-20a7f8b81f73
+SEQUENCE:0
+DTSTAMP:20261003T150632Z
+DTSTART:20261006T220000Z
+DTEND:20261006T230000Z
+SUMMARY:Y6 Core — Kristin W — 28 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Burn-Pilates Inspired\nCapacity: 30\nWaitlist: 0\nBook:
+  https://members.yogasix.com/book/yogasix-edgewater/cr_90614974
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906149
+ 74
+END:VEVENT
+BEGIN:VEVENT
+UID:e81f7ae5-dca0-4522-92db-a4bf3c5a77e5
+SEQUENCE:0
+DTSTAMP:20261003T150632Z
+DTSTART:20261008T180000Z
+DTEND:20261008T190000Z
+SUMMARY:Y6 Core — Anna A — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Burn-Pilates - Tape B Edition!\nCapacity: 30\nWaitlist:
+  0\nBook: https://members.yogasix.com/book/yogasix-edgewater/cr_90616473
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906164
+ 73
+END:VEVENT
+BEGIN:VEVENT
+UID:99d4565b-b351-4fde-9560-c9cdb6c2990a
+SEQUENCE:0
+DTSTAMP:20261003T150632Z
+DTSTART:20261013T220000Z
+DTEND:20261013T230000Z
+SUMMARY:Y6 Core — Kristin W — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Burn-Pilates Inspired\nCapacity: 30\nWaitlist: 0\nBook:
+  https://members.yogasix.com/book/yogasix-edgewater/cr_90614975
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906149
+ 75
+END:VEVENT
+BEGIN:VEVENT
+UID:787d21af-66eb-4c0f-9819-1e7a311498af
+SEQUENCE:0
+DTSTAMP:20261003T150632Z
+DTSTART:20261015T180000Z
+DTEND:20261015T190000Z
+SUMMARY:Y6 Core — Anna A — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Burn-Pilates Inspired\nCapacity: 30\nWaitlist: 0\nBook:
+  https://members.yogasix.com/book/yogasix-edgewater/cr_90616474
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906164
+ 74
+END:VEVENT
+BEGIN:VEVENT
+UID:6408b2f4-2752-46aa-8b15-3ac2b6000fc0
+SEQUENCE:0
+DTSTAMP:20261003T150632Z
+DTSTART:20261020T220000Z
+DTEND:20261020T230000Z
+SUMMARY:Y6 Core — Kristin W — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Burn-Pilates Inspired\nCapacity: 30\nWaitlist: 0\nBook:
+  https://members.yogasix.com/book/yogasix-edgewater/cr_90614976
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906149
+ 76
+END:VEVENT
+BEGIN:VEVENT
+UID:010215e8-cfba-41cf-bd78-0735e338a999
+SEQUENCE:0
+DTSTAMP:20261003T150632Z
+DTSTART:20261022T180000Z
+DTEND:20261022T190000Z
+SUMMARY:Y6 Core — Anna A — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Burn-Pilates Inspired\nCapacity: 30\nWaitlist: 0\nBook:
+  https://members.yogasix.com/book/yogasix-edgewater/cr_90616475
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906164
+ 75
+END:VEVENT
+BEGIN:VEVENT
+UID:1e285668-f8b6-423b-9197-5948b1460c15
+SEQUENCE:0
+DTSTAMP:20261003T150632Z
+DTSTART:20261027T220000Z
+DTEND:20261027T230000Z
+SUMMARY:Y6 Core — Kristin W — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Burn-Pilates Inspired\nCapacity: 30\nWaitlist: 0\nBook:
+  https://members.yogasix.com/book/yogasix-edgewater/cr_90614977
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906149
+ 77
+END:VEVENT
+BEGIN:VEVENT
+UID:14487b8f-4432-4394-86b6-9e6134eb3f13
+SEQUENCE:0
+DTSTAMP:20261003T150632Z
+DTSTART:20261029T180000Z
+DTEND:20261029T190000Z
+SUMMARY:Y6 Core — Anna A — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Burn-Pilates Inspired\nCapacity: 30\nWaitlist: 0\nBook:
+  https://members.yogasix.com/book/yogasix-edgewater/cr_90616476
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906164
+ 76
+END:VEVENT
 END:VCALENDAR
