@@ -3,44 +3,4 @@ VERSION:2.0
 PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — Special Events / Workshops
 X-WR-CALNAME:YogaSix Edgewater — Special Events / Workshops
-BEGIN:VEVENT
-UID:bc6bd012-4f6b-4ec5-9e74-b8d9ab395cec
-SEQUENCE:0
-DTSTAMP:20261012T201209Z
-DTSTART:20261017T180000Z
-DTEND:20261017T200000Z
-SUMMARY:Workshop 120 — Cassandra S — 26 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: 2hr Master Class- The 7 Doorways\nCapacity: 29\nWaitlis
- t: 0\nBook: https://members.yogasix.com/book/yogasix-edgewater/cr_10037621
- 6
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_100376
- 216
-END:VEVENT
-BEGIN:VEVENT
-UID:52d49994-535f-43d9-ac53-aa07a54e1f07
-SEQUENCE:0
-DTSTAMP:20261012T201209Z
-DTSTART:20261024T010000Z
-DTEND:20261024T023000Z
-SUMMARY:Workshop 90 (Free for Members) — Amanda FK — 29 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Yin into Yoga Nidra\nCapacity: 30\nWaitlist: 0\nBook: h
- ttps://members.yogasix.com/book/yogasix-edgewater/cr_99842157
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_998421
- 57
-END:VEVENT
-BEGIN:VEVENT
-UID:056fd662-85ad-4ecf-9712-449d59e6a276
-SEQUENCE:0
-DTSTAMP:20261012T201209Z
-DTSTART:20261024T010000Z
-DTEND:20261024T023000Z
-SUMMARY:Workshop - 90 min ($45) — Amanda  F. — 40 spots
-LOCATION:YogaSix Edgewater
-DESCRIPTION:Notes: Yin into Yoga Nidra\nCapacity: 40\nWaitlist: 0\nBook: h
- ttps://members.yogasix.com/book/yogasix-edgewater/cr_100886423
-URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_100886
- 423
-END:VEVENT
 END:VCALENDAR
