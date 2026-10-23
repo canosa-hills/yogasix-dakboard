@@ -3,4 +3,95 @@ VERSION:2.0
 PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — Special Events / Workshops
 X-WR-CALNAME:YogaSix Edgewater — Special Events / Workshops
+BEGIN:VEVENT
+UID:0f6fed30-7fd4-47cc-979e-075213558c17
+SEQUENCE:0
+DTSTAMP:20261023T154128Z
+DTSTART:20261024T010000Z
+DTEND:20261024T023000Z
+SUMMARY:Workshop 90 (Free for Members) — Amanda FK — 19 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Yin into Yoga Nidra\nCapacity: 30\nWaitlist: 0\nBook: h
+ ttps://members.yogasix.com/book/yogasix-edgewater/cr_99842157
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_998421
+ 57
+END:VEVENT
+BEGIN:VEVENT
+UID:f01ee9a0-b2f9-404d-b143-0513f4b85579
+SEQUENCE:0
+DTSTAMP:20261023T154128Z
+DTSTART:20261024T010000Z
+DTEND:20261024T023000Z
+SUMMARY:Workshop - 90 min ($45) — Amanda  F. — 38 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Yin into Yoga Nidra\nCapacity: 40\nWaitlist: 0\nBook: h
+ ttps://members.yogasix.com/book/yogasix-edgewater/cr_100886423
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_100886
+ 423
+END:VEVENT
+BEGIN:VEVENT
+UID:67e37234-fc9e-4891-a29f-340ce9770b5a
+SEQUENCE:0
+DTSTAMP:20261023T154128Z
+DTSTART:20261114T020000Z
+DTEND:20261114T033000Z
+SUMMARY:Workshop 90 (Free for Members) — Kelsey S — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Circular Breathwork\nCapacity: 30\nWaitlist: 0\nBook: h
+ ttps://members.yogasix.com/book/yogasix-edgewater/cr_97064004
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_970640
+ 04
+END:VEVENT
+BEGIN:VEVENT
+UID:d9e88742-6014-4f88-808b-994af2674303
+SEQUENCE:0
+DTSTAMP:20261023T154128Z
+DTSTART:20261114T020000Z
+DTEND:20261114T033000Z
+SUMMARY:Workshop - 90 min ($40) — Kelsey  S. — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Circular Breathwork\nCapacity: 30\nWaitlist: 0\nBook: h
+ ttps://members.yogasix.com/book/yogasix-edgewater/cr_101072519
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_101072
+ 519
+END:VEVENT
+BEGIN:VEVENT
+UID:4dbd83ba-0dac-441a-9436-9498d9d3c5ec
+SEQUENCE:0
+DTSTAMP:20261023T154128Z
+DTSTART:20261114T190000Z
+DTEND:20261114T230000Z
+SUMMARY:Workshop - 240  min ($180) — Cassandra S — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Energy Management and Sequencing\nCapacity: 30\nBook: h
+ ttps://members.yogasix.com/book/yogasix-edgewater/cr_94785540
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_947855
+ 40
+END:VEVENT
+BEGIN:VEVENT
+UID:6204280f-0fd6-46b7-b681-867faa56cf9c
+SEQUENCE:0
+DTSTAMP:20261023T154128Z
+DTSTART:20261121T020000Z
+DTEND:20261121T030000Z
+SUMMARY:Workshop 60 (Free for Members) — Kelsey S — 29 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Blindfolded Yoga Workshop\nCapacity: 30\nWaitlist: 0\nB
+ ook: https://members.yogasix.com/book/yogasix-edgewater/cr_100489064
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_100489
+ 064
+END:VEVENT
+BEGIN:VEVENT
+UID:eaffe518-1d75-45d8-a7aa-2fa5c8896670
+SEQUENCE:0
+DTSTAMP:20261023T154128Z
+DTSTART:20261121T020000Z
+DTEND:20261121T030000Z
+SUMMARY:Workshop - 60 min ($40) — Kelsey  S. — 40 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Blindfolded Yoga Workshop\nCapacity: 40\nBook: https://
+ members.yogasix.com/book/yogasix-edgewater/cr_101546548
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_101546
+ 548
+END:VEVENT
 END:VCALENDAR
