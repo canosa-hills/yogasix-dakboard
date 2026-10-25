@@ -3,4 +3,69 @@ VERSION:2.0
 PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — Special Events / Workshops
 X-WR-CALNAME:YogaSix Edgewater — Special Events / Workshops
+BEGIN:VEVENT
+UID:b8dedce3-f65f-4655-bfbb-f2f86b23c7e7
+SEQUENCE:0
+DTSTAMP:20261025T145449Z
+DTSTART:20261114T020000Z
+DTEND:20261114T033000Z
+SUMMARY:Workshop 90 (Free for Members) — Kelsey S — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Circular Breathwork\nCapacity: 30\nWaitlist: 0\nBook: h
+ ttps://members.yogasix.com/book/yogasix-edgewater/cr_97064004
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_970640
+ 04
+END:VEVENT
+BEGIN:VEVENT
+UID:fcfe8a22-5898-483f-bdc9-b2270988c512
+SEQUENCE:0
+DTSTAMP:20261025T145449Z
+DTSTART:20261114T020000Z
+DTEND:20261114T033000Z
+SUMMARY:Workshop - 90 min ($40) — Kelsey  S. — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Circular Breathwork\nCapacity: 30\nWaitlist: 0\nBook: h
+ ttps://members.yogasix.com/book/yogasix-edgewater/cr_101072519
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_101072
+ 519
+END:VEVENT
+BEGIN:VEVENT
+UID:76c63d68-653a-4034-9e8d-6639cc05176d
+SEQUENCE:0
+DTSTAMP:20261025T145449Z
+DTSTART:20261119T020000Z
+DTEND:20261119T031500Z
+SUMMARY:Workshop - 75 min ($45) — Jonah  K. — 11 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Guest Teacher Jonah Kest\nCapacity: 51\nBook: https://m
+ embers.yogasix.com/book/yogasix-edgewater/cr_101612070
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_101612
+ 070
+END:VEVENT
+BEGIN:VEVENT
+UID:17f993f7-3869-4521-8897-125b0a1c0c64
+SEQUENCE:0
+DTSTAMP:20261025T145449Z
+DTSTART:20261121T020000Z
+DTEND:20261121T030000Z
+SUMMARY:Workshop 60 (Free for Members) — Kelsey S — 29 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Blindfolded Yoga Workshop\nCapacity: 30\nWaitlist: 0\nB
+ ook: https://members.yogasix.com/book/yogasix-edgewater/cr_100489064
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_100489
+ 064
+END:VEVENT
+BEGIN:VEVENT
+UID:4bb6216a-169d-472d-bd7d-1ffa6aa989c5
+SEQUENCE:0
+DTSTAMP:20261025T145449Z
+DTSTART:20261121T020000Z
+DTEND:20261121T030000Z
+SUMMARY:Workshop - 60 min ($40) — Kelsey  S. — 40 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Blindfolded Yoga Workshop\nCapacity: 40\nBook: https://
+ members.yogasix.com/book/yogasix-edgewater/cr_101546548
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_101546
+ 548
+END:VEVENT
 END:VCALENDAR
