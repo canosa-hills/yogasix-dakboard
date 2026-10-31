@@ -3,4 +3,83 @@ VERSION:2.0
 PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — Special Events / Workshops
 X-WR-CALNAME:YogaSix Edgewater — Special Events / Workshops
+BEGIN:VEVENT
+UID:61a7c685-c7a9-422e-ade3-7670c5f44eda
+SEQUENCE:0
+DTSTAMP:20261031T155954Z
+DTSTART:20261114T020000Z
+DTEND:20261114T033000Z
+SUMMARY:Workshop 90 (Free for Members) — Kelsey S — 29 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Circular Breathwork\nCapacity: 30\nWaitlist: 0\nBook: h
+ ttps://members.yogasix.com/book/yogasix-edgewater/cr_97064004
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_970640
+ 04
+END:VEVENT
+BEGIN:VEVENT
+UID:142b16b5-4527-4fb5-b10b-17ca9fb5f5a6
+SEQUENCE:0
+DTSTAMP:20261031T155954Z
+DTSTART:20261114T020000Z
+DTEND:20261114T033000Z
+SUMMARY:Workshop - 90 min ($40) — Kelsey  S. — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Circular Breathwork\nCapacity: 30\nWaitlist: 0\nBook: h
+ ttps://members.yogasix.com/book/yogasix-edgewater/cr_101072519
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_101072
+ 519
+END:VEVENT
+BEGIN:VEVENT
+UID:97ef0f2f-48d4-4964-8baf-375af70449ec
+SEQUENCE:0
+DTSTAMP:20261031T155954Z
+DTSTART:20261119T020000Z
+DTEND:20261119T031500Z
+SUMMARY:Workshop - 75 min ($45) — Jonah  K. — 0 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Guest Teacher Jonah Kest\nCapacity: 51\nWaitlist: 5\nBo
+ ok: https://members.yogasix.com/book/yogasix-edgewater/cr_101612070
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_101612
+ 070
+END:VEVENT
+BEGIN:VEVENT
+UID:2b666d06-0e38-44fa-842d-cc0dfc679abb
+SEQUENCE:0
+DTSTAMP:20261031T155954Z
+DTSTART:20261121T020000Z
+DTEND:20261121T030000Z
+SUMMARY:Special Class - 60 minute — Cassandra S — 28 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: 60 Min FREE Sound Bath\nCapacity: 30\nWaitlist: 0\nBook
+ : https://members.yogasix.com/book/yogasix-edgewater/cr_101702825
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_101702
+ 825
+END:VEVENT
+BEGIN:VEVENT
+UID:34d384c3-b6c5-4dbf-8ccc-8252b8700445
+SEQUENCE:0
+DTSTAMP:20261031T155954Z
+DTSTART:20261128T020000Z
+DTEND:20261128T040000Z
+SUMMARY:Workshop 120 — Kelsey S — 24 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Kelsey\, Anthony\, & Cassandra Class!\nCapacity: 29\nWa
+ itlist: 0\nBook: https://members.yogasix.com/book/yogasix-edgewater/cr_101
+ 564465
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_101564
+ 465
+END:VEVENT
+BEGIN:VEVENT
+UID:d4b0bc32-ca43-4b24-8e61-4aacc94ab271
+SEQUENCE:0
+DTSTAMP:20261031T155954Z
+DTSTART:20261128T020000Z
+DTEND:20261128T040000Z
+SUMMARY:Workshop - 120 min ($45) — Kelsey  S. — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Kelsey\, Anthony\, & Cassandra Class!\nCapacity: 30\nBo
+ ok: https://members.yogasix.com/book/yogasix-edgewater/cr_101564463
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_101564
+ 463
+END:VEVENT
 END:VCALENDAR
