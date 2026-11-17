@@ -3,4 +3,342 @@ VERSION:2.0
 PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — Sculpt
 X-WR-CALNAME:YogaSix Edgewater — Sculpt
+BEGIN:VEVENT
+UID:ceac1f4c-2b8d-4994-93c5-a17fa82a26d5
+SEQUENCE:0
+DTSTAMP:20261117T194318Z
+DTSTART:20261117T143000Z
+DTEND:20261117T151500Z
+SUMMARY:Y6 Sculpt Express (45m) — Kristin W — 29 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90614590
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906145
+ 90
+END:VEVENT
+BEGIN:VEVENT
+UID:83bd7bae-e5c7-42dc-afb8-02f4940c3f7f
+SEQUENCE:0
+DTSTAMP:20261117T194318Z
+DTSTART:20261119T130000Z
+DTEND:20261119T140000Z
+SUMMARY:Y6 Sculpt — Jane K — 27 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90616154
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906161
+ 54
+END:VEVENT
+BEGIN:VEVENT
+UID:73d55586-9c6b-4c09-8f72-c8dfcfc3ade8
+SEQUENCE:0
+DTSTAMP:20261117T194318Z
+DTSTART:20261120T230000Z
+DTEND:20261121T000000Z
+SUMMARY:Y6 Sculpt — Kelsey S — 23 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90337184
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903371
+ 84
+END:VEVENT
+BEGIN:VEVENT
+UID:b4db1d39-0088-47fa-b7fb-fb6f77aff3b0
+SEQUENCE:0
+DTSTAMP:20261117T194318Z
+DTSTART:20261121T173000Z
+DTEND:20261121T183000Z
+SUMMARY:Y6 Sculpt — Mariah J. — 25 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90337495
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903374
+ 95
+END:VEVENT
+BEGIN:VEVENT
+UID:c2b25040-802a-4512-bfa9-df06ab8e122d
+SEQUENCE:0
+DTSTAMP:20261117T194318Z
+DTSTART:20261122T160000Z
+DTEND:20261122T170000Z
+SUMMARY:Y6 Sculpt — Di C. — 29 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90336274
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903362
+ 74
+END:VEVENT
+BEGIN:VEVENT
+UID:db337ff4-d152-4b69-9f4b-4a1e07221cf0
+SEQUENCE:0
+DTSTAMP:20261117T194318Z
+DTSTART:20261124T003000Z
+DTEND:20261124T013000Z
+SUMMARY:Y6 Sculpt — Jane K — 25 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90382166
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903821
+ 66
+END:VEVENT
+BEGIN:VEVENT
+UID:64199336-5303-4625-be81-d9502eacb7fa
+SEQUENCE:0
+DTSTAMP:20261117T194318Z
+DTSTART:20261124T143000Z
+DTEND:20261124T151500Z
+SUMMARY:Y6 Sculpt Express (45m) — Anna A — 28 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90614591
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906145
+ 91
+END:VEVENT
+BEGIN:VEVENT
+UID:24f6ab70-c8b1-4f32-b161-a3fa555a5891
+SEQUENCE:0
+DTSTAMP:20261117T194318Z
+DTSTART:20261128T173000Z
+DTEND:20261128T183000Z
+SUMMARY:Y6 Sculpt — Mariah J. — 28 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90337496
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903374
+ 96
+END:VEVENT
+BEGIN:VEVENT
+UID:cf55b093-493b-43ef-b5ed-8568fce75f04
+SEQUENCE:0
+DTSTAMP:20261117T194318Z
+DTSTART:20261129T160000Z
+DTEND:20261129T170000Z
+SUMMARY:Y6 Sculpt — Di C. — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90336275
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903362
+ 75
+END:VEVENT
+BEGIN:VEVENT
+UID:f7a57059-36fa-446d-b820-bb01cf4fbafb
+SEQUENCE:0
+DTSTAMP:20261117T194318Z
+DTSTART:20261201T003000Z
+DTEND:20261201T013000Z
+SUMMARY:Y6 Sculpt — Jane K — 27 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90382167
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903821
+ 67
+END:VEVENT
+BEGIN:VEVENT
+UID:05290ee8-34fe-4a9c-99ac-e7717a508661
+SEQUENCE:0
+DTSTAMP:20261117T194318Z
+DTSTART:20261201T143000Z
+DTEND:20261201T151500Z
+SUMMARY:Y6 Sculpt Express (45m) — Anna A — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90614592
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906145
+ 92
+END:VEVENT
+BEGIN:VEVENT
+UID:ed8f96ed-ff0a-443f-8f62-6358c5ffea8f
+SEQUENCE:0
+DTSTAMP:20261117T194318Z
+DTSTART:20261203T003000Z
+DTEND:20261203T013000Z
+SUMMARY:Y6 Sculpt — Stephanie W. — 28 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90615975
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906159
+ 75
+END:VEVENT
+BEGIN:VEVENT
+UID:a791b6fd-36d7-45b9-873e-88bb2449e021
+SEQUENCE:0
+DTSTAMP:20261117T194318Z
+DTSTART:20261203T130000Z
+DTEND:20261203T140000Z
+SUMMARY:Y6 Sculpt — Jane K — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90616156
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906161
+ 56
+END:VEVENT
+BEGIN:VEVENT
+UID:e3165901-4730-494f-9ebc-f2570cab4733
+SEQUENCE:0
+DTSTAMP:20261117T194318Z
+DTSTART:20261204T230000Z
+DTEND:20261205T000000Z
+SUMMARY:Y6 Sculpt — Kelsey S — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90337186
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903371
+ 86
+END:VEVENT
+BEGIN:VEVENT
+UID:32f0c272-826e-4031-b257-3b838d39b8c2
+SEQUENCE:0
+DTSTAMP:20261117T194318Z
+DTSTART:20261205T173000Z
+DTEND:20261205T183000Z
+SUMMARY:Y6 Sculpt — Mariah J. — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90337497
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903374
+ 97
+END:VEVENT
+BEGIN:VEVENT
+UID:a54f2d81-5c54-4533-a990-930e14a36d79
+SEQUENCE:0
+DTSTAMP:20261117T194318Z
+DTSTART:20261206T160000Z
+DTEND:20261206T170000Z
+SUMMARY:Y6 Sculpt — Di C. — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90336276
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903362
+ 76
+END:VEVENT
+BEGIN:VEVENT
+UID:8afce1d3-2fcb-4e23-b0b6-1e75949f2ac1
+SEQUENCE:0
+DTSTAMP:20261117T194318Z
+DTSTART:20261208T003000Z
+DTEND:20261208T013000Z
+SUMMARY:Y6 Sculpt — Jane K — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90382168
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903821
+ 68
+END:VEVENT
+BEGIN:VEVENT
+UID:667fc34d-6b69-403e-bc8c-0c4b84e7de78
+SEQUENCE:0
+DTSTAMP:20261117T194318Z
+DTSTART:20261208T143000Z
+DTEND:20261208T151500Z
+SUMMARY:Y6 Sculpt Express (45m) — Anna A — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90614593
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906145
+ 93
+END:VEVENT
+BEGIN:VEVENT
+UID:3ee84453-cbaf-4346-97a6-240e2117b2e0
+SEQUENCE:0
+DTSTAMP:20261117T194318Z
+DTSTART:20261210T003000Z
+DTEND:20261210T013000Z
+SUMMARY:Y6 Sculpt — Stephanie W. — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90615976
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906159
+ 76
+END:VEVENT
+BEGIN:VEVENT
+UID:d907b9ee-d86b-4532-b4ad-78e85c8caa76
+SEQUENCE:0
+DTSTAMP:20261117T194318Z
+DTSTART:20261210T130000Z
+DTEND:20261210T140000Z
+SUMMARY:Y6 Sculpt — Jane K — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90616157
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906161
+ 57
+END:VEVENT
+BEGIN:VEVENT
+UID:d01a62ba-84a2-444e-a483-f47aeccfcc4b
+SEQUENCE:0
+DTSTAMP:20261117T194318Z
+DTSTART:20261211T230000Z
+DTEND:20261212T000000Z
+SUMMARY:Y6 Sculpt — Stephanie W. — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90337187
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903371
+ 87
+END:VEVENT
+BEGIN:VEVENT
+UID:ef4fe09f-235c-4a5a-8d13-015765f940fa
+SEQUENCE:0
+DTSTAMP:20261117T194318Z
+DTSTART:20261212T173000Z
+DTEND:20261212T183000Z
+SUMMARY:Y6 Sculpt — Mariah J. — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90337498
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903374
+ 98
+END:VEVENT
+BEGIN:VEVENT
+UID:10f50611-f8a8-410c-b7e9-312f896ac0f8
+SEQUENCE:0
+DTSTAMP:20261117T194318Z
+DTSTART:20261213T160000Z
+DTEND:20261213T170000Z
+SUMMARY:Y6 Sculpt — Di C. — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90336277
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903362
+ 77
+END:VEVENT
+BEGIN:VEVENT
+UID:f235e585-0259-4347-aa84-194a7cf17843
+SEQUENCE:0
+DTSTAMP:20261117T194318Z
+DTSTART:20261215T003000Z
+DTEND:20261215T013000Z
+SUMMARY:Y6 Sculpt — Jane K — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90382169
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903821
+ 69
+END:VEVENT
+BEGIN:VEVENT
+UID:3d3e9736-80fe-4b41-a175-c66a7e63c659
+SEQUENCE:0
+DTSTAMP:20261117T194318Z
+DTSTART:20261215T143000Z
+DTEND:20261215T151500Z
+SUMMARY:Y6 Sculpt Express (45m) — Anna A — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90614595
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906145
+ 95
+END:VEVENT
+BEGIN:VEVENT
+UID:bbca302e-82ed-45cc-b4cb-11bc048c0698
+SEQUENCE:0
+DTSTAMP:20261117T194318Z
+DTSTART:20261217T003000Z
+DTEND:20261217T013000Z
+SUMMARY:Y6 Sculpt — Stephanie W. — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90615977
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906159
+ 77
+END:VEVENT
 END:VCALENDAR
