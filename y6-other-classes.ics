@@ -3,4 +3,110 @@ VERSION:2.0
 PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — Other
 X-WR-CALNAME:YogaSix Edgewater — Other
+BEGIN:VEVENT
+UID:c5b0c071-855e-4749-b128-1a72a941e5ea
+SEQUENCE:0
+DTSTAMP:20261122T182255Z
+DTSTART:20261124T230000Z
+DTEND:20261125T000000Z
+SUMMARY:Y6 Core — Kristin W — 20 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Pilates - Kristin’s Last Class!!\nCapacity: 30\nWaitl
+ ist: 0\nBook: https://members.yogasix.com/book/yogasix-edgewater/cr_906149
+ 81
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906149
+ 81
+END:VEVENT
+BEGIN:VEVENT
+UID:065c3c79-4e00-4998-a217-116db329bff8
+SEQUENCE:0
+DTSTAMP:20261122T182255Z
+DTSTART:20261126T173000Z
+DTEND:20261126T183000Z
+SUMMARY:Y6 Core — Cassandra S — 25 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Burn-Pilates Inspired\nCapacity: 30\nWaitlist: 0\nBook:
+  https://members.yogasix.com/book/yogasix-edgewater/cr_101053922
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_101053
+ 922
+END:VEVENT
+BEGIN:VEVENT
+UID:7205c567-1864-4f8d-b2cb-7f0a3df9106e
+SEQUENCE:0
+DTSTAMP:20261122T182255Z
+DTSTART:20261201T230000Z
+DTEND:20261202T000000Z
+SUMMARY:Y6 Core — Cassandra S — 28 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Burn-Pilates Inspired\nCapacity: 30\nWaitlist: 0\nBook:
+  https://members.yogasix.com/book/yogasix-edgewater/cr_90614982
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906149
+ 82
+END:VEVENT
+BEGIN:VEVENT
+UID:6de09516-067a-43a1-848a-8fdfe06a745f
+SEQUENCE:0
+DTSTAMP:20261122T182255Z
+DTSTART:20261203T190000Z
+DTEND:20261203T200000Z
+SUMMARY:Y6 Core — Anna A — 29 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Pilates Ski and Snowboard Training\nCapacity: 30\nWaitl
+ ist: 0\nBook: https://members.yogasix.com/book/yogasix-edgewater/cr_906164
+ 81
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906164
+ 81
+END:VEVENT
+BEGIN:VEVENT
+UID:c82e336a-a864-4c1e-a3f8-e6af3877f134
+SEQUENCE:0
+DTSTAMP:20261122T182255Z
+DTSTART:20261208T230000Z
+DTEND:20261209T000000Z
+SUMMARY:Y6 Core — Mariah J. — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Beat-Based Pilates!\nCapacity: 30\nWaitlist: 0\nBook: h
+ ttps://members.yogasix.com/book/yogasix-edgewater/cr_90614983
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906149
+ 83
+END:VEVENT
+BEGIN:VEVENT
+UID:bf891c22-99c6-472e-823b-db77c8d5a283
+SEQUENCE:0
+DTSTAMP:20261122T182255Z
+DTSTART:20261210T190000Z
+DTEND:20261210T200000Z
+SUMMARY:Y6 Core — Anna A — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Burn-Pilates Inspired\nCapacity: 30\nWaitlist: 0\nBook:
+  https://members.yogasix.com/book/yogasix-edgewater/cr_90616482
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906164
+ 82
+END:VEVENT
+BEGIN:VEVENT
+UID:79fadf40-db4c-4011-b184-1851adb1a1e7
+SEQUENCE:0
+DTSTAMP:20261122T182255Z
+DTSTART:20261215T230000Z
+DTEND:20261216T000000Z
+SUMMARY:Y6 Core — Cassandra S — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Burn-Pilates Inspired\nCapacity: 30\nWaitlist: 0\nBook:
+  https://members.yogasix.com/book/yogasix-edgewater/cr_90614984
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906149
+ 84
+END:VEVENT
+BEGIN:VEVENT
+UID:e7358e47-7d89-40de-b072-c5a1c7908d81
+SEQUENCE:0
+DTSTAMP:20261122T182255Z
+DTSTART:20261217T190000Z
+DTEND:20261217T200000Z
+SUMMARY:Y6 Core — Anna A — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Notes: Burn-Pilates Inspired\nCapacity: 30\nWaitlist: 0\nBook:
+  https://members.yogasix.com/book/yogasix-edgewater/cr_90616483
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906164
+ 83
+END:VEVENT
 END:VCALENDAR

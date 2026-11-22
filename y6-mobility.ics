@@ -3,4 +3,186 @@ VERSION:2.0
 PRODID:-//sebbo.net//ical-generator//EN
 NAME:YogaSix Edgewater — Mobility
 X-WR-CALNAME:YogaSix Edgewater — Mobility
+BEGIN:VEVENT
+UID:6ea1b48b-0eb9-4ec0-9042-f217d43b497c
+SEQUENCE:0
+DTSTAMP:20261122T182255Z
+DTSTART:20261123T003000Z
+DTEND:20261123T013000Z
+SUMMARY:Y6 Mobility — Jessie L — 24 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90336520
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903365
+ 20
+END:VEVENT
+BEGIN:VEVENT
+UID:31e6656e-e4aa-4456-b7e1-0bbd30e3fb81
+SEQUENCE:0
+DTSTAMP:20261122T182255Z
+DTSTART:20261124T190000Z
+DTEND:20261124T200000Z
+SUMMARY:Y6 Mobility — Jessie L — 25 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90614719
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906147
+ 19
+END:VEVENT
+BEGIN:VEVENT
+UID:20062b67-bc77-4820-9a56-c9994b665520
+SEQUENCE:0
+DTSTAMP:20261122T182255Z
+DTSTART:20261125T173000Z
+DTEND:20261125T183000Z
+SUMMARY:Y6 Mobility — Cassandra S — 29 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_100672926
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_100672
+ 926
+END:VEVENT
+BEGIN:VEVENT
+UID:2a095653-f6da-4825-8561-168a476bc003
+SEQUENCE:0
+DTSTAMP:20261122T182255Z
+DTSTART:20261127T173000Z
+DTEND:20261127T183000Z
+SUMMARY:Y6 Mobility — Cassandra S — 29 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_99944977
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_999449
+ 77
+END:VEVENT
+BEGIN:VEVENT
+UID:369ad720-7203-4db4-a09c-61650b6b2b6b
+SEQUENCE:0
+DTSTAMP:20261122T182255Z
+DTSTART:20261130T003000Z
+DTEND:20261130T013000Z
+SUMMARY:Y6 Mobility — Jessie L — 29 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90336521
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903365
+ 21
+END:VEVENT
+BEGIN:VEVENT
+UID:e97dceea-3bac-4105-a2d1-8f3886c79c1c
+SEQUENCE:0
+DTSTAMP:20261122T182255Z
+DTSTART:20261201T190000Z
+DTEND:20261201T200000Z
+SUMMARY:Y6 Mobility — Jessie L — 28 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90614720
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906147
+ 20
+END:VEVENT
+BEGIN:VEVENT
+UID:d9f474e9-4fb8-4a19-b9a2-44ada7d22149
+SEQUENCE:0
+DTSTAMP:20261122T182255Z
+DTSTART:20261203T230000Z
+DTEND:20261204T000000Z
+SUMMARY:Y6 Mobility — Stephanie W. — 29 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90616587
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906165
+ 87
+END:VEVENT
+BEGIN:VEVENT
+UID:0ca6b71e-6423-4b85-a649-584c9cd226db
+SEQUENCE:0
+DTSTAMP:20261122T182255Z
+DTSTART:20261207T003000Z
+DTEND:20261207T013000Z
+SUMMARY:Y6 Mobility — Jessie L — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90336522
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903365
+ 22
+END:VEVENT
+BEGIN:VEVENT
+UID:e469fa8e-d5e5-41f7-9532-991b0fd251e8
+SEQUENCE:0
+DTSTAMP:20261122T182255Z
+DTSTART:20261208T190000Z
+DTEND:20261208T200000Z
+SUMMARY:Y6 Mobility — Jessie L — 28 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90614721
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906147
+ 21
+END:VEVENT
+BEGIN:VEVENT
+UID:c5bc74c9-3933-4137-9ffb-0b85e06d1e32
+SEQUENCE:0
+DTSTAMP:20261122T182255Z
+DTSTART:20261210T230000Z
+DTEND:20261211T000000Z
+SUMMARY:Y6 Mobility — Stephanie W. — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90616588
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906165
+ 88
+END:VEVENT
+BEGIN:VEVENT
+UID:3e9f582e-ecdc-49ee-9cce-4c66dcbbd351
+SEQUENCE:0
+DTSTAMP:20261122T182255Z
+DTSTART:20261214T003000Z
+DTEND:20261214T013000Z
+SUMMARY:Y6 Mobility — Jessie L — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90336523
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903365
+ 23
+END:VEVENT
+BEGIN:VEVENT
+UID:ed91db91-551a-48bb-8c9a-238285c76614
+SEQUENCE:0
+DTSTAMP:20261122T182255Z
+DTSTART:20261215T190000Z
+DTEND:20261215T200000Z
+SUMMARY:Y6 Mobility — Jessie L — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90614722
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906147
+ 22
+END:VEVENT
+BEGIN:VEVENT
+UID:84f3077a-9e33-41b3-b3e3-54467a9cb9a7
+SEQUENCE:0
+DTSTAMP:20261122T182255Z
+DTSTART:20261217T230000Z
+DTEND:20261218T000000Z
+SUMMARY:Y6 Mobility — Stephanie W. — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90616589
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_906165
+ 89
+END:VEVENT
+BEGIN:VEVENT
+UID:50da2a51-f1ba-4d15-98c5-a116b0077131
+SEQUENCE:0
+DTSTAMP:20261122T182255Z
+DTSTART:20261221T003000Z
+DTEND:20261221T013000Z
+SUMMARY:Y6 Mobility — Jessie L — 30 spots
+LOCATION:YogaSix Edgewater
+DESCRIPTION:Capacity: 30\nWaitlist: 0\nBook: https://members.yogasix.com/b
+ ook/yogasix-edgewater/cr_90336524
+URL;VALUE=URI:https://members.yogasix.com/book/yogasix-edgewater/cr_903365
+ 24
+END:VEVENT
 END:VCALENDAR
